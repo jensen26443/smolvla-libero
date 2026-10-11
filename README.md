@@ -3,11 +3,36 @@
 > Supervised adaptation of SmolVLA on LIBERO manipulation tasks, with data-efficiency and
 > language ablations, and an asynchronous action-chunk execution study — single RTX 3090.
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue)
+![GPU](https://img.shields.io/badge/GPU-RTX_3090_24GB-44cc44)
+
+**异步执行演示**（10 s 摘录）：推理断供场景下，同初始状态并行对比四种迟到处理策略，
+完整 75 s 配对视频见 [assets/demo_async_execution.mp4](assets/demo_async_execution.mp4)。
+
+![异步执行演示：四种迟到处理策略同屏对比](assets/async_execution_hero.gif)
+
 在单张 RTX 3090 (24 GB) 上，从公开的 `smolvla_libero` checkpoint 出发，在 LIBERO Goal
 三个语言条件放置任务（碗 → 盘子 / 炉灶 / 柜顶）上继续监督适配：113 条演示、10,000 步训练后，
 同协议 90 回合评测成功率从 88.89% 提高到 **97.78%**（Wilson 95% CI [92.3%, 99.4%]）。
 围绕这次适配搭了一条固定模型与数据 revision、按 episode 防泄漏的训练评测管线，并做了三组
 对照实验：演示数据量的边际收益、策略对语言输入的依赖、以及推理迟到时动作块的异步执行。
+
+## Abstract (English)
+
+Supervised adaptation of SmolVLA on three LIBERO Goal language-conditioned placement
+tasks, entirely on a single RTX 3090 (24 GB): with 113 demonstrations and 10,000 training
+steps, the same-protocol success rate rises from 88.89% to **97.78%** (90-episode eval,
+Wilson 95% CI [92.3%, 99.4%]). The pipeline pins model and data revisions, downloads only
+the 61 LIBERO shards (5.90 GB of 34.9 GB) actually needed with SHA-256 verification, and
+uses a pre-registered dev/final evaluation split. Three controlled studies: **data
+efficiency** (21/56/113 demos → 91.1% / 93.3% / 97.8%), **language dependence** (unseen
+paraphrased instructions 93.33%; empty instruction 0/20; paired-initialization evaluation
+88.33%), and **asynchronous action-chunk execution** — a two-process executor that keeps
+the 20 Hz control loop responsive (median 19.3 Hz; 12/12 validation episodes within the
+≤55 ms budget). Across 240 paired episodes, RTC action-chunk continuation recovers
+strict-drop's 71.67% to **83.33%** (+11.67pp, 95% CI [1.67, 21.67]); the SHIFT baseline
+remains strongest at 95.00%.
 
 ## 结果
 
