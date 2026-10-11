@@ -1,0 +1,31 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "dataset_repo": "HuggingFaceVLA/libero",
+  "dataset_revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "model_repo": "HuggingFaceVLA/smolvla_libero",
+  "model_revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+  "lerobot_version": "0.5.1",
+  "libero_assets_repo": "lerobot/libero-assets",
+  "libero_assets_revision": "0b3ea86be5fe169d0fd036ae63d1070ec09e90f6",
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "subset_fractions": [0.2, 0.5, 1.0],
+  "training_steps": 10000,
+  "checkpoint_interval": 2000,
+  "max_data_workers": 0,
+  "evaluation_initializations": "manifests/eval_initializations.json",
+  "task_keys": [
+    "goal_bowl_plate",
+    "goal_bowl_stove",
+    "goal_bowl_cabinet_top"
+  ],
+  "evaluation": {
+    "dev_episodes_per_task": 10,
+    "final_episodes_per_task": 20,
+    "eval_batch_size": 1,
+    "max_parallel_tasks": 1,
+    "seed": 42,
+    "control_mode": "relative",
+    "suite": "libero_goal"
+  }
+}

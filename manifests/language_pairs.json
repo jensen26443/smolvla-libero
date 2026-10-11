@@ -1,0 +1,87 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "suite": "libero_goal",
+  "status": "custom_e3_e4_formal_complete_native_audit_failed",
+  "audit_artifact": "results/language_alignment_audit.json",
+  "scene_signature_method": "sim_vla.tasks.bddl_scene_signature (removes only :goal)",
+  "visual_scene_signature_method": "sim_vla.tasks.bddl_visual_scene_signature (removes :language, :obj_of_interest and :goal)",
+  "runtime_probe": {
+    "status": "passed",
+    "seed": 42,
+    "episode_index": 0,
+    "obs_type": "pixels_agent_pos",
+    "resolution": [256, 256],
+    "control_mode": "relative",
+    "num_steps_wait": 10,
+    "all_selected_tasks_reset": true
+  },
+  "pairs_checked": [
+    {
+      "left": "goal_bowl_plate",
+      "right": "goal_bowl_stove",
+      "visual_scene_matching": true,
+      "initial_state_exact_match": false,
+      "initial_state_max_abs_difference": 0.0884138894165365,
+      "runtime_observation_exact_match": false,
+      "blocking_difference": "the paired pruned_init assets and the resulting camera/simulator states differ"
+    },
+    {
+      "left": "goal_bowl_plate",
+      "right": "goal_bowl_cabinet_top",
+      "visual_scene_matching": true,
+      "initial_state_exact_match": false,
+      "initial_state_max_abs_difference": 0.0763486811940019,
+      "runtime_observation_exact_match": false,
+      "blocking_difference": "the paired pruned_init assets and the resulting camera/simulator states differ"
+    },
+    {
+      "left": "goal_bowl_stove",
+      "right": "goal_bowl_cabinet_top",
+      "visual_scene_matching": true,
+      "initial_state_exact_match": false,
+      "initial_state_max_abs_difference": 0.08669077476278997,
+      "runtime_observation_exact_match": false,
+      "blocking_difference": "the paired pruned_init assets and the resulting camera/simulator states differ"
+    }
+  ],
+  "custom_paired_protocol": {
+    "status": "E3_E4_formal_complete",
+    "evaluator": "src/sim_vla/paired_language_eval.py",
+    "anchor_task": "goal_bowl_plate",
+    "shared_init_state_count": 50,
+    "shared_init_state_shape": [
+      50,
+      79
+    ],
+    "formal_seed_range": [
+      52,
+      71
+    ],
+    "formal_initialization_index_range": [
+      10,
+      29
+    ],
+    "e3_summary": "results/e3_shared_formal/summary.json",
+    "e3_successes": 53,
+    "e3_trials": 60,
+    "e3_success_rate": 0.8833333333333333,
+    "e4_development_summary": "results/e4_empty_dev/summary.json",
+    "e4_formal_summary": "results/e4_empty_formal/summary.json",
+    "e4_formal_successes": 0,
+    "e4_formal_trials": 20,
+    "e4_formal_success_rate": 0.0,
+    "e4_formal_wilson_95": [
+      0.0,
+      0.16112515805281938
+    ],
+    "e4_batch_runner": "scripts/run_e4_formal_batches.sh",
+    "e4_merge_script": "scripts/merge_e4_batches.py",
+    "e4_batch_sources": [
+      "results/e4_batches/batch_00",
+      "results/e4_batches/batch_01",
+      "results/e4_batches/batch_02",
+      "results/e4_batches/batch_03"
+    ]
+  },
+  "decision": "Native alignment audit remains failed, so the original native-init cross-task pairing is not eligible for a quantitative claim. E3 (53/60) and E4 (0/20 empty-instruction) are explicitly reported from the custom shared-init evaluator. Do not report unpaired native-init scores as E3/E4 results."
+}

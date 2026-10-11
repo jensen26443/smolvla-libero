@@ -1,0 +1,1 @@
+LIBERO_CONFIG_PATH="$PWD/.cache/libero-config" MUJOCO_GL=egl MUJOCO_EGL_DEVICE_ID=0 HF_HUB_DISABLE_PROGRESS_BARS=1 .venv/bin/lerobot-train --config_path=runs/train_100pct_formal/checkpoints/002000/pretrained_model/train_config.json --resume=true --steps=10000 --save_freq=10000 --eval_freq=20000

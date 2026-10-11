@@ -1,0 +1,68 @@
+{
+  "per_task": [
+    {
+      "task_group": "libero_goal",
+      "task_id": 1,
+      "metrics": {
+        "sum_rewards": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "max_rewards": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "successes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "video_paths": [
+          "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_0.mp4",
+          "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_1.mp4",
+          "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_2.mp4",
+          "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_3.mp4",
+          "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_4.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "libero_goal": {
+      "avg_sum_reward": 1.0,
+      "avg_max_reward": 1.0,
+      "pc_success": 100.0,
+      "n_episodes": 5,
+      "video_paths": [
+        "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_0.mp4",
+        "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_1.mp4",
+        "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_2.mp4",
+        "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_3.mp4",
+        "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_4.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 1.0,
+    "avg_max_reward": 1.0,
+    "pc_success": 100.0,
+    "n_episodes": 5,
+    "eval_s": 553.5015547275543,
+    "eval_ep_s": 110.70031142234802,
+    "video_paths": [
+      "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_0.mp4",
+      "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_1.mp4",
+      "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_2.mp4",
+      "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_3.mp4",
+      "results/latency_r0_check_stove/videos/libero_goal_1/eval_episode_4.mp4"
+    ]
+  }
+}

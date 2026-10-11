@@ -1,0 +1,26 @@
+{
+  "captured_unix": 1789021855.939274,
+  "cpu_count": 12,
+  "executables": {
+    "conda": null,
+    "lerobot-eval": null,
+    "lerobot-train": null,
+    "python": null,
+    "uv": "/home/lzx/.local/bin/uv"
+  },
+  "machine": "x86_64",
+  "mujoco_gl": null,
+  "nvidia_smi": {
+    "available": true,
+    "command": [
+      "nvidia-smi"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "Thu Sep 10 14:30:56 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 590.57                 Driver Version: 591.86         CUDA Version: 13.1     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 3090        On  |   00000000:17:00.0  On |                  N/A |\n|  0%   39C    P8             31W /  350W |    1233MiB /  24576MiB |     27%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A              26      G   /Xwayland                             N/A      |\n+-----------------------------------------------------------------------------------------+"
+  },
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "process_memory_limit_bytes": -1,
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3"
+}

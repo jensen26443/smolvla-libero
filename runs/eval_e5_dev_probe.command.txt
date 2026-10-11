@@ -1,0 +1,1 @@
+env LIBERO_CONFIG_PATH="$PWD/.cache/libero-config" MUJOCO_GL=egl MUJOCO_EGL_DEVICE_ID=0 HF_HUB_DISABLE_PROGRESS_BARS=1 .venv/bin/python -m sim_vla.language_eval --checkpoint=runs/train_100pct_formal/checkpoints/010000/pretrained_model --manifest=manifests/semantic_paraphrases.json --output-dir=results/e5_dev_probe --episodes=1 --seed=42

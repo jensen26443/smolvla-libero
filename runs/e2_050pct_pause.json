@@ -1,0 +1,29 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "condition": "E2_050pct",
+  "status": "paused_for_wsl_restart",
+  "paused_at": "2026-09-12T14:32:39+08:00",
+  "observed_training_step": 3588,
+  "termination_log_step": 3618,
+  "latest_complete_checkpoint_step": 2000,
+  "latest_complete_checkpoint": "runs/train_050pct_formal/checkpoints/002000",
+  "resume_command": "runs/train_050pct_formal.resume.command.txt",
+  "queue_scripts": {
+    "e2": "scripts/run_e2_formal_queue.sh",
+    "e5": "scripts/run_e5_formal_queue.sh"
+  },
+  "processes_at_save": {
+    "e2_queue": [
+      492886
+    ],
+    "e5_queue": [
+      493203
+    ],
+    "e2_050_train": [
+      631038
+    ]
+  },
+  "uncheckpointed_updates": 1588,
+  "uncheckpointed_updates_at_termination": 1618,
+  "post_restart": "restart E2 queue; it detects this checkpoint and resumes automatically"
+}

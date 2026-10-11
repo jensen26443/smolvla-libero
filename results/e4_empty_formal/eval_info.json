@@ -1,0 +1,95 @@
+{
+  "overall": {
+    "avg_max_reward": 0.0,
+    "avg_sum_reward": 0.0,
+    "eval_ep_s": 361.53825635910033,
+    "eval_s": 7230.765127182007,
+    "n_episodes": 20,
+    "pc_success": 0.0,
+    "video_paths": []
+  },
+  "per_group": {
+    "libero_goal": {
+      "avg_max_reward": 0.0,
+      "avg_sum_reward": 0.0,
+      "n_episodes": 20,
+      "pc_success": 0.0,
+      "video_paths": []
+    }
+  },
+  "per_task": [
+    {
+      "metrics": {
+        "max_rewards": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "sum_rewards": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "video_paths": []
+      },
+      "task_group": "libero_goal",
+      "task_id": 8
+    }
+  ]
+}

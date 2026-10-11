@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sim-vla"
+version = "0.1.0"
+description = "Reproducible LIBERO and SmolVLA adaptation experiments on one GPU"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "Apache-2.0"}
+dependencies = ["numpy>=1.24,<3"]
+
+[project.optional-dependencies]
+# Keep the default install small. The simulation/model stack is intentionally
+# installed only after the compatibility smoke checks in docs/RUNBOOK.md.
+simulation = ["lerobot[libero]==0.5.1", "mujoco==3.8.1"]
+smolvla = ["lerobot[smolvla]==0.5.1"]
+dev = ["pytest>=8,<9", "ruff>=0.6,<1"]
+
+[project.scripts]
+sim-vla = "sim_vla.cli:main"
+sim-vla-check-environment = "sim_vla.cli:check_environment_main"
+sim-vla-make-manifests = "sim_vla.cli:make_manifests_main"
+sim-vla-summarize = "sim_vla.cli:summarize_main"
+sim-vla-summarize-lerobot = "sim_vla.cli:summarize_lerobot_main"
+sim-vla-build-command = "sim_vla.cli:build_command_main"
+sim-vla-prepare-assets = "sim_vla.cli:prepare_assets_main"
+sim-vla-build-data-manifest = "sim_vla.data:build_data_manifest_main"
+sim-vla-prepare-data = "sim_vla.data:prepare_data_main"
+sim-vla-smoke-libero = "sim_vla.smoke:smoke_libero_main"
+sim-vla-model-smoke = "sim_vla.model_smoke:model_smoke_main"
+sim-vla-language-eval = "sim_vla.language_eval:language_eval_main"
+sim-vla-language-alignment = "sim_vla.language_alignment:language_alignment_main"
+sim-vla-paired-language-eval = "sim_vla.paired_language_eval:paired_language_eval_main"
+sim-vla-latency = "sim_vla.latency_eval.latency_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 110

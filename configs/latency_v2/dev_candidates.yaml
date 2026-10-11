@@ -1,0 +1,7 @@
+stage: dev_candidates
+run_dir: runs/latency_v2_dev_candidates
+checkpoint: runs/train_100pct_formal/checkpoints/010000/pretrained_model
+baseline_selection: runs/latency_v2_dev_baselines/baseline_selection.json
+max_ticks: 300
+backend: simulated
+renderer: glx_d3d12_rtx3090

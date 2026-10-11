@@ -1,0 +1,49 @@
+{
+  "by_condition": {
+    "E4_empty_dev": {
+      "failure_types": {
+        "unspecified": 1
+      },
+      "invalid_trials": 0,
+      "success_rate": 0.0,
+      "successes": 0,
+      "trials": 1,
+      "wilson_95": [
+        0.0,
+        0.7934506856227626
+      ]
+    }
+  },
+  "by_instruction": {},
+  "by_task": {
+    "goal_bowl_plate": {
+      "failure_types": {
+        "unspecified": 1
+      },
+      "invalid_trials": 0,
+      "success_rate": 0.0,
+      "successes": 0,
+      "trials": 1,
+      "wilson_95": [
+        0.0,
+        0.7934506856227626
+      ]
+    }
+  },
+  "overall": {
+    "failure_types": {
+      "unspecified": 1
+    },
+    "invalid_trials": 0,
+    "success_rate": 0.0,
+    "successes": 0,
+    "trials": 1,
+    "wilson_95": [
+      0.0,
+      0.7934506856227626
+    ]
+  },
+  "records": 1,
+  "source": "eval_info.json",
+  "total_records": 1
+}

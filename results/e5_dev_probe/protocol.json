@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/home/lzx/VLA/embodied-learning/sim_vla/runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+  "condition": "E5",
+  "control_mode": "relative",
+  "episodes_per_task": 1,
+  "paraphrase_manifest": "manifests/semantic_paraphrases.json",
+  "protocol_version": "sim-vla-libero-v1",
+  "seed": 42,
+  "success_predicate": "official LIBERO task predicate, unchanged",
+  "task_ids": [
+    1,
+    4,
+    8
+  ]
+}

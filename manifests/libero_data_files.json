@@ -1,0 +1,1222 @@
+{
+  "dataset_revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "episode_ids": [
+    379,
+    392,
+    394,
+    395,
+    398,
+    401,
+    402,
+    415,
+    422,
+    424,
+    426,
+    431,
+    433,
+    438,
+    444,
+    445,
+    446,
+    447,
+    448,
+    451,
+    452,
+    455,
+    456,
+    458,
+    459,
+    466,
+    474,
+    481,
+    483,
+    488,
+    493,
+    495,
+    500,
+    501,
+    505,
+    507,
+    511,
+    513,
+    514,
+    521,
+    522,
+    524,
+    530,
+    532,
+    537,
+    544,
+    545,
+    549,
+    550,
+    551,
+    557,
+    558,
+    563,
+    565,
+    568,
+    570,
+    573,
+    580,
+    582,
+    590,
+    597,
+    598,
+    601,
+    604,
+    607,
+    608,
+    612,
+    615,
+    616,
+    618,
+    620,
+    621,
+    626,
+    629,
+    630,
+    634,
+    636,
+    637,
+    638,
+    639,
+    641,
+    642,
+    643,
+    646,
+    649,
+    653,
+    655,
+    660,
+    661,
+    662,
+    665,
+    669,
+    670,
+    673,
+    674,
+    676,
+    679,
+    681,
+    688,
+    689,
+    691,
+    692,
+    696,
+    699,
+    702,
+    704,
+    706,
+    707,
+    708,
+    712,
+    716,
+    718,
+    721,
+    724,
+    726,
+    727,
+    731,
+    732,
+    740,
+    741,
+    743,
+    745,
+    747,
+    749,
+    750,
+    751,
+    763,
+    764,
+    767,
+    768,
+    770,
+    775,
+    786,
+    789,
+    791,
+    793,
+    794,
+    796,
+    801,
+    803,
+    804,
+    805,
+    806
+  ],
+  "files": [
+    {
+      "episode_max": 381,
+      "episode_min": 378,
+      "file_index": 146,
+      "index_max": 101885,
+      "index_min": 101217,
+      "path": "data/chunk-000/file-146.parquet",
+      "rows": 669,
+      "selected_episode_ids": [
+        379
+      ],
+      "sha256": "2e958eb4960c726e1e2cc72fd76b8b373ee4fa667dd92c36a3c945592f839ee9",
+      "size_bytes": 86595264,
+      "task_max": 11,
+      "task_min": 7
+    },
+    {
+      "episode_max": 392,
+      "episode_min": 387,
+      "file_index": 148,
+      "index_max": 103398,
+      "index_min": 102606,
+      "path": "data/chunk-000/file-148.parquet",
+      "rows": 793,
+      "selected_episode_ids": [
+        392
+      ],
+      "sha256": "87872b3a022fdc5df63ed029e8f9501b03316559276f6b1d602337b1db3c3dbf",
+      "size_bytes": 94645240,
+      "task_max": 17,
+      "task_min": 12
+    },
+    {
+      "episode_max": 399,
+      "episode_min": 393,
+      "file_index": 149,
+      "index_max": 104155,
+      "index_min": 103399,
+      "path": "data/chunk-000/file-149.parquet",
+      "rows": 757,
+      "selected_episode_ids": [
+        394,
+        395,
+        398
+      ],
+      "sha256": "5136b082f8c51eb1bdd0dc4d40cd178db207d7d981ff724b2a3aebff7c09ef29",
+      "size_bytes": 92850268,
+      "task_max": 19,
+      "task_min": 13
+    },
+    {
+      "episode_max": 405,
+      "episode_min": 400,
+      "file_index": 150,
+      "index_max": 104938,
+      "index_min": 104156,
+      "path": "data/chunk-000/file-150.parquet",
+      "rows": 783,
+      "selected_episode_ids": [
+        401,
+        402
+      ],
+      "sha256": "90bd8bdcb0b909b9d813566d8736d11aff8c9e94944bffbf25404eae6d47d502",
+      "size_bytes": 95697352,
+      "task_max": 19,
+      "task_min": 11
+    },
+    {
+      "episode_max": 415,
+      "episode_min": 411,
+      "file_index": 152,
+      "index_max": 106407,
+      "index_min": 105693,
+      "path": "data/chunk-000/file-152.parquet",
+      "rows": 715,
+      "selected_episode_ids": [
+        415
+      ],
+      "sha256": "7558f0548c3c2e177cc4875c49e859d7ad1f7e3d34abb144107525ff6f63ba7d",
+      "size_bytes": 84612350,
+      "task_max": 17,
+      "task_min": 12
+    },
+    {
+      "episode_max": 422,
+      "episode_min": 416,
+      "file_index": 153,
+      "index_max": 107260,
+      "index_min": 106408,
+      "path": "data/chunk-000/file-153.parquet",
+      "rows": 853,
+      "selected_episode_ids": [
+        422
+      ],
+      "sha256": "62d2fd55394716e24fa84142a7bc0ad874d9b95e3565e1c318832ae45458524d",
+      "size_bytes": 101188043,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 428,
+      "episode_min": 423,
+      "file_index": 154,
+      "index_max": 107965,
+      "index_min": 107261,
+      "path": "data/chunk-000/file-154.parquet",
+      "rows": 705,
+      "selected_episode_ids": [
+        424,
+        426
+      ],
+      "sha256": "26dece33737c2a7042faf0648f5599e53319619d7f955419002a2e4ac4ede276",
+      "size_bytes": 86429287,
+      "task_max": 17,
+      "task_min": 10
+    },
+    {
+      "episode_max": 435,
+      "episode_min": 429,
+      "file_index": 155,
+      "index_max": 108769,
+      "index_min": 107966,
+      "path": "data/chunk-000/file-155.parquet",
+      "rows": 804,
+      "selected_episode_ids": [
+        431,
+        433
+      ],
+      "sha256": "50b1dde9fc4397db4f39e4d167ba271f1e553f6393e4ee5c37e8a10831ff8340",
+      "size_bytes": 98168982,
+      "task_max": 16,
+      "task_min": 10
+    },
+    {
+      "episode_max": 443,
+      "episode_min": 436,
+      "file_index": 156,
+      "index_max": 109645,
+      "index_min": 108770,
+      "path": "data/chunk-000/file-156.parquet",
+      "rows": 876,
+      "selected_episode_ids": [
+        438
+      ],
+      "sha256": "49e15b5100da4fd2133c23acf21a6b3fddf8a040b352785e816676d9b7dada6a",
+      "size_bytes": 102971556,
+      "task_max": 19,
+      "task_min": 13
+    },
+    {
+      "episode_max": 450,
+      "episode_min": 444,
+      "file_index": 157,
+      "index_max": 110463,
+      "index_min": 109646,
+      "path": "data/chunk-000/file-157.parquet",
+      "rows": 818,
+      "selected_episode_ids": [
+        444,
+        445,
+        446,
+        447,
+        448
+      ],
+      "sha256": "2782feed5dc462ed8fa50259d10680952739dce77932cab93c6a5b3927ce8b04",
+      "size_bytes": 100384866,
+      "task_max": 18,
+      "task_min": 10
+    },
+    {
+      "episode_max": 458,
+      "episode_min": 451,
+      "file_index": 158,
+      "index_max": 111236,
+      "index_min": 110464,
+      "path": "data/chunk-000/file-158.parquet",
+      "rows": 773,
+      "selected_episode_ids": [
+        451,
+        452,
+        455,
+        456,
+        458
+      ],
+      "sha256": "5671fbb166a1ea192dd09b5140cbf122bae2eec80c5ef460024d15f380d9dab7",
+      "size_bytes": 95931543,
+      "task_max": 18,
+      "task_min": 10
+    },
+    {
+      "episode_max": 464,
+      "episode_min": 459,
+      "file_index": 159,
+      "index_max": 111977,
+      "index_min": 111237,
+      "path": "data/chunk-000/file-159.parquet",
+      "rows": 741,
+      "selected_episode_ids": [
+        459
+      ],
+      "sha256": "ad8a9e0b00dc51099ff0ae6a5871a27a5aa5d8ebfbb3e643d58184c202ff31d2",
+      "size_bytes": 87790950,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 470,
+      "episode_min": 465,
+      "file_index": 160,
+      "index_max": 112803,
+      "index_min": 111978,
+      "path": "data/chunk-000/file-160.parquet",
+      "rows": 826,
+      "selected_episode_ids": [
+        466
+      ],
+      "sha256": "1ebbcbaaaece605394d64461ca6289b394755c4c04f57dcde032162b377d3aad",
+      "size_bytes": 99926363,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 477,
+      "episode_min": 471,
+      "file_index": 161,
+      "index_max": 113610,
+      "index_min": 112804,
+      "path": "data/chunk-000/file-161.parquet",
+      "rows": 807,
+      "selected_episode_ids": [
+        474
+      ],
+      "sha256": "77fda8176bb43908f5306fd6c23f65a638ec432ccd78aa3a95921a6fd74292d6",
+      "size_bytes": 95579409,
+      "task_max": 19,
+      "task_min": 14
+    },
+    {
+      "episode_max": 484,
+      "episode_min": 478,
+      "file_index": 162,
+      "index_max": 114378,
+      "index_min": 113611,
+      "path": "data/chunk-000/file-162.parquet",
+      "rows": 768,
+      "selected_episode_ids": [
+        481,
+        483
+      ],
+      "sha256": "1a1ac56abe1c36650d49f4fd9901241d48531410c5ee3161b77bc65744280ae8",
+      "size_bytes": 93675949,
+      "task_max": 15,
+      "task_min": 10
+    },
+    {
+      "episode_max": 490,
+      "episode_min": 485,
+      "file_index": 163,
+      "index_max": 115165,
+      "index_min": 114379,
+      "path": "data/chunk-000/file-163.parquet",
+      "rows": 787,
+      "selected_episode_ids": [
+        488
+      ],
+      "sha256": "04ab720979264b857b22cb828e0080a0b38c5637d162d2fdc648debf1079a83a",
+      "size_bytes": 94271043,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 497,
+      "episode_min": 491,
+      "file_index": 164,
+      "index_max": 115991,
+      "index_min": 115166,
+      "path": "data/chunk-000/file-164.parquet",
+      "rows": 826,
+      "selected_episode_ids": [
+        493,
+        495
+      ],
+      "sha256": "d8df9a26844e3cfc452cabf7e67735ea08ad3a1c349b3b922af94f4a698d8376",
+      "size_bytes": 98896978,
+      "task_max": 19,
+      "task_min": 12
+    },
+    {
+      "episode_max": 503,
+      "episode_min": 498,
+      "file_index": 165,
+      "index_max": 116836,
+      "index_min": 115992,
+      "path": "data/chunk-000/file-165.parquet",
+      "rows": 845,
+      "selected_episode_ids": [
+        500,
+        501
+      ],
+      "sha256": "f33f9b73f52593fdfa3ccb04d1edb2e8e76a774bec74480a7e48eb52e8835ffd",
+      "size_bytes": 103601137,
+      "task_max": 18,
+      "task_min": 11
+    },
+    {
+      "episode_max": 510,
+      "episode_min": 504,
+      "file_index": 166,
+      "index_max": 117625,
+      "index_min": 116837,
+      "path": "data/chunk-000/file-166.parquet",
+      "rows": 789,
+      "selected_episode_ids": [
+        505,
+        507
+      ],
+      "sha256": "89cfed34154f1b68b0f22d1b911571d5780836a4daeb761589fa88b1bb0f6411",
+      "size_bytes": 94495916,
+      "task_max": 18,
+      "task_min": 10
+    },
+    {
+      "episode_max": 517,
+      "episode_min": 511,
+      "file_index": 167,
+      "index_max": 118451,
+      "index_min": 117626,
+      "path": "data/chunk-000/file-167.parquet",
+      "rows": 826,
+      "selected_episode_ids": [
+        511,
+        513,
+        514
+      ],
+      "sha256": "2d2ea7755809455ca26a5b4e057834ed090d856a04f07fe42c9ce1f7145beb18",
+      "size_bytes": 102423542,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 524,
+      "episode_min": 518,
+      "file_index": 168,
+      "index_max": 119316,
+      "index_min": 118452,
+      "path": "data/chunk-000/file-168.parquet",
+      "rows": 865,
+      "selected_episode_ids": [
+        521,
+        522,
+        524
+      ],
+      "sha256": "846cf5c0cb746e5f4d2cdad2f8be72ad5c629f343c6b052912d93c811f6a774f",
+      "size_bytes": 104070119,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 531,
+      "episode_min": 525,
+      "file_index": 169,
+      "index_max": 120126,
+      "index_min": 119317,
+      "path": "data/chunk-000/file-169.parquet",
+      "rows": 810,
+      "selected_episode_ids": [
+        530
+      ],
+      "sha256": "68a4af5a9d1b3616b9092433adf51ed382a135ea75a637624f2c7bc0ddd965f5",
+      "size_bytes": 96939195,
+      "task_max": 19,
+      "task_min": 12
+    },
+    {
+      "episode_max": 537,
+      "episode_min": 532,
+      "file_index": 170,
+      "index_max": 120946,
+      "index_min": 120127,
+      "path": "data/chunk-000/file-170.parquet",
+      "rows": 820,
+      "selected_episode_ids": [
+        532,
+        537
+      ],
+      "sha256": "5915c47dd6dbef41b15a13505f7b38156325eb517b6d6a84170847624014f5dc",
+      "size_bytes": 98889956,
+      "task_max": 15,
+      "task_min": 10
+    },
+    {
+      "episode_max": 549,
+      "episode_min": 543,
+      "file_index": 172,
+      "index_max": 122647,
+      "index_min": 121800,
+      "path": "data/chunk-000/file-172.parquet",
+      "rows": 848,
+      "selected_episode_ids": [
+        544,
+        545,
+        549
+      ],
+      "sha256": "b9344179efe940102446d6aee6489601e5d9cd6e58efdc480c3133a6e69adc07",
+      "size_bytes": 103712416,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 556,
+      "episode_min": 550,
+      "file_index": 173,
+      "index_max": 123460,
+      "index_min": 122648,
+      "path": "data/chunk-000/file-173.parquet",
+      "rows": 813,
+      "selected_episode_ids": [
+        550,
+        551
+      ],
+      "sha256": "de89c0844a721aeaa6719cc712ea33c5707e52aaa9c24430c1037a95eab04551",
+      "size_bytes": 97874834,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 562,
+      "episode_min": 557,
+      "file_index": 174,
+      "index_max": 124316,
+      "index_min": 123461,
+      "path": "data/chunk-000/file-174.parquet",
+      "rows": 856,
+      "selected_episode_ids": [
+        557,
+        558
+      ],
+      "sha256": "09c2ce9e1435094263be0c7c40f0e43ab143b7e2c580017a52d32d6a0140483d",
+      "size_bytes": 103793720,
+      "task_max": 19,
+      "task_min": 12
+    },
+    {
+      "episode_max": 570,
+      "episode_min": 563,
+      "file_index": 175,
+      "index_max": 125097,
+      "index_min": 124317,
+      "path": "data/chunk-000/file-175.parquet",
+      "rows": 781,
+      "selected_episode_ids": [
+        563,
+        565,
+        568,
+        570
+      ],
+      "sha256": "a8c735896bb4aad45654c2216761dd3cc2d74fb5fb780a28786b7bd8606fa442",
+      "size_bytes": 97048325,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 577,
+      "episode_min": 571,
+      "file_index": 176,
+      "index_max": 125927,
+      "index_min": 125098,
+      "path": "data/chunk-000/file-176.parquet",
+      "rows": 830,
+      "selected_episode_ids": [
+        573
+      ],
+      "sha256": "44b7950625ef7f95d7096013abd44734e11b4de1a34d41525466984dccc4634d",
+      "size_bytes": 99795198,
+      "task_max": 19,
+      "task_min": 11
+    },
+    {
+      "episode_max": 584,
+      "episode_min": 578,
+      "file_index": 177,
+      "index_max": 126762,
+      "index_min": 125928,
+      "path": "data/chunk-000/file-177.parquet",
+      "rows": 835,
+      "selected_episode_ids": [
+        580,
+        582
+      ],
+      "sha256": "248bc42106ba0a0ca5d1e62967f90e87ce97744b4c8be2f6b39d2fb4bf8301f0",
+      "size_bytes": 101314276,
+      "task_max": 17,
+      "task_min": 10
+    },
+    {
+      "episode_max": 591,
+      "episode_min": 585,
+      "file_index": 178,
+      "index_max": 127597,
+      "index_min": 126763,
+      "path": "data/chunk-000/file-178.parquet",
+      "rows": 835,
+      "selected_episode_ids": [
+        590
+      ],
+      "sha256": "f4744fa0bb40ec84e874f582452d781a7745d95b6ac608bcb1c90a2ac6d86f89",
+      "size_bytes": 101009728,
+      "task_max": 19,
+      "task_min": 11
+    },
+    {
+      "episode_max": 597,
+      "episode_min": 592,
+      "file_index": 179,
+      "index_max": 128402,
+      "index_min": 127598,
+      "path": "data/chunk-000/file-179.parquet",
+      "rows": 805,
+      "selected_episode_ids": [
+        597
+      ],
+      "sha256": "92df0ba4ec3e3d10f2415f95dbf2b7f3fcf5216f0b0171312f86822029400f90",
+      "size_bytes": 96488409,
+      "task_max": 18,
+      "task_min": 11
+    },
+    {
+      "episode_max": 604,
+      "episode_min": 598,
+      "file_index": 180,
+      "index_max": 129240,
+      "index_min": 128403,
+      "path": "data/chunk-000/file-180.parquet",
+      "rows": 838,
+      "selected_episode_ids": [
+        598,
+        601,
+        604
+      ],
+      "sha256": "29c3ad8ef5e0c172affa17274b5a6a32bca56a0b3e747dab2fc6ea6bb6451488",
+      "size_bytes": 100670835,
+      "task_max": 19,
+      "task_min": 13
+    },
+    {
+      "episode_max": 612,
+      "episode_min": 605,
+      "file_index": 181,
+      "index_max": 130084,
+      "index_min": 129241,
+      "path": "data/chunk-000/file-181.parquet",
+      "rows": 844,
+      "selected_episode_ids": [
+        607,
+        608,
+        612
+      ],
+      "sha256": "78e02e33ed2114ed514795ced20510af45d4619bb8439841ca9ffe53698a635a",
+      "size_bytes": 101933786,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 620,
+      "episode_min": 613,
+      "file_index": 182,
+      "index_max": 130903,
+      "index_min": 130085,
+      "path": "data/chunk-000/file-182.parquet",
+      "rows": 819,
+      "selected_episode_ids": [
+        615,
+        616,
+        618,
+        620
+      ],
+      "sha256": "a3f5e3fbaef0912b8146fccaf98d8d5ea403330a5f892a2080e2c1cd691ab2e6",
+      "size_bytes": 99923085,
+      "task_max": 17,
+      "task_min": 10
+    },
+    {
+      "episode_max": 626,
+      "episode_min": 621,
+      "file_index": 183,
+      "index_max": 131684,
+      "index_min": 130904,
+      "path": "data/chunk-000/file-183.parquet",
+      "rows": 781,
+      "selected_episode_ids": [
+        621,
+        626
+      ],
+      "sha256": "3101f463287c8aff100a6c2e0c94c8fc11360b4abb0411779ff7a6621dba4ffc",
+      "size_bytes": 95120992,
+      "task_max": 16,
+      "task_min": 10
+    },
+    {
+      "episode_max": 632,
+      "episode_min": 627,
+      "file_index": 184,
+      "index_max": 132431,
+      "index_min": 131685,
+      "path": "data/chunk-000/file-184.parquet",
+      "rows": 747,
+      "selected_episode_ids": [
+        629,
+        630
+      ],
+      "sha256": "c5fe58a018ec3f400008e249402f428bf82674bdc186e544d7a99dd14119e25f",
+      "size_bytes": 88672400,
+      "task_max": 19,
+      "task_min": 12
+    },
+    {
+      "episode_max": 639,
+      "episode_min": 633,
+      "file_index": 185,
+      "index_max": 133198,
+      "index_min": 132432,
+      "path": "data/chunk-000/file-185.parquet",
+      "rows": 767,
+      "selected_episode_ids": [
+        634,
+        636,
+        637,
+        638,
+        639
+      ],
+      "sha256": "a7693eb1426b61e04348cfd1f38db482d0db9aa0e1b21e7bcf9b1871e88d8d42",
+      "size_bytes": 96333362,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 647,
+      "episode_min": 640,
+      "file_index": 186,
+      "index_max": 134015,
+      "index_min": 133199,
+      "path": "data/chunk-000/file-186.parquet",
+      "rows": 817,
+      "selected_episode_ids": [
+        641,
+        642,
+        643,
+        646
+      ],
+      "sha256": "c36357b3c52f2a56a4835549c4189e7e5906d56c70df20a03ebe99d8dd41aae7",
+      "size_bytes": 99875126,
+      "task_max": 17,
+      "task_min": 10
+    },
+    {
+      "episode_max": 653,
+      "episode_min": 648,
+      "file_index": 187,
+      "index_max": 134850,
+      "index_min": 134016,
+      "path": "data/chunk-000/file-187.parquet",
+      "rows": 835,
+      "selected_episode_ids": [
+        649,
+        653
+      ],
+      "sha256": "de2b2a915846e5ffbafce0c4151ad825aaee466ad259d6848b16e2e0be3aacc9",
+      "size_bytes": 102510429,
+      "task_max": 17,
+      "task_min": 10
+    },
+    {
+      "episode_max": 661,
+      "episode_min": 654,
+      "file_index": 188,
+      "index_max": 135634,
+      "index_min": 134851,
+      "path": "data/chunk-000/file-188.parquet",
+      "rows": 784,
+      "selected_episode_ids": [
+        655,
+        660,
+        661
+      ],
+      "sha256": "c6b053a87e0dd7488cf168a0b74b512820ca5dc99a11ef81ec44719692e99d77",
+      "size_bytes": 95893963,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 666,
+      "episode_min": 662,
+      "file_index": 189,
+      "index_max": 136269,
+      "index_min": 135635,
+      "path": "data/chunk-000/file-189.parquet",
+      "rows": 635,
+      "selected_episode_ids": [
+        662,
+        665
+      ],
+      "sha256": "a568ce26baf0c71edd5438bea5ca43660135b79c669e86caea115c55719aae53",
+      "size_bytes": 77206475,
+      "task_max": 19,
+      "task_min": 11
+    },
+    {
+      "episode_max": 671,
+      "episode_min": 667,
+      "file_index": 190,
+      "index_max": 136965,
+      "index_min": 136270,
+      "path": "data/chunk-000/file-190.parquet",
+      "rows": 696,
+      "selected_episode_ids": [
+        669,
+        670
+      ],
+      "sha256": "2bbdc051678fb2efa8aaeca03121e129f9c58ae2200e11210e198fc8c0fa7f9e",
+      "size_bytes": 86715529,
+      "task_max": 18,
+      "task_min": 10
+    },
+    {
+      "episode_max": 677,
+      "episode_min": 672,
+      "file_index": 191,
+      "index_max": 137812,
+      "index_min": 136966,
+      "path": "data/chunk-000/file-191.parquet",
+      "rows": 847,
+      "selected_episode_ids": [
+        673,
+        674,
+        676
+      ],
+      "sha256": "5a80573b7cb481299600d7ff252224d2a237598b7c7ef930e7a4426d6455cae6",
+      "size_bytes": 104223543,
+      "task_max": 19,
+      "task_min": 11
+    },
+    {
+      "episode_max": 683,
+      "episode_min": 678,
+      "file_index": 192,
+      "index_max": 138551,
+      "index_min": 137813,
+      "path": "data/chunk-000/file-192.parquet",
+      "rows": 739,
+      "selected_episode_ids": [
+        679,
+        681
+      ],
+      "sha256": "9aec70451bf1e534f023af71ca727ff60867cc660b3c61fe50df371adc016221",
+      "size_bytes": 89384665,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 689,
+      "episode_min": 684,
+      "file_index": 193,
+      "index_max": 139334,
+      "index_min": 138552,
+      "path": "data/chunk-000/file-193.parquet",
+      "rows": 783,
+      "selected_episode_ids": [
+        688,
+        689
+      ],
+      "sha256": "830cbe51d26e3f6b893be3236e46095a27fd37044a5f746dcf7b3b6aace779d9",
+      "size_bytes": 93814299,
+      "task_max": 19,
+      "task_min": 12
+    },
+    {
+      "episode_max": 695,
+      "episode_min": 690,
+      "file_index": 194,
+      "index_max": 140136,
+      "index_min": 139335,
+      "path": "data/chunk-000/file-194.parquet",
+      "rows": 802,
+      "selected_episode_ids": [
+        691,
+        692
+      ],
+      "sha256": "1781c237d0203ae63341b492718efe96f8dd7ebf45dd6a8c52b1d424fce55197",
+      "size_bytes": 97798417,
+      "task_max": 19,
+      "task_min": 11
+    },
+    {
+      "episode_max": 702,
+      "episode_min": 696,
+      "file_index": 195,
+      "index_max": 140952,
+      "index_min": 140137,
+      "path": "data/chunk-000/file-195.parquet",
+      "rows": 816,
+      "selected_episode_ids": [
+        696,
+        699,
+        702
+      ],
+      "sha256": "70df3c992be615415a8372a3fbe4cf9b5ba8b2607ecf214de2ab3558ac5cfcc0",
+      "size_bytes": 98573204,
+      "task_max": 18,
+      "task_min": 12
+    },
+    {
+      "episode_max": 709,
+      "episode_min": 703,
+      "file_index": 196,
+      "index_max": 141706,
+      "index_min": 140953,
+      "path": "data/chunk-000/file-196.parquet",
+      "rows": 754,
+      "selected_episode_ids": [
+        704,
+        706,
+        707,
+        708
+      ],
+      "sha256": "8c5a896e6f513697900b2c8c7f84961aa0847535933674373573d4c122f1c01a",
+      "size_bytes": 93000385,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 715,
+      "episode_min": 710,
+      "file_index": 197,
+      "index_max": 142582,
+      "index_min": 141707,
+      "path": "data/chunk-000/file-197.parquet",
+      "rows": 876,
+      "selected_episode_ids": [
+        712
+      ],
+      "sha256": "2628652ece5898527175b7180a51e0b42fec66f968b2ebfa0fd90257d6bc12c3",
+      "size_bytes": 103240524,
+      "task_max": 18,
+      "task_min": 12
+    },
+    {
+      "episode_max": 722,
+      "episode_min": 716,
+      "file_index": 198,
+      "index_max": 143372,
+      "index_min": 142583,
+      "path": "data/chunk-000/file-198.parquet",
+      "rows": 790,
+      "selected_episode_ids": [
+        716,
+        718,
+        721
+      ],
+      "sha256": "0813e43ad29cc0983c769c72efb3abc77763f4a7d0e6ffc16a58d9530c300a2c",
+      "size_bytes": 97614708,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 730,
+      "episode_min": 723,
+      "file_index": 199,
+      "index_max": 144146,
+      "index_min": 143373,
+      "path": "data/chunk-000/file-199.parquet",
+      "rows": 774,
+      "selected_episode_ids": [
+        724,
+        726,
+        727
+      ],
+      "sha256": "ae14b39fcda20deb59a57bedc7570d4172789ec5c7f15615a63b0f337cc6f39e",
+      "size_bytes": 93364952,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 736,
+      "episode_min": 731,
+      "file_index": 200,
+      "index_max": 144879,
+      "index_min": 144147,
+      "path": "data/chunk-000/file-200.parquet",
+      "rows": 733,
+      "selected_episode_ids": [
+        731,
+        732
+      ],
+      "sha256": "707c17fc19a199ccafd1ed8ea4616e9fe8d0be313aa8b22f0125bd3dc00dfd87",
+      "size_bytes": 87994825,
+      "task_max": 19,
+      "task_min": 14
+    },
+    {
+      "episode_max": 741,
+      "episode_min": 737,
+      "file_index": 201,
+      "index_max": 145676,
+      "index_min": 144880,
+      "path": "data/chunk-000/file-201.parquet",
+      "rows": 797,
+      "selected_episode_ids": [
+        740,
+        741
+      ],
+      "sha256": "59f904b5a6e0dfeb76313f1d2cc921f750bdb228e751c93361211872c1b42212",
+      "size_bytes": 97640669,
+      "task_max": 17,
+      "task_min": 11
+    },
+    {
+      "episode_max": 748,
+      "episode_min": 742,
+      "file_index": 202,
+      "index_max": 146488,
+      "index_min": 145677,
+      "path": "data/chunk-000/file-202.parquet",
+      "rows": 812,
+      "selected_episode_ids": [
+        743,
+        745,
+        747
+      ],
+      "sha256": "a5b0f3f9c8e0e16a5ddc0899bd2d20558fe87e2160bd60e2ac18bb1c207c794c",
+      "size_bytes": 98081255,
+      "task_max": 18,
+      "task_min": 12
+    },
+    {
+      "episode_max": 755,
+      "episode_min": 749,
+      "file_index": 203,
+      "index_max": 147311,
+      "index_min": 146489,
+      "path": "data/chunk-000/file-203.parquet",
+      "rows": 823,
+      "selected_episode_ids": [
+        749,
+        750,
+        751
+      ],
+      "sha256": "2f397196da98d1d917bf92f268c4f233bcb0ca32763805970ea82abeb781b9ad",
+      "size_bytes": 97634106,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 768,
+      "episode_min": 762,
+      "file_index": 205,
+      "index_max": 149002,
+      "index_min": 148156,
+      "path": "data/chunk-000/file-205.parquet",
+      "rows": 847,
+      "selected_episode_ids": [
+        763,
+        764,
+        767,
+        768
+      ],
+      "sha256": "b826db6bf99fb13ce418e844d9c219f3d3dd85765f0c4a8bf2638f6b57e8fd5a",
+      "size_bytes": 104422015,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 775,
+      "episode_min": 769,
+      "file_index": 206,
+      "index_max": 149830,
+      "index_min": 149003,
+      "path": "data/chunk-000/file-206.parquet",
+      "rows": 828,
+      "selected_episode_ids": [
+        770,
+        775
+      ],
+      "sha256": "ea2edcd3ed3597f98524d6fe3266ee8570de34c0be522fff59cb88d63a3fb8be",
+      "size_bytes": 99947108,
+      "task_max": 19,
+      "task_min": 10
+    },
+    {
+      "episode_max": 787,
+      "episode_min": 782,
+      "file_index": 208,
+      "index_max": 151362,
+      "index_min": 150548,
+      "path": "data/chunk-000/file-208.parquet",
+      "rows": 815,
+      "selected_episode_ids": [
+        786
+      ],
+      "sha256": "08318936f7387e4c43c3ad05ec8c564ae2b5dc77f0304d9f2c7063dff4425aec",
+      "size_bytes": 98687233,
+      "task_max": 17,
+      "task_min": 12
+    },
+    {
+      "episode_max": 793,
+      "episode_min": 788,
+      "file_index": 209,
+      "index_max": 152107,
+      "index_min": 151363,
+      "path": "data/chunk-000/file-209.parquet",
+      "rows": 745,
+      "selected_episode_ids": [
+        789,
+        791,
+        793
+      ],
+      "sha256": "a99b4ec8e20bc4211a7ed2588b0ed6e9189a1a91d8c8f1d524ebf919c2f1577b",
+      "size_bytes": 93298711,
+      "task_max": 19,
+      "task_min": 12
+    },
+    {
+      "episode_max": 800,
+      "episode_min": 794,
+      "file_index": 210,
+      "index_max": 152884,
+      "index_min": 152108,
+      "path": "data/chunk-000/file-210.parquet",
+      "rows": 777,
+      "selected_episode_ids": [
+        794,
+        796
+      ],
+      "sha256": "00d04dda64a18d88cf0f4176177d18ff44cc31e058055f85b854d2555d849e46",
+      "size_bytes": 94556109,
+      "task_max": 18,
+      "task_min": 11
+    },
+    {
+      "episode_max": 807,
+      "episode_min": 801,
+      "file_index": 211,
+      "index_max": 153653,
+      "index_min": 152885,
+      "path": "data/chunk-000/file-211.parquet",
+      "rows": 769,
+      "selected_episode_ids": [
+        801,
+        803,
+        804,
+        805,
+        806
+      ],
+      "sha256": "6ed3dce9cbd625ee823e2dd9a614f255db61674a859913d968ca32e0885bbe30",
+      "size_bytes": 99083096,
+      "task_max": 20,
+      "task_min": 10
+    }
+  ],
+  "index_version": "sim-vla-libero-data-v1",
+  "metadata_files": [
+    "meta/info.json",
+    "meta/stats.json",
+    "meta/tasks.parquet",
+    "meta/episodes/chunk-000/file-000.parquet"
+  ],
+  "notes": [
+    "File selection uses Parquet row-group statistics, not meta/episodes data/file_index.",
+    "The pinned Hub snapshot has 377 data shards; selected episodes for this protocol occupy a subset."
+  ],
+  "selected_data_bytes": 5898288020,
+  "selected_file_count": 61,
+  "source_dataset": "HuggingFaceVLA/libero"
+}

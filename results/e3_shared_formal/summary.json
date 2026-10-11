@@ -1,0 +1,75 @@
+{
+  "by_condition": {
+    "E3_for": {
+      "failure_types": {
+        "unspecified": 7
+      },
+      "invalid_trials": 0,
+      "success_rate": 0.8833333333333333,
+      "successes": 53,
+      "trials": 60,
+      "wilson_95": [
+        0.7782121197582914,
+        0.9423227935994396
+      ]
+    }
+  },
+  "by_instruction": {},
+  "by_task": {
+    "goal_bowl_cabinet_top": {
+      "failure_types": {
+        "unspecified": 5
+      },
+      "invalid_trials": 0,
+      "success_rate": 0.75,
+      "successes": 15,
+      "trials": 20,
+      "wilson_95": [
+        0.531299122381256,
+        0.8881382985923343
+      ]
+    },
+    "goal_bowl_plate": {
+      "failure_types": {
+        "unspecified": 1
+      },
+      "invalid_trials": 0,
+      "success_rate": 0.95,
+      "successes": 19,
+      "trials": 20,
+      "wilson_95": [
+        0.763868806553258,
+        0.9911185511992047
+      ]
+    },
+    "goal_bowl_stove": {
+      "failure_types": {
+        "unspecified": 1
+      },
+      "invalid_trials": 0,
+      "success_rate": 0.95,
+      "successes": 19,
+      "trials": 20,
+      "wilson_95": [
+        0.763868806553258,
+        0.9911185511992047
+      ]
+    }
+  },
+  "overall": {
+    "failure_types": {
+      "unspecified": 7
+    },
+    "invalid_trials": 0,
+    "success_rate": 0.8833333333333333,
+    "successes": 53,
+    "trials": 60,
+    "wilson_95": [
+      0.7782121197582914,
+      0.9423227935994396
+    ]
+  },
+  "records": 60,
+  "source": "eval_info.json",
+  "total_records": 60
+}

@@ -1,0 +1,84 @@
+{
+  "per_task": [
+    {
+      "task_group": "libero_goal",
+      "task_id": 1,
+      "metrics": {
+        "sum_rewards": [
+          0.0
+        ],
+        "max_rewards": [
+          0.0
+        ],
+        "successes": [
+          false
+        ],
+        "video_paths": [
+          "results/e1_all_tasks_dev_probe/videos/libero_goal_1/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 4,
+      "metrics": {
+        "sum_rewards": [
+          0.0
+        ],
+        "max_rewards": [
+          0.0
+        ],
+        "successes": [
+          false
+        ],
+        "video_paths": [
+          "results/e1_all_tasks_dev_probe/videos/libero_goal_4/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 8,
+      "metrics": {
+        "sum_rewards": [
+          0.0
+        ],
+        "max_rewards": [
+          0.0
+        ],
+        "successes": [
+          false
+        ],
+        "video_paths": [
+          "results/e1_all_tasks_dev_probe/videos/libero_goal_8/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "libero_goal": {
+      "avg_sum_reward": 0.0,
+      "avg_max_reward": 0.0,
+      "pc_success": 0.0,
+      "n_episodes": 3,
+      "video_paths": [
+        "results/e1_all_tasks_dev_probe/videos/libero_goal_1/eval_episode_0.mp4",
+        "results/e1_all_tasks_dev_probe/videos/libero_goal_4/eval_episode_0.mp4",
+        "results/e1_all_tasks_dev_probe/videos/libero_goal_8/eval_episode_0.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 0.0,
+    "avg_max_reward": 0.0,
+    "pc_success": 0.0,
+    "n_episodes": 3,
+    "eval_s": 73.45332860946655,
+    "eval_ep_s": 24.48444350560506,
+    "video_paths": [
+      "results/e1_all_tasks_dev_probe/videos/libero_goal_1/eval_episode_0.mp4",
+      "results/e1_all_tasks_dev_probe/videos/libero_goal_4/eval_episode_0.mp4",
+      "results/e1_all_tasks_dev_probe/videos/libero_goal_8/eval_episode_0.mp4"
+    ]
+  }
+}

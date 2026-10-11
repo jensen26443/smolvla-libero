@@ -1,0 +1,90 @@
+{
+  "counts": {
+    "train": {
+      "goal_bowl_cabinet_top": 7,
+      "goal_bowl_plate": 7,
+      "goal_bowl_stove": 7
+    },
+    "validation": {
+      "goal_bowl_cabinet_top": 10,
+      "goal_bowl_plate": 10,
+      "goal_bowl_stove": 10
+    }
+  },
+  "fraction_of_train_pool": 0.2,
+  "protocol_version": "sim-vla-libero-v1",
+  "seed": 42,
+  "source_dataset": "HuggingFaceVLA/libero",
+  "task_keys": [
+    "goal_bowl_plate",
+    "goal_bowl_stove",
+    "goal_bowl_cabinet_top"
+  ],
+  "train_episodes": {
+    "goal_bowl_cabinet_top": [
+      474,
+      573,
+      590,
+      696,
+      712,
+      724,
+      793
+    ],
+    "goal_bowl_plate": [
+      433,
+      483,
+      549,
+      582,
+      615,
+      620,
+      768
+    ],
+    "goal_bowl_stove": [
+      455,
+      545,
+      550,
+      565,
+      598,
+      604,
+      704
+    ]
+  },
+  "validation_episodes": {
+    "goal_bowl_cabinet_top": [
+      402,
+      458,
+      505,
+      570,
+      601,
+      661,
+      665,
+      702,
+      706,
+      743
+    ],
+    "goal_bowl_plate": [
+      422,
+      447,
+      448,
+      451,
+      459,
+      511,
+      513,
+      532,
+      655,
+      726
+    ],
+    "goal_bowl_stove": [
+      395,
+      445,
+      500,
+      580,
+      618,
+      673,
+      688,
+      741,
+      786,
+      789
+    ]
+  }
+}

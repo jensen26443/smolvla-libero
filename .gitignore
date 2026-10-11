@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv*/
+.ipynb_checkpoints/
+
+# --- Local caches, datasets and model weights ---
+.cache/
+outputs/
+data/
+*.safetensors
+
+# --- Test code: kept local, not published ---
+test/
+tests/
+
+# --- Internal engineering log & curated docs: stay local, not published ---
+docs/
+guide/
+
+# --- Generated videos (the curated demo in assets/ is force-included) ---
+*.mp4
+*.webm
+!assets/demo_async_execution.mp4
+
+# --- runs/: local training & evaluation output (22 GB).
+# Only small top-level metadata is tracked: exact command stubs
+# (*.command.txt), run manifests (*.run.json) and environment audits.
+runs/*
+!runs/*.json
+!runs/*.txt
+!runs/README.md
+
+# --- OS / editor noise ---
+.DS_Store

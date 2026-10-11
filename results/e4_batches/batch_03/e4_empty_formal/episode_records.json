@@ -1,0 +1,70 @@
+{
+  "count": 5,
+  "records": [
+    {
+      "condition": "E4_empty",
+      "first_success_step": null,
+      "initialization_index": 25,
+      "instruction": "",
+      "phase": "formal",
+      "seed": 67,
+      "steps": 300,
+      "success": false,
+      "task": "put_the_bowl_on_the_plate",
+      "task_id": 8,
+      "task_key": "goal_bowl_plate"
+    },
+    {
+      "condition": "E4_empty",
+      "first_success_step": null,
+      "initialization_index": 26,
+      "instruction": "",
+      "phase": "formal",
+      "seed": 68,
+      "steps": 300,
+      "success": false,
+      "task": "put_the_bowl_on_the_plate",
+      "task_id": 8,
+      "task_key": "goal_bowl_plate"
+    },
+    {
+      "condition": "E4_empty",
+      "first_success_step": null,
+      "initialization_index": 27,
+      "instruction": "",
+      "phase": "formal",
+      "seed": 69,
+      "steps": 300,
+      "success": false,
+      "task": "put_the_bowl_on_the_plate",
+      "task_id": 8,
+      "task_key": "goal_bowl_plate"
+    },
+    {
+      "condition": "E4_empty",
+      "first_success_step": null,
+      "initialization_index": 28,
+      "instruction": "",
+      "phase": "formal",
+      "seed": 70,
+      "steps": 300,
+      "success": false,
+      "task": "put_the_bowl_on_the_plate",
+      "task_id": 8,
+      "task_key": "goal_bowl_plate"
+    },
+    {
+      "condition": "E4_empty",
+      "first_success_step": null,
+      "initialization_index": 29,
+      "instruction": "",
+      "phase": "formal",
+      "seed": 71,
+      "steps": 300,
+      "success": false,
+      "task": "put_the_bowl_on_the_plate",
+      "task_id": 8,
+      "task_key": "goal_bowl_plate"
+    }
+  ]
+}

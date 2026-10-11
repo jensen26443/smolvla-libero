@@ -1,0 +1,267 @@
+{
+  "status": "development_only_not_a_formal_freeze",
+  "selection": {
+    "passed": true,
+    "sampling_steps": 5,
+    "candidates": [
+      {
+        "sampling_steps": 10,
+        "methods": {
+          "RAW": {
+            "successes": 5,
+            "n": 6,
+            "ten_step_successes": 5
+          },
+          "RTC_STRICT": {
+            "successes": 0,
+            "n": 6,
+            "ten_step_successes": 0
+          }
+        },
+        "eligible": false,
+        "rejections": [
+          "rtc_endpoint_p95_exceeds_one_second",
+          "prefix_activation_in_fewer_than_two_tasks"
+        ],
+        "rtc_endpoint_p95_s": 1.1763717775815166,
+        "tasks_with_prefix_activation": []
+      },
+      {
+        "sampling_steps": 7,
+        "methods": {
+          "RAW": {
+            "successes": 5,
+            "n": 6,
+            "ten_step_successes": 5
+          },
+          "RTC_STRICT": {
+            "successes": 4,
+            "n": 6,
+            "ten_step_successes": 0
+          }
+        },
+        "eligible": true,
+        "rejections": [],
+        "rtc_endpoint_p95_s": 0.9542049833398777,
+        "tasks_with_prefix_activation": [
+          "goal_bowl_cabinet_top",
+          "goal_bowl_plate",
+          "goal_bowl_stove"
+        ]
+      },
+      {
+        "sampling_steps": 5,
+        "methods": {
+          "RAW": {
+            "successes": 5,
+            "n": 6,
+            "ten_step_successes": 5
+          },
+          "RTC_STRICT": {
+            "successes": 5,
+            "n": 6,
+            "ten_step_successes": 0
+          }
+        },
+        "eligible": true,
+        "rejections": [],
+        "rtc_endpoint_p95_s": 0.7228063866205047,
+        "tasks_with_prefix_activation": [
+          "goal_bowl_cabinet_top",
+          "goal_bowl_plate",
+          "goal_bowl_stove"
+        ]
+      }
+    ],
+    "rule": "complete paired development counts; latency lowest, <5% tie prefers more steps",
+    "claim": "configuration screening on exposed init0/init1, not a no-loss or generalization proof",
+    "periods": {
+      "RAW": 50,
+      "SHIFT": 10,
+      "RTC_STRICT": 25,
+      "RTC_CATCHUP": 25
+    },
+    "period_scores": [
+      {
+        "method": "RAW",
+        "period": 10,
+        "task_equal_success_rate": 0.0,
+        "coverage_failures": 0,
+        "generation_s_per_sim_s": 0.9537321012855199,
+        "request_frequency": 1.7333333333333332
+      },
+      {
+        "method": "RAW",
+        "period": 25,
+        "task_equal_success_rate": 0.5,
+        "coverage_failures": 0,
+        "generation_s_per_sim_s": 0.4714495957259668,
+        "request_frequency": 0.8652840699352327
+      },
+      {
+        "method": "RAW",
+        "period": 50,
+        "task_equal_success_rate": 0.8333333333333334,
+        "coverage_failures": 0,
+        "generation_s_per_sim_s": 0.2970272341946296,
+        "request_frequency": 0.4370507799079228
+      },
+      {
+        "method": "SHIFT",
+        "period": 10,
+        "task_equal_success_rate": 1.0,
+        "coverage_failures": 0,
+        "generation_s_per_sim_s": 1.0242155409422684,
+        "request_frequency": 1.85823416089775
+      },
+      {
+        "method": "SHIFT",
+        "period": 25,
+        "task_equal_success_rate": 0.8333333333333334,
+        "coverage_failures": 0,
+        "generation_s_per_sim_s": 0.5198510348385402,
+        "request_frequency": 0.9260574625252849
+      },
+      {
+        "method": "SHIFT",
+        "period": 50,
+        "task_equal_success_rate": 0.16666666666666666,
+        "coverage_failures": 0,
+        "generation_s_per_sim_s": 0.26769504165643115,
+        "request_frequency": 0.41365461847389556
+      },
+      {
+        "method": "RTC_STRICT",
+        "period": 10,
+        "task_equal_success_rate": 0.6666666666666666,
+        "coverage_failures": 1,
+        "generation_s_per_sim_s": 0.8807833763330977,
+        "request_frequency": 1.4685963274198566
+      },
+      {
+        "method": "RTC_STRICT",
+        "period": 25,
+        "task_equal_success_rate": 0.8333333333333334,
+        "coverage_failures": 1,
+        "generation_s_per_sim_s": 0.5791272826790943,
+        "request_frequency": 0.9212503846650187
+      },
+      {
+        "method": "RTC_STRICT",
+        "period": 50,
+        "task_equal_success_rate": 0.6666666666666666,
+        "coverage_failures": 1,
+        "generation_s_per_sim_s": 0.4377915126382114,
+        "request_frequency": 0.6905369744851168
+      },
+      {
+        "method": "RTC_CATCHUP",
+        "period": 10,
+        "task_equal_success_rate": 0.6666666666666666,
+        "coverage_failures": 1,
+        "generation_s_per_sim_s": 0.8615018504777314,
+        "request_frequency": 1.4138333386152697
+      },
+      {
+        "method": "RTC_CATCHUP",
+        "period": 25,
+        "task_equal_success_rate": 0.8333333333333334,
+        "coverage_failures": 0,
+        "generation_s_per_sim_s": 0.5511076094704096,
+        "request_frequency": 0.9080169272940357
+      },
+      {
+        "method": "RTC_CATCHUP",
+        "period": 50,
+        "task_equal_success_rate": 0.6666666666666666,
+        "coverage_failures": 0,
+        "generation_s_per_sim_s": 0.42414172251826493,
+        "request_frequency": 0.6632065215638075
+      }
+    ],
+    "rtc_period_selection": "RTC_STRICT scores only; same period for both RTC rules"
+  },
+  "development_gate": {
+    "passed": false,
+    "methods": {
+      "RTC_STRICT": {
+        "full_300_ticks": 3,
+        "n": 6,
+        "tasks_with_three_activations": {
+          "goal_bowl_plate": false,
+          "goal_bowl_stove": true,
+          "goal_bowl_cabinet_top": true
+        },
+        "invariant_errors": 0,
+        "termination_reasons": {
+          "coverage_infeasible": 3,
+          "sustained_300_ticks": 3
+        },
+        "passed": false
+      },
+      "RTC_CATCHUP": {
+        "full_300_ticks": 6,
+        "n": 6,
+        "tasks_with_three_activations": {
+          "goal_bowl_plate": true,
+          "goal_bowl_stove": true,
+          "goal_bowl_cabinet_top": true
+        },
+        "invariant_errors": 0,
+        "termination_reasons": {
+          "sustained_300_ticks": 6
+        },
+        "passed": true
+      },
+      "HARD": {
+        "full_300_ticks": 4,
+        "n": 6,
+        "tasks_with_three_activations": {
+          "goal_bowl_plate": true,
+          "goal_bowl_stove": true,
+          "goal_bowl_cabinet_top": true
+        },
+        "invariant_errors": 0,
+        "termination_reasons": {
+          "sustained_300_ticks": 4,
+          "coverage_infeasible": 2
+        },
+        "passed": true
+      }
+    },
+    "success_rates_reported": false,
+    "hard_is_diagnostic_only": true
+  },
+  "production_probe_sha256": "be874c2e4b61e1298550678196b4b0a3a9a31851ca086e2bb92b7d034f1f354b",
+  "initial_endpoint_p95_s": {
+    "10": {
+      "native": 1.1168899511394557,
+      "rtc": 1.1763717775815166
+    },
+    "7": {
+      "native": 0.9349224183009938,
+      "rtc": 0.9542049833398777
+    },
+    "5": {
+      "native": 0.7334561520430724,
+      "rtc": 0.7228063866205047
+    }
+  },
+  "stages": {
+    "develop_sampling": {
+      "spec_path": "runs/latency_v4_plan06/develop_sampling/spec.json",
+      "spec_sha256": "4920f188d2248421d7bd89fa8d04ddf625a8180eeaaca381369ccb52d77f10d5",
+      "expected_trials_sha256": "5a8b7ff3b0d5327c0a56b01ea2a733d5e81019f4ffb62a7bb9832eff64d868b2"
+    },
+    "develop_period": {
+      "spec_path": "runs/latency_v4_plan06/develop_period/spec.json",
+      "spec_sha256": "70aff5117b7e54f456b5d86308bf4f5d2c164e1db708773bfb324fae821d7664",
+      "expected_trials_sha256": "be1baeabf1038d547c433ccb8be0b8484f5a40dedb46b03ebb295aef6f29e179"
+    },
+    "sustain": {
+      "spec_path": "runs/latency_v4_plan06/sustain/spec.json",
+      "spec_sha256": "231500e14e211163e5316559947dbaea083b5e00df8a917b9be6c56f80ed8a28",
+      "expected_trials_sha256": "258475db329804d60c78083ea326e1193341b7960f8a8f8fa7db2a9cb20d5730"
+    }
+  }
+}

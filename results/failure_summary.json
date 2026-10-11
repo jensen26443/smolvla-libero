@@ -1,0 +1,19 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "sources": [
+    "results/e0_formal/summary.json",
+    "results/e1_formal/summary.json",
+    "results/e2_020pct_formal/summary.json",
+    "results/e2_050pct_formal/summary.json",
+    "results/e1_formal/summary.json",
+    "results/e5_formal/summary.json"
+  ],
+  "by_condition_and_type": {
+    "E0:official_success_predicate_false": 10,
+    "E1:official_success_predicate_false": 2,
+    "E2_020pct:official_success_predicate_false": 8,
+    "E2_050pct:official_success_predicate_false": 6,
+    "E2_100pct:official_success_predicate_false": 2,
+    "E5:official_success_predicate_false": 6
+  }
+}

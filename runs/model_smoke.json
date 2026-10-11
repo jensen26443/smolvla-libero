@@ -1,0 +1,82 @@
+{
+  "action": [
+    [
+      0.2652328908443451,
+      0.11154087632894516,
+      -0.03263511136174202,
+      0.0009162220521830022,
+      -0.0033032549545168877,
+      -0.01514042355120182,
+      -0.994946300983429
+    ]
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 75.89061546325684,
+  "input_shapes": {
+    "action": null,
+    "info": null,
+    "next.done": null,
+    "next.reward": null,
+    "next.truncated": null,
+    "observation.images.image": [
+      1,
+      3,
+      256,
+      256
+    ],
+    "observation.images.image2": [
+      1,
+      3,
+      256,
+      256
+    ],
+    "observation.language.attention_mask": [
+      1,
+      7
+    ],
+    "observation.language.tokens": [
+      1,
+      7
+    ],
+    "observation.state": [
+      1,
+      8
+    ],
+    "task": null
+  },
+  "model_path": "/home/lzx/VLA/embodied-learning/sim_vla/.cache/models/smolvla_libero/6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+  "protocol_version": "sim-vla-libero-v1",
+  "raw_action_shape": [
+    1,
+    7
+  ],
+  "save_load": {
+    "checkpoint_dir": "/home/lzx/VLA/embodied-learning/sim_vla/.cache/model-smoke-checkpoint",
+    "max_abs_action_chunk_diff": 0.0,
+    "postprocessor": true,
+    "preprocessor": true,
+    "requested": true,
+    "verified": true
+  },
+  "status": "passed",
+  "step": {
+    "is_success": false,
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": false
+  },
+  "task_id": 8,
+  "total_parameters": 604934176,
+  "train": {
+    "gradient_norm": 68.66348266601562,
+    "loss": 4.81287145614624,
+    "loss_details": {
+      "loss": 4.81287145614624,
+      "losses_after_forward": 4.81287145614624,
+      "losses_after_in_ep_bound": 4.81287145614624,
+      "losses_after_rm_padding": 4.81287145614624
+    },
+    "optimizer_step": 1
+  },
+  "trainable_parameters": 97451872
+}

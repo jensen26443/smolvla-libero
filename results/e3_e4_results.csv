@@ -1,0 +1,9 @@
+phase,condition,task_key,task_id,instruction,successes,trials,success_rate,wilson_low,wilson_high,mean_first_success_step,median_first_success_step,timeouts,shared_init_anchor,shared_init_state_count,start_seed,start_initialization_index,source
+development,E3,goal_bowl_cabinet_top,4,put the bowl on top of the cabinet,1,1,1.0,0.20654931437723745,1.0,82,82,0,goal_bowl_plate,50,42,0,results/e3_shared_dev/summary.json
+development,E3,goal_bowl_plate,8,put the bowl on the plate,1,1,1.0,0.20654931437723745,1.0,76,76,0,goal_bowl_plate,50,42,0,results/e3_shared_dev/summary.json
+development,E3,goal_bowl_stove,1,put the bowl on the stove,1,1,1.0,0.20654931437723745,1.0,85,85,0,goal_bowl_plate,50,42,0,results/e3_shared_dev/summary.json
+development,E4_empty,goal_bowl_plate,8,,0,1,0.0,0.0,0.7934506856227626,,,1,goal_bowl_plate,50,42,0,results/e4_empty_dev/summary.json
+formal,E3,goal_bowl_cabinet_top,4,put the bowl on top of the cabinet,15,20,0.75,0.531299122381256,0.8881382985923343,82.4,83,5,goal_bowl_plate,50,52,10,results/e3_shared_formal/summary.json
+formal,E3,goal_bowl_plate,8,put the bowl on the plate,19,20,0.95,0.763868806553258,0.9911185511992047,78.15789473684211,78,1,goal_bowl_plate,50,52,10,results/e3_shared_formal/summary.json
+formal,E3,goal_bowl_stove,1,put the bowl on the stove,19,20,0.95,0.763868806553258,0.9911185511992047,89.47368421052632,88,1,goal_bowl_plate,50,52,10,results/e3_shared_formal/summary.json
+formal,E4_empty,goal_bowl_plate,8,,0,20,0.0,0.0,0.16112515805281938,,,20,goal_bowl_plate,50,52,10,results/e4_empty_formal/summary.json

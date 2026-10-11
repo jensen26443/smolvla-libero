@@ -1,0 +1,17 @@
+{
+  "count": 1,
+  "records": [
+    {
+      "condition": "E4_empty",
+      "first_success_step": null,
+      "initialization_index": 0,
+      "instruction": "",
+      "phase": "development",
+      "steps": 300,
+      "success": false,
+      "task": "put_the_bowl_on_the_plate",
+      "task_id": 8,
+      "task_key": "goal_bowl_plate"
+    }
+  ]
+}

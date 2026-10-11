@@ -1,0 +1,814 @@
+{
+  "data_root": ".cache/lerobot/libero-selected",
+  "dataset_revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "download": [
+    {
+      "bytes": 2409,
+      "downloaded": false,
+      "path": "meta/info.json"
+    },
+    {
+      "bytes": 13928,
+      "downloaded": false,
+      "path": "meta/stats.json"
+    },
+    {
+      "bytes": 3263,
+      "downloaded": false,
+      "path": "meta/tasks.parquet"
+    },
+    {
+      "bytes": 982569,
+      "downloaded": false,
+      "path": "meta/episodes/chunk-000/file-000.parquet"
+    },
+    {
+      "bytes": 86595264,
+      "downloaded": false,
+      "path": "data/chunk-000/file-146.parquet",
+      "sha256": "2e958eb4960c726e1e2cc72fd76b8b373ee4fa667dd92c36a3c945592f839ee9",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 94645240,
+      "downloaded": false,
+      "path": "data/chunk-000/file-148.parquet",
+      "sha256": "87872b3a022fdc5df63ed029e8f9501b03316559276f6b1d602337b1db3c3dbf",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 92850268,
+      "downloaded": false,
+      "path": "data/chunk-000/file-149.parquet",
+      "sha256": "5136b082f8c51eb1bdd0dc4d40cd178db207d7d981ff724b2a3aebff7c09ef29",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 95697352,
+      "downloaded": false,
+      "path": "data/chunk-000/file-150.parquet",
+      "sha256": "90bd8bdcb0b909b9d813566d8736d11aff8c9e94944bffbf25404eae6d47d502",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 84612350,
+      "downloaded": false,
+      "path": "data/chunk-000/file-152.parquet",
+      "sha256": "7558f0548c3c2e177cc4875c49e859d7ad1f7e3d34abb144107525ff6f63ba7d",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 101188043,
+      "downloaded": false,
+      "path": "data/chunk-000/file-153.parquet",
+      "sha256": "62d2fd55394716e24fa84142a7bc0ad874d9b95e3565e1c318832ae45458524d",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 86429287,
+      "downloaded": false,
+      "path": "data/chunk-000/file-154.parquet",
+      "sha256": "26dece33737c2a7042faf0648f5599e53319619d7f955419002a2e4ac4ede276",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 98168982,
+      "downloaded": false,
+      "path": "data/chunk-000/file-155.parquet",
+      "sha256": "50b1dde9fc4397db4f39e4d167ba271f1e553f6393e4ee5c37e8a10831ff8340",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 102971556,
+      "downloaded": false,
+      "path": "data/chunk-000/file-156.parquet",
+      "sha256": "49e15b5100da4fd2133c23acf21a6b3fddf8a040b352785e816676d9b7dada6a",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 100384866,
+      "downloaded": false,
+      "path": "data/chunk-000/file-157.parquet",
+      "sha256": "2782feed5dc462ed8fa50259d10680952739dce77932cab93c6a5b3927ce8b04",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 95931543,
+      "downloaded": false,
+      "path": "data/chunk-000/file-158.parquet",
+      "sha256": "5671fbb166a1ea192dd09b5140cbf122bae2eec80c5ef460024d15f380d9dab7",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 87790950,
+      "downloaded": false,
+      "path": "data/chunk-000/file-159.parquet",
+      "sha256": "ad8a9e0b00dc51099ff0ae6a5871a27a5aa5d8ebfbb3e643d58184c202ff31d2",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 99926363,
+      "downloaded": false,
+      "path": "data/chunk-000/file-160.parquet",
+      "sha256": "1ebbcbaaaece605394d64461ca6289b394755c4c04f57dcde032162b377d3aad",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 95579409,
+      "downloaded": false,
+      "path": "data/chunk-000/file-161.parquet",
+      "sha256": "77fda8176bb43908f5306fd6c23f65a638ec432ccd78aa3a95921a6fd74292d6",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 93675949,
+      "downloaded": false,
+      "path": "data/chunk-000/file-162.parquet",
+      "sha256": "1a1ac56abe1c36650d49f4fd9901241d48531410c5ee3161b77bc65744280ae8",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 94271043,
+      "downloaded": false,
+      "path": "data/chunk-000/file-163.parquet",
+      "sha256": "04ab720979264b857b22cb828e0080a0b38c5637d162d2fdc648debf1079a83a",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 98896978,
+      "downloaded": false,
+      "path": "data/chunk-000/file-164.parquet",
+      "sha256": "d8df9a26844e3cfc452cabf7e67735ea08ad3a1c349b3b922af94f4a698d8376",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 103601137,
+      "downloaded": false,
+      "path": "data/chunk-000/file-165.parquet",
+      "sha256": "f33f9b73f52593fdfa3ccb04d1edb2e8e76a774bec74480a7e48eb52e8835ffd",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 94495916,
+      "downloaded": false,
+      "path": "data/chunk-000/file-166.parquet",
+      "sha256": "89cfed34154f1b68b0f22d1b911571d5780836a4daeb761589fa88b1bb0f6411",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 102423542,
+      "downloaded": false,
+      "path": "data/chunk-000/file-167.parquet",
+      "sha256": "2d2ea7755809455ca26a5b4e057834ed090d856a04f07fe42c9ce1f7145beb18",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 104070119,
+      "downloaded": false,
+      "path": "data/chunk-000/file-168.parquet",
+      "sha256": "846cf5c0cb746e5f4d2cdad2f8be72ad5c629f343c6b052912d93c811f6a774f",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 96939195,
+      "downloaded": false,
+      "path": "data/chunk-000/file-169.parquet",
+      "sha256": "68a4af5a9d1b3616b9092433adf51ed382a135ea75a637624f2c7bc0ddd965f5",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 98889956,
+      "downloaded": false,
+      "path": "data/chunk-000/file-170.parquet",
+      "sha256": "5915c47dd6dbef41b15a13505f7b38156325eb517b6d6a84170847624014f5dc",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 103712416,
+      "downloaded": false,
+      "path": "data/chunk-000/file-172.parquet",
+      "sha256": "b9344179efe940102446d6aee6489601e5d9cd6e58efdc480c3133a6e69adc07",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 97874834,
+      "downloaded": false,
+      "path": "data/chunk-000/file-173.parquet",
+      "sha256": "de89c0844a721aeaa6719cc712ea33c5707e52aaa9c24430c1037a95eab04551",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 103793720,
+      "downloaded": false,
+      "path": "data/chunk-000/file-174.parquet",
+      "sha256": "09c2ce9e1435094263be0c7c40f0e43ab143b7e2c580017a52d32d6a0140483d",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 97048325,
+      "downloaded": false,
+      "path": "data/chunk-000/file-175.parquet",
+      "sha256": "a8c735896bb4aad45654c2216761dd3cc2d74fb5fb780a28786b7bd8606fa442",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 99795198,
+      "downloaded": false,
+      "path": "data/chunk-000/file-176.parquet",
+      "sha256": "44b7950625ef7f95d7096013abd44734e11b4de1a34d41525466984dccc4634d",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 101314276,
+      "downloaded": false,
+      "path": "data/chunk-000/file-177.parquet",
+      "sha256": "248bc42106ba0a0ca5d1e62967f90e87ce97744b4c8be2f6b39d2fb4bf8301f0",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 101009728,
+      "downloaded": false,
+      "path": "data/chunk-000/file-178.parquet",
+      "sha256": "f4744fa0bb40ec84e874f582452d781a7745d95b6ac608bcb1c90a2ac6d86f89",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 96488409,
+      "downloaded": false,
+      "path": "data/chunk-000/file-179.parquet",
+      "sha256": "92df0ba4ec3e3d10f2415f95dbf2b7f3fcf5216f0b0171312f86822029400f90",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 100670835,
+      "downloaded": false,
+      "path": "data/chunk-000/file-180.parquet",
+      "sha256": "29c3ad8ef5e0c172affa17274b5a6a32bca56a0b3e747dab2fc6ea6bb6451488",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 101933786,
+      "downloaded": false,
+      "path": "data/chunk-000/file-181.parquet",
+      "sha256": "78e02e33ed2114ed514795ced20510af45d4619bb8439841ca9ffe53698a635a",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 99923085,
+      "downloaded": false,
+      "path": "data/chunk-000/file-182.parquet",
+      "sha256": "a3f5e3fbaef0912b8146fccaf98d8d5ea403330a5f892a2080e2c1cd691ab2e6",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 95120992,
+      "downloaded": false,
+      "path": "data/chunk-000/file-183.parquet",
+      "sha256": "3101f463287c8aff100a6c2e0c94c8fc11360b4abb0411779ff7a6621dba4ffc",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 88672400,
+      "downloaded": false,
+      "path": "data/chunk-000/file-184.parquet",
+      "sha256": "c5fe58a018ec3f400008e249402f428bf82674bdc186e544d7a99dd14119e25f",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 96333362,
+      "downloaded": false,
+      "path": "data/chunk-000/file-185.parquet",
+      "sha256": "a7693eb1426b61e04348cfd1f38db482d0db9aa0e1b21e7bcf9b1871e88d8d42",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 99875126,
+      "downloaded": false,
+      "path": "data/chunk-000/file-186.parquet",
+      "sha256": "c36357b3c52f2a56a4835549c4189e7e5906d56c70df20a03ebe99d8dd41aae7",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 102510429,
+      "downloaded": false,
+      "path": "data/chunk-000/file-187.parquet",
+      "sha256": "de2b2a915846e5ffbafce0c4151ad825aaee466ad259d6848b16e2e0be3aacc9",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 95893963,
+      "downloaded": false,
+      "path": "data/chunk-000/file-188.parquet",
+      "sha256": "c6b053a87e0dd7488cf168a0b74b512820ca5dc99a11ef81ec44719692e99d77",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 77206475,
+      "downloaded": false,
+      "path": "data/chunk-000/file-189.parquet",
+      "sha256": "a568ce26baf0c71edd5438bea5ca43660135b79c669e86caea115c55719aae53",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 86715529,
+      "downloaded": false,
+      "path": "data/chunk-000/file-190.parquet",
+      "sha256": "2bbdc051678fb2efa8aaeca03121e129f9c58ae2200e11210e198fc8c0fa7f9e",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 104223543,
+      "downloaded": false,
+      "path": "data/chunk-000/file-191.parquet",
+      "sha256": "5a80573b7cb481299600d7ff252224d2a237598b7c7ef930e7a4426d6455cae6",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 89384665,
+      "downloaded": false,
+      "path": "data/chunk-000/file-192.parquet",
+      "sha256": "9aec70451bf1e534f023af71ca727ff60867cc660b3c61fe50df371adc016221",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 93814299,
+      "downloaded": false,
+      "path": "data/chunk-000/file-193.parquet",
+      "sha256": "830cbe51d26e3f6b893be3236e46095a27fd37044a5f746dcf7b3b6aace779d9",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 97798417,
+      "downloaded": false,
+      "path": "data/chunk-000/file-194.parquet",
+      "sha256": "1781c237d0203ae63341b492718efe96f8dd7ebf45dd6a8c52b1d424fce55197",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 98573204,
+      "downloaded": false,
+      "path": "data/chunk-000/file-195.parquet",
+      "sha256": "70df3c992be615415a8372a3fbe4cf9b5ba8b2607ecf214de2ab3558ac5cfcc0",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 93000385,
+      "downloaded": false,
+      "path": "data/chunk-000/file-196.parquet",
+      "sha256": "8c5a896e6f513697900b2c8c7f84961aa0847535933674373573d4c122f1c01a",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 103240524,
+      "downloaded": false,
+      "path": "data/chunk-000/file-197.parquet",
+      "sha256": "2628652ece5898527175b7180a51e0b42fec66f968b2ebfa0fd90257d6bc12c3",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 97614708,
+      "downloaded": false,
+      "path": "data/chunk-000/file-198.parquet",
+      "sha256": "0813e43ad29cc0983c769c72efb3abc77763f4a7d0e6ffc16a58d9530c300a2c",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 93364952,
+      "downloaded": false,
+      "path": "data/chunk-000/file-199.parquet",
+      "sha256": "ae14b39fcda20deb59a57bedc7570d4172789ec5c7f15615a63b0f337cc6f39e",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 87994825,
+      "downloaded": false,
+      "path": "data/chunk-000/file-200.parquet",
+      "sha256": "707c17fc19a199ccafd1ed8ea4616e9fe8d0be313aa8b22f0125bd3dc00dfd87",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 97640669,
+      "downloaded": false,
+      "path": "data/chunk-000/file-201.parquet",
+      "sha256": "59f904b5a6e0dfeb76313f1d2cc921f750bdb228e751c93361211872c1b42212",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 98081255,
+      "downloaded": false,
+      "path": "data/chunk-000/file-202.parquet",
+      "sha256": "a5b0f3f9c8e0e16a5ddc0899bd2d20558fe87e2160bd60e2ac18bb1c207c794c",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 97634106,
+      "downloaded": false,
+      "path": "data/chunk-000/file-203.parquet",
+      "sha256": "2f397196da98d1d917bf92f268c4f233bcb0ca32763805970ea82abeb781b9ad",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 104422015,
+      "downloaded": false,
+      "path": "data/chunk-000/file-205.parquet",
+      "sha256": "b826db6bf99fb13ce418e844d9c219f3d3dd85765f0c4a8bf2638f6b57e8fd5a",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 99947108,
+      "downloaded": false,
+      "path": "data/chunk-000/file-206.parquet",
+      "sha256": "ea2edcd3ed3597f98524d6fe3266ee8570de34c0be522fff59cb88d63a3fb8be",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 98687233,
+      "downloaded": false,
+      "path": "data/chunk-000/file-208.parquet",
+      "sha256": "08318936f7387e4c43c3ad05ec8c564ae2b5dc77f0304d9f2c7063dff4425aec",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 93298711,
+      "downloaded": false,
+      "path": "data/chunk-000/file-209.parquet",
+      "sha256": "a99b4ec8e20bc4211a7ed2588b0ed6e9189a1a91d8c8f1d524ebf919c2f1577b",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 94556109,
+      "downloaded": false,
+      "path": "data/chunk-000/file-210.parquet",
+      "sha256": "00d04dda64a18d88cf0f4176177d18ff44cc31e058055f85b854d2555d849e46",
+      "sha256_verified": true
+    },
+    {
+      "bytes": 99083096,
+      "downloaded": false,
+      "path": "data/chunk-000/file-211.parquet",
+      "sha256": "6ed3dce9cbd625ee823e2dd9a614f255db61674a859913d968ca32e0885bbe30",
+      "sha256_verified": true
+    }
+  ],
+  "elapsed_seconds": 174.87643837928772,
+  "episode_count": 143,
+  "episode_ids": [
+    379,
+    392,
+    394,
+    395,
+    398,
+    401,
+    402,
+    415,
+    422,
+    424,
+    426,
+    431,
+    433,
+    438,
+    444,
+    445,
+    446,
+    447,
+    448,
+    451,
+    452,
+    455,
+    456,
+    458,
+    459,
+    466,
+    474,
+    481,
+    483,
+    488,
+    493,
+    495,
+    500,
+    501,
+    505,
+    507,
+    511,
+    513,
+    514,
+    521,
+    522,
+    524,
+    530,
+    532,
+    537,
+    544,
+    545,
+    549,
+    550,
+    551,
+    557,
+    558,
+    563,
+    565,
+    568,
+    570,
+    573,
+    580,
+    582,
+    590,
+    597,
+    598,
+    601,
+    604,
+    607,
+    608,
+    612,
+    615,
+    616,
+    618,
+    620,
+    621,
+    626,
+    629,
+    630,
+    634,
+    636,
+    637,
+    638,
+    639,
+    641,
+    642,
+    643,
+    646,
+    649,
+    653,
+    655,
+    660,
+    661,
+    662,
+    665,
+    669,
+    670,
+    673,
+    674,
+    676,
+    679,
+    681,
+    688,
+    689,
+    691,
+    692,
+    696,
+    699,
+    702,
+    704,
+    706,
+    707,
+    708,
+    712,
+    716,
+    718,
+    721,
+    724,
+    726,
+    727,
+    731,
+    732,
+    740,
+    741,
+    743,
+    745,
+    747,
+    749,
+    750,
+    751,
+    763,
+    764,
+    767,
+    768,
+    770,
+    775,
+    786,
+    789,
+    791,
+    793,
+    794,
+    796,
+    801,
+    803,
+    804,
+    805,
+    806
+  ],
+  "episode_source": "manifests/libero_episode_index.json",
+  "file_manifest": "manifests/libero_data_files.json",
+  "metadata_files": [
+    "meta/info.json",
+    "meta/stats.json",
+    "meta/tasks.parquet",
+    "meta/episodes/chunk-000/file-000.parquet"
+  ],
+  "selected_data_bytes": 5898288020,
+  "selected_file_count": 61,
+  "source_dataset": "HuggingFaceVLA/libero",
+  "split": "all",
+  "status": "passed",
+  "verification": {
+    "features": {
+      "action": {
+        "dtype": "float32",
+        "fps": 10.0,
+        "names": [
+          "actions"
+        ],
+        "shape": [
+          7
+        ]
+      },
+      "episode_index": {
+        "dtype": "int64",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      },
+      "frame_index": {
+        "dtype": "int64",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      },
+      "index": {
+        "dtype": "int64",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      },
+      "observation.images.image": {
+        "dtype": "image",
+        "fps": 10.0,
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          256,
+          256,
+          3
+        ]
+      },
+      "observation.images.image2": {
+        "dtype": "image",
+        "fps": 10.0,
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          256,
+          256,
+          3
+        ]
+      },
+      "observation.state": {
+        "dtype": "float32",
+        "fps": 10.0,
+        "names": [
+          "state"
+        ],
+        "shape": [
+          8
+        ]
+      },
+      "task_index": {
+        "dtype": "int64",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      },
+      "timestamp": {
+        "dtype": "float32",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      }
+    },
+    "loaded_episode_max": 806,
+    "loaded_episode_min": 379,
+    "num_frames": 13991,
+    "num_loaded_episodes": 143,
+    "task_samples": {
+      "put the bowl on the plate": {
+        "action_finite": true,
+        "action_shape": [
+          7
+        ],
+        "episode_index": 379,
+        "image_ranges": {
+          "observation.images.image": [
+            0.0,
+            0.929411768913269
+          ],
+          "observation.images.image2": [
+            0.0,
+            0.9058823585510254
+          ]
+        },
+        "image_shapes": {
+          "observation.images.image": [
+            3,
+            256,
+            256
+          ],
+          "observation.images.image2": [
+            3,
+            256,
+            256
+          ]
+        },
+        "state_finite": true,
+        "state_shape": [
+          8
+        ],
+        "task_index": 10
+      },
+      "put the bowl on the stove": {
+        "action_finite": true,
+        "action_shape": [
+          7
+        ],
+        "episode_index": 392,
+        "image_ranges": {
+          "observation.images.image": [
+            0.0,
+            0.9176470637321472
+          ],
+          "observation.images.image2": [
+            0.0,
+            0.9254902005195618
+          ]
+        },
+        "image_shapes": {
+          "observation.images.image": [
+            3,
+            256,
+            256
+          ],
+          "observation.images.image2": [
+            3,
+            256,
+            256
+          ]
+        },
+        "state_finite": true,
+        "state_shape": [
+          8
+        ],
+        "task_index": 17
+      },
+      "put the bowl on top of the cabinet": {
+        "action_finite": true,
+        "action_shape": [
+          7
+        ],
+        "episode_index": 398,
+        "image_ranges": {
+          "observation.images.image": [
+            0.0,
+            0.9137254953384399
+          ],
+          "observation.images.image2": [
+            0.0,
+            0.9098039269447327
+          ]
+        },
+        "image_shapes": {
+          "observation.images.image": [
+            3,
+            256,
+            256
+          ],
+          "observation.images.image2": [
+            3,
+            256,
+            256
+          ]
+        },
+        "state_finite": true,
+        "state_shape": [
+          8
+        ],
+        "task_index": 18
+      }
+    },
+    "video_keys": []
+  }
+}

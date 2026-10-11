@@ -1,0 +1,44 @@
+{
+  "per_task": [
+    {
+      "task_group": "libero_goal",
+      "task_id": 8,
+      "metrics": {
+        "sum_rewards": [
+          0.0
+        ],
+        "max_rewards": [
+          0.0
+        ],
+        "successes": [
+          false
+        ],
+        "video_paths": [
+          "results/e1_dev/videos/libero_goal_8/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "libero_goal": {
+      "avg_sum_reward": 0.0,
+      "avg_max_reward": 0.0,
+      "pc_success": 0.0,
+      "n_episodes": 1,
+      "video_paths": [
+        "results/e1_dev/videos/libero_goal_8/eval_episode_0.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 0.0,
+    "avg_max_reward": 0.0,
+    "pc_success": 0.0,
+    "n_episodes": 1,
+    "eval_s": 26.848324298858643,
+    "eval_ep_s": 26.848327159881592,
+    "video_paths": [
+      "results/e1_dev/videos/libero_goal_8/eval_episode_0.mp4"
+    ]
+  }
+}

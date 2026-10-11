@@ -1,0 +1,72 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "evaluation_initializations": "manifests/eval_initializations.json",
+  "conditions": [
+    {
+      "id": "E0",
+      "name": "原始检查点",
+      "model": "HuggingFaceVLA/smolvla_libero@6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+      "data": "none",
+      "development_episodes_per_task": 10,
+      "final_episodes_per_task": 20,
+      "total_episodes_per_task": 30,
+      "purpose": "适配前基线"
+    },
+    {
+      "id": "E1",
+      "name": "适配后表现",
+      "model": "train_100pct checkpoint",
+      "data": "train_100pct",
+      "development_episodes_per_task": 10,
+      "final_episodes_per_task": 20,
+      "total_episodes_per_task": 30,
+      "purpose": "同任务、同初始化与 E0 比较"
+    },
+    {
+      "id": "E2",
+      "name": "数据效率",
+      "model": "independent checkpoint per budget",
+      "data": "train_020pct, train_050pct, train_100pct",
+      "development_episodes_per_task": 10,
+      "final_episodes_per_task": 20,
+      "total_episodes_per_task": 30,
+      "purpose": "嵌套数据预算，固定基础检查点、种子和训练步数"
+    },
+    {
+      "id": "E3",
+      "name": "有效语言切换",
+      "model": "selected E1 checkpoint",
+      "data": "paired task only after alignment check",
+      "development_episodes_per_task": 10,
+      "final_episodes_per_task": 20,
+      "total_episodes_per_task": 30,
+      "purpose": "在对齐场景中改变有效目标并使用对应成功判据"
+    },
+    {
+      "id": "E4",
+      "name": "语言消融",
+      "model": "selected E1 checkpoint",
+      "data": "empty instruction and valid alternative",
+      "development_episodes_per_task": 10,
+      "final_episodes_per_task": 20,
+      "total_episodes_per_task": 30,
+      "purpose": "辅助判断语言依赖，空指令下降不单独证明语言理解"
+    },
+    {
+      "id": "E5",
+      "name": "有限泛化",
+      "model": "selected E1 checkpoint",
+      "data": "semantic paraphrases unseen during adaptation",
+      "development_episodes_per_task": 10,
+      "final_episodes_per_task": 20,
+      "total_episodes_per_task": 30,
+      "purpose": "微调中未见措辞，语义保持不变"
+    }
+  ],
+  "freeze_rules": [
+    "开发初始化使用每任务前 10 个不与训练演示重合的 ID；最终初始化使用随后 20 个。",
+    "最终测试结果不能选择检查点、补数据或修改协议。",
+    "同一个测试结果在多个图表复用时标明复用，不当成独立重复。",
+    "策略超时、动作异常和失败判据计失败；独立环境崩溃保留为无效试验并另建补测 ID。"
+  ]
+}

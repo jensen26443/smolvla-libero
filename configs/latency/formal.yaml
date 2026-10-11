@@ -1,0 +1,111 @@
+# ============================================================================
+# FROZEN FORMAL SPEC — latency_formal_v1 (PLAN-03 §9)
+# Frozen 2026-09-22 after Phase-D development selection (see DECISIONS M).
+# Development evidence (stove, inits 0-4):
+#   b1_k5 : L2 5/5 (22 req/ep), L5 1/5 (60), L10 0/5, L20 0/5
+#   b1_k10: L10/L20/L40 0/5        b1_k25: L10/L20 0/5
+#   m_tau2: L2 5/5 (3-5 req), L5 0/5, L10 0/5, L20 0/5
+#   m_tau4: L2 4/5 (3), L5 3/5 (4-11), L10 2/5 (6.6), L20 0/5
+#   R0 unified: 4/4 @ near_zero; official path 5/5 stove + 5/5 plate
+# Latency grid rationale: L2 (below cliff), L5 (cliff zone), L10 (hard),
+# L20 (measured real-inference anchor, ceil(0.908s/50ms)=19->20).
+# Everything below uses FINAL initializations (indices 10-29, seeds 52-71);
+# no parameter may be re-tuned on these results.
+# ============================================================================
+experiment_id: latency_formal_v1
+checkpoint: runs/train_100pct_formal/checkpoints/010000/pretrained_model
+device: cuda
+tasks: [goal_bowl_stove, goal_bowl_plate]
+max_ticks: 300
+methods:
+  # --- R0 reference: official semantics, near-zero latency ---
+  - name: r0
+    kind: r0_every_step
+    latency_names: [near_zero]
+  # --- main methods: identical request budget cap, different timing rule ---
+  - name: b1_k5
+    kind: b1_fixed_period
+    period_ticks: 5
+    latency_names: [L2, L5, L10, L20]
+  - name: b2_k5_s10
+    kind: b2_fixed_period_conservative
+    period_ticks: 5
+    segment_ticks: 10
+    latency_names: [L2, L5, L10, L20]
+  - name: m_tau4
+    kind: m_feedback
+    feedback:
+      diff_threshold_high: 4.0
+      diff_threshold_low: 2.0
+      min_interval_ticks: 2
+      max_interval_ticks: 40
+    latency_names: [L2, L5, L10, L20]
+  # --- ablations (cliff zone only, stove+plate) ---
+  - name: b1_k25
+    kind: b1_fixed_period
+    period_ticks: 25
+    latency_names: [L5, L10]
+  - name: b1_k40
+    kind: b1_fixed_period
+    period_ticks: 40
+    latency_names: [L5, L10]
+    # b1_k40 with K = M's max_interval and the same switch rule is exactly
+    # M-without-feedback; recorded as the pre-registered M ablation.
+  # --- supplementary conditions (stove, same 20 final inits, b1_k5 + m_tau4) ---
+  - name: b1_k5_supp
+    kind: b1_fixed_period
+    period_ticks: 5
+    latency_names: [OBS2_L5, OBS4_L5, JIT_L5]
+    task_keys: [goal_bowl_stove]
+  - name: m_tau4_supp
+    kind: m_feedback
+    feedback:
+      diff_threshold_high: 4.0
+      diff_threshold_low: 2.0
+      min_interval_ticks: 2
+      max_interval_ticks: 40
+    latency_names: [OBS2_L5, OBS4_L5, JIT_L5]
+    task_keys: [goal_bowl_stove]
+latency_conditions:
+  - name: near_zero
+    obs_delay_ticks: 0
+    inference_delay_ticks: 0
+  - name: L2
+    obs_delay_ticks: 0
+    inference_delay_ticks: 2
+  - name: L5
+    obs_delay_ticks: 0
+    inference_delay_ticks: 5
+  - name: L10
+    obs_delay_ticks: 0
+    inference_delay_ticks: 10
+  - name: L20
+    obs_delay_ticks: 0
+    inference_delay_ticks: 20
+  - name: OBS2_L5
+    obs_delay_ticks: 2
+    inference_delay_ticks: 5
+  - name: OBS4_L5
+    obs_delay_ticks: 4
+    inference_delay_ticks: 5
+  - name: JIT_L5
+    obs_delay_ticks: 0
+    inference_delay_ticks: 5
+    jitter:
+      distribution: uniform
+      low: 0.5
+      high: 1.5
+      seed: 20260922
+      length_ticks: 512
+inits:
+  start_index: 10
+  count: 20
+  start_seed: 52
+video:
+  record: true
+  trials_per_condition: 1
+notes: >-
+  Main matrix 2 tasks x {b1_k5,b2_k5_s10,m_tau4} x {L2,L5,L10,L20} x 20 = 480;
+  R0 40; ablation b1_k25/b1_k40 @ {L5,L10} x 2 tasks x 20 = 160; supplements
+  OBS2/OBS4/JIT @ L5 on stove with b1_k5_supp + m_tau4_supp (same 20 final
+  inits, fully paired). Planned total 760 episodes, serial + resume.

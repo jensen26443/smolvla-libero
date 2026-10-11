@@ -1,0 +1,1057 @@
+{
+  "protocol": "paired_shared_init_v1",
+  "status": "completed",
+  "formal_completion": {
+    "E3": true,
+    "E4_empty": true
+  },
+  "current_blocker": null,
+  "formal_required_trials": {
+    "E3": 60,
+    "E4_empty": 20
+  },
+  "rows": [
+    {
+      "phase": "development",
+      "condition": "E3",
+      "task_key": "goal_bowl_cabinet_top",
+      "task_id": 4,
+      "instruction": "put the bowl on top of the cabinet",
+      "successes": 1,
+      "trials": 1,
+      "success_rate": 1.0,
+      "wilson_low": 0.20654931437723745,
+      "wilson_high": 1.0,
+      "mean_first_success_step": 82,
+      "median_first_success_step": 82,
+      "timeouts": 0,
+      "source": "results/e3_shared_dev/summary.json",
+      "shared_init_anchor": "goal_bowl_plate",
+      "shared_init_state_count": 50,
+      "start_seed": 42,
+      "start_initialization_index": 0
+    },
+    {
+      "phase": "development",
+      "condition": "E3",
+      "task_key": "goal_bowl_plate",
+      "task_id": 8,
+      "instruction": "put the bowl on the plate",
+      "successes": 1,
+      "trials": 1,
+      "success_rate": 1.0,
+      "wilson_low": 0.20654931437723745,
+      "wilson_high": 1.0,
+      "mean_first_success_step": 76,
+      "median_first_success_step": 76,
+      "timeouts": 0,
+      "source": "results/e3_shared_dev/summary.json",
+      "shared_init_anchor": "goal_bowl_plate",
+      "shared_init_state_count": 50,
+      "start_seed": 42,
+      "start_initialization_index": 0
+    },
+    {
+      "phase": "development",
+      "condition": "E3",
+      "task_key": "goal_bowl_stove",
+      "task_id": 1,
+      "instruction": "put the bowl on the stove",
+      "successes": 1,
+      "trials": 1,
+      "success_rate": 1.0,
+      "wilson_low": 0.20654931437723745,
+      "wilson_high": 1.0,
+      "mean_first_success_step": 85,
+      "median_first_success_step": 85,
+      "timeouts": 0,
+      "source": "results/e3_shared_dev/summary.json",
+      "shared_init_anchor": "goal_bowl_plate",
+      "shared_init_state_count": 50,
+      "start_seed": 42,
+      "start_initialization_index": 0
+    },
+    {
+      "phase": "development",
+      "condition": "E4_empty",
+      "task_key": "goal_bowl_plate",
+      "task_id": 8,
+      "instruction": "",
+      "successes": 0,
+      "trials": 1,
+      "success_rate": 0.0,
+      "wilson_low": 0.0,
+      "wilson_high": 0.7934506856227626,
+      "mean_first_success_step": null,
+      "median_first_success_step": null,
+      "timeouts": 1,
+      "source": "results/e4_empty_dev/summary.json",
+      "shared_init_anchor": "goal_bowl_plate",
+      "shared_init_state_count": 50,
+      "start_seed": 42,
+      "start_initialization_index": 0
+    },
+    {
+      "phase": "formal",
+      "condition": "E3",
+      "task_key": "goal_bowl_cabinet_top",
+      "task_id": 4,
+      "instruction": "put the bowl on top of the cabinet",
+      "successes": 15,
+      "trials": 20,
+      "success_rate": 0.75,
+      "wilson_low": 0.531299122381256,
+      "wilson_high": 0.8881382985923343,
+      "mean_first_success_step": 82.4,
+      "median_first_success_step": 83,
+      "timeouts": 5,
+      "source": "results/e3_shared_formal/summary.json",
+      "shared_init_anchor": "goal_bowl_plate",
+      "shared_init_state_count": 50,
+      "start_seed": 52,
+      "start_initialization_index": 10
+    },
+    {
+      "phase": "formal",
+      "condition": "E3",
+      "task_key": "goal_bowl_plate",
+      "task_id": 8,
+      "instruction": "put the bowl on the plate",
+      "successes": 19,
+      "trials": 20,
+      "success_rate": 0.95,
+      "wilson_low": 0.763868806553258,
+      "wilson_high": 0.9911185511992047,
+      "mean_first_success_step": 78.15789473684211,
+      "median_first_success_step": 78,
+      "timeouts": 1,
+      "source": "results/e3_shared_formal/summary.json",
+      "shared_init_anchor": "goal_bowl_plate",
+      "shared_init_state_count": 50,
+      "start_seed": 52,
+      "start_initialization_index": 10
+    },
+    {
+      "phase": "formal",
+      "condition": "E3",
+      "task_key": "goal_bowl_stove",
+      "task_id": 1,
+      "instruction": "put the bowl on the stove",
+      "successes": 19,
+      "trials": 20,
+      "success_rate": 0.95,
+      "wilson_low": 0.763868806553258,
+      "wilson_high": 0.9911185511992047,
+      "mean_first_success_step": 89.47368421052632,
+      "median_first_success_step": 88,
+      "timeouts": 1,
+      "source": "results/e3_shared_formal/summary.json",
+      "shared_init_anchor": "goal_bowl_plate",
+      "shared_init_state_count": 50,
+      "start_seed": 52,
+      "start_initialization_index": 10
+    },
+    {
+      "phase": "formal",
+      "condition": "E4_empty",
+      "task_key": "goal_bowl_plate",
+      "task_id": 8,
+      "instruction": "",
+      "successes": 0,
+      "trials": 20,
+      "success_rate": 0.0,
+      "wilson_low": 0.0,
+      "wilson_high": 0.16112515805281938,
+      "mean_first_success_step": null,
+      "median_first_success_step": null,
+      "timeouts": 20,
+      "source": "results/e4_empty_formal/summary.json",
+      "shared_init_anchor": "goal_bowl_plate",
+      "shared_init_state_count": 50,
+      "start_seed": 52,
+      "start_initialization_index": 10
+    }
+  ],
+  "interpretation": {
+    "E3": "native valid target instructions evaluated with the same frozen bowl-to-plate initialization array; each target keeps its native BDDL success predicate",
+    "E4_empty": "empty-instruction input ablation on the bowl-to-plate anchor; the E3 valid-instruction trajectories provide the valid-language reference and are not counted as extra E4 trials",
+    "scope": "custom paired protocol; not an official native per-task initialization benchmark"
+  },
+  "shared_reset_probes": {
+    "development": {
+      "episode_index": 0,
+      "exact_observation_and_sim_state_match": true,
+      "records": {
+        "goal_bowl_cabinet_top": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 242.0,
+                "mean": 118.42808532714844,
+                "min": 0.0,
+                "sha256": "073e96a024c264cbb1ca7034534a009d59e9c3f7958f5d9b2b0085057a395856",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 248.0,
+                "mean": 117.05792236328125,
+                "min": 0.0,
+                "sha256": "cbb59bded431f81aa12e22a12dfde3c72802fed138dfe0047a637e0360944898",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999994146913034,
+                  "mean": 0.0989077925499242,
+                  "min": -0.9984607623240177,
+                  "sha256": "2b98ad71210a352e8d44be6448a44ac445a1f3190e5beeb8277981460c059ef0",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.1786410954640467,
+                  "mean": 0.3244639305424288,
+                  "min": -0.20711550266373366,
+                  "sha256": "09a8f338e5c1273babfba2ca272ed1f811fd376f380c19fbaea070fba3e7f625",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9996151150775082,
+                  "mean": 0.24278367528286818,
+                  "min": -0.0277366859528685,
+                  "sha256": "615b8c258c66aee16be0788965da5384100fc15be11c312126dac33a0e8669b9",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.038724224844865006,
+                  "mean": 1.4311136178717099e-06,
+                  "min": -0.03872136261762926,
+                  "sha256": "1492f391fd21d7f9aa986783eaa167d5afea9dfaaf5fb83a773e01e2a91687d0",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032504487022616065,
+                  "mean": -1.2687324473093084e-05,
+                  "min": -0.0032758233512077926,
+                  "sha256": "1183ac6e0538a669a1be1ad743dc39c5980104635d7939893e94a17c667dac5c",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.2133124667773596,
+                  "mean": 0.058131081521635646,
+                  "min": -2.4349748446052275,
+                  "sha256": "d0426081c891116e9732ee7c94a7e7c536b43c2abfdc918b29a7df1efb539d66",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.01401086181520762,
+                  "mean": -0.00042301041092707034,
+                  "min": -0.012213015411257175,
+                  "sha256": "f804682bc830d91e6a239316f2f3d9b74eb44672d3dfcb3d2baf5a4fab84c85a",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.213306385605271,
+            "mean": 0.11531849076997955,
+            "min": -2.434974754046653,
+            "sha256": "6c64a5324fdfe9a887a078d5661511d6da31944fae771352ff933ebf51b1061c",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 4
+        },
+        "goal_bowl_plate": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 242.0,
+                "mean": 118.42808532714844,
+                "min": 0.0,
+                "sha256": "073e96a024c264cbb1ca7034534a009d59e9c3f7958f5d9b2b0085057a395856",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 248.0,
+                "mean": 117.05792236328125,
+                "min": 0.0,
+                "sha256": "cbb59bded431f81aa12e22a12dfde3c72802fed138dfe0047a637e0360944898",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999994146913034,
+                  "mean": 0.0989077925499242,
+                  "min": -0.9984607623240177,
+                  "sha256": "2b98ad71210a352e8d44be6448a44ac445a1f3190e5beeb8277981460c059ef0",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.1786410954640467,
+                  "mean": 0.3244639305424288,
+                  "min": -0.20711550266373366,
+                  "sha256": "09a8f338e5c1273babfba2ca272ed1f811fd376f380c19fbaea070fba3e7f625",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9996151150775082,
+                  "mean": 0.24278367528286818,
+                  "min": -0.0277366859528685,
+                  "sha256": "615b8c258c66aee16be0788965da5384100fc15be11c312126dac33a0e8669b9",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.038724224844865006,
+                  "mean": 1.4311136178717099e-06,
+                  "min": -0.03872136261762926,
+                  "sha256": "1492f391fd21d7f9aa986783eaa167d5afea9dfaaf5fb83a773e01e2a91687d0",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032504487022616065,
+                  "mean": -1.2687324473093084e-05,
+                  "min": -0.0032758233512077926,
+                  "sha256": "1183ac6e0538a669a1be1ad743dc39c5980104635d7939893e94a17c667dac5c",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.2133124667773596,
+                  "mean": 0.058131081521635646,
+                  "min": -2.4349748446052275,
+                  "sha256": "d0426081c891116e9732ee7c94a7e7c536b43c2abfdc918b29a7df1efb539d66",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.01401086181520762,
+                  "mean": -0.00042301041092707034,
+                  "min": -0.012213015411257175,
+                  "sha256": "f804682bc830d91e6a239316f2f3d9b74eb44672d3dfcb3d2baf5a4fab84c85a",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.213306385605271,
+            "mean": 0.11531849076997955,
+            "min": -2.434974754046653,
+            "sha256": "6c64a5324fdfe9a887a078d5661511d6da31944fae771352ff933ebf51b1061c",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 8
+        },
+        "goal_bowl_stove": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 242.0,
+                "mean": 118.42808532714844,
+                "min": 0.0,
+                "sha256": "073e96a024c264cbb1ca7034534a009d59e9c3f7958f5d9b2b0085057a395856",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 248.0,
+                "mean": 117.05792236328125,
+                "min": 0.0,
+                "sha256": "cbb59bded431f81aa12e22a12dfde3c72802fed138dfe0047a637e0360944898",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999994146913034,
+                  "mean": 0.0989077925499242,
+                  "min": -0.9984607623240177,
+                  "sha256": "2b98ad71210a352e8d44be6448a44ac445a1f3190e5beeb8277981460c059ef0",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.1786410954640467,
+                  "mean": 0.3244639305424288,
+                  "min": -0.20711550266373366,
+                  "sha256": "09a8f338e5c1273babfba2ca272ed1f811fd376f380c19fbaea070fba3e7f625",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9996151150775082,
+                  "mean": 0.24278367528286818,
+                  "min": -0.0277366859528685,
+                  "sha256": "615b8c258c66aee16be0788965da5384100fc15be11c312126dac33a0e8669b9",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.038724224844865006,
+                  "mean": 1.4311136178717099e-06,
+                  "min": -0.03872136261762926,
+                  "sha256": "1492f391fd21d7f9aa986783eaa167d5afea9dfaaf5fb83a773e01e2a91687d0",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032504487022616065,
+                  "mean": -1.2687324473093084e-05,
+                  "min": -0.0032758233512077926,
+                  "sha256": "1183ac6e0538a669a1be1ad743dc39c5980104635d7939893e94a17c667dac5c",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.2133124667773596,
+                  "mean": 0.058131081521635646,
+                  "min": -2.4349748446052275,
+                  "sha256": "d0426081c891116e9732ee7c94a7e7c536b43c2abfdc918b29a7df1efb539d66",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.01401086181520762,
+                  "mean": -0.00042301041092707034,
+                  "min": -0.012213015411257175,
+                  "sha256": "f804682bc830d91e6a239316f2f3d9b74eb44672d3dfcb3d2baf5a4fab84c85a",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.213306385605271,
+            "mean": 0.11531849076997955,
+            "min": -2.434974754046653,
+            "sha256": "6c64a5324fdfe9a887a078d5661511d6da31944fae771352ff933ebf51b1061c",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 1
+        }
+      },
+      "seed": 42,
+      "status": "passed"
+    },
+    "formal": {
+      "episode_index": 10,
+      "exact_observation_and_sim_state_match": true,
+      "records": {
+        "goal_bowl_cabinet_top": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 238.0,
+                "mean": 117.84560139973958,
+                "min": 0.0,
+                "sha256": "4646d607cea4f83100f5e803dc37c73ae85f7d548b02b3cb4308e5cc2664a431",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 241.0,
+                "mean": 118.05838012695312,
+                "min": 0.0,
+                "sha256": "7db1cef3ba378507b3a339e2f2e0a743df0a9cecb9864af0c8905336f015689b",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999965125747083,
+                  "mean": 0.09803196250414142,
+                  "min": -0.9982963420782619,
+                  "sha256": "ab245487554df089023b6dea2659fade062c890cb219b3e361279468d1546fc8",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.170420420213593,
+                  "mean": 0.3237739270626446,
+                  "min": -0.21509937028581333,
+                  "sha256": "2a34e4c99bd17539c44ae4886cfcd779eeed7a300a6346fc7f0fc099f8708d27",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9995730126918263,
+                  "mean": 0.24298511674499448,
+                  "min": -0.029189375969688902,
+                  "sha256": "ecdf85f589724f496f02c763c1b67222079f6f10915bb1412080695d4aaa829a",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.03872241248555419,
+                  "mean": -3.5752926417706443e-07,
+                  "min": -0.038723127544082546,
+                  "sha256": "1235a59f513abd58077dd082917692e0c123a99da1c296dfb9e7f32012d8e6df",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032625206124147657,
+                  "mean": -9.123479980145677e-07,
+                  "min": -0.003264345308410795,
+                  "sha256": "c2425a873fb5a3895db0af7b2cf4a6afe2fd5ccd4c85f463475d1b0e0596340e",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.234245620520735,
+                  "mean": 0.06418580488596819,
+                  "min": -2.4668682659336745,
+                  "sha256": "ebb9cb9a7f9990e9aab2560f594dacf44d19da76d0d0d6864d7c2ab238e1cda7",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.007923262098566407,
+                  "mean": 0.001743210073423256,
+                  "min": -0.0010243862700424142,
+                  "sha256": "ecb3ef76c162cae811f30c6d12174437454f5451fb67f923c6d1b458838fe68c",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.2342524321147903,
+            "mean": 0.11567486463935461,
+            "min": -2.4668682673644104,
+            "sha256": "df55a6040d2da9270e42be38e7568d14e81bcd11d57bf7106790b59b9ac4a840",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 4
+        },
+        "goal_bowl_plate": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 238.0,
+                "mean": 117.84560139973958,
+                "min": 0.0,
+                "sha256": "4646d607cea4f83100f5e803dc37c73ae85f7d548b02b3cb4308e5cc2664a431",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 241.0,
+                "mean": 118.05838012695312,
+                "min": 0.0,
+                "sha256": "7db1cef3ba378507b3a339e2f2e0a743df0a9cecb9864af0c8905336f015689b",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999965125747083,
+                  "mean": 0.09803196250414142,
+                  "min": -0.9982963420782619,
+                  "sha256": "ab245487554df089023b6dea2659fade062c890cb219b3e361279468d1546fc8",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.170420420213593,
+                  "mean": 0.3237739270626446,
+                  "min": -0.21509937028581333,
+                  "sha256": "2a34e4c99bd17539c44ae4886cfcd779eeed7a300a6346fc7f0fc099f8708d27",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9995730126918263,
+                  "mean": 0.24298511674499448,
+                  "min": -0.029189375969688902,
+                  "sha256": "ecdf85f589724f496f02c763c1b67222079f6f10915bb1412080695d4aaa829a",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.03872241248555419,
+                  "mean": -3.5752926417706443e-07,
+                  "min": -0.038723127544082546,
+                  "sha256": "1235a59f513abd58077dd082917692e0c123a99da1c296dfb9e7f32012d8e6df",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032625206124147657,
+                  "mean": -9.123479980145677e-07,
+                  "min": -0.003264345308410795,
+                  "sha256": "c2425a873fb5a3895db0af7b2cf4a6afe2fd5ccd4c85f463475d1b0e0596340e",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.234245620520735,
+                  "mean": 0.06418580488596819,
+                  "min": -2.4668682659336745,
+                  "sha256": "ebb9cb9a7f9990e9aab2560f594dacf44d19da76d0d0d6864d7c2ab238e1cda7",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.007923262098566407,
+                  "mean": 0.001743210073423256,
+                  "min": -0.0010243862700424142,
+                  "sha256": "ecb3ef76c162cae811f30c6d12174437454f5451fb67f923c6d1b458838fe68c",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.2342524321147903,
+            "mean": 0.11567486463935461,
+            "min": -2.4668682673644104,
+            "sha256": "df55a6040d2da9270e42be38e7568d14e81bcd11d57bf7106790b59b9ac4a840",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 8
+        },
+        "goal_bowl_stove": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 238.0,
+                "mean": 117.84560139973958,
+                "min": 0.0,
+                "sha256": "4646d607cea4f83100f5e803dc37c73ae85f7d548b02b3cb4308e5cc2664a431",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 241.0,
+                "mean": 118.05838012695312,
+                "min": 0.0,
+                "sha256": "7db1cef3ba378507b3a339e2f2e0a743df0a9cecb9864af0c8905336f015689b",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999965125747083,
+                  "mean": 0.09803196250414142,
+                  "min": -0.9982963420782619,
+                  "sha256": "ab245487554df089023b6dea2659fade062c890cb219b3e361279468d1546fc8",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.170420420213593,
+                  "mean": 0.3237739270626446,
+                  "min": -0.21509937028581333,
+                  "sha256": "2a34e4c99bd17539c44ae4886cfcd779eeed7a300a6346fc7f0fc099f8708d27",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9995730126918263,
+                  "mean": 0.24298511674499448,
+                  "min": -0.029189375969688902,
+                  "sha256": "ecdf85f589724f496f02c763c1b67222079f6f10915bb1412080695d4aaa829a",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.03872241248555419,
+                  "mean": -3.5752926417706443e-07,
+                  "min": -0.038723127544082546,
+                  "sha256": "1235a59f513abd58077dd082917692e0c123a99da1c296dfb9e7f32012d8e6df",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032625206124147657,
+                  "mean": -9.123479980145677e-07,
+                  "min": -0.003264345308410795,
+                  "sha256": "c2425a873fb5a3895db0af7b2cf4a6afe2fd5ccd4c85f463475d1b0e0596340e",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.234245620520735,
+                  "mean": 0.06418580488596819,
+                  "min": -2.4668682659336745,
+                  "sha256": "ebb9cb9a7f9990e9aab2560f594dacf44d19da76d0d0d6864d7c2ab238e1cda7",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.007923262098566407,
+                  "mean": 0.001743210073423256,
+                  "min": -0.0010243862700424142,
+                  "sha256": "ecb3ef76c162cae811f30c6d12174437454f5451fb67f923c6d1b458838fe68c",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.2342524321147903,
+            "mean": 0.11567486463935461,
+            "min": -2.4668682673644104,
+            "sha256": "df55a6040d2da9270e42be38e7568d14e81bcd11d57bf7106790b59b9ac4a840",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 1
+        }
+      },
+      "seed": 52,
+      "status": "passed"
+    }
+  },
+  "figure": "figure written"
+}

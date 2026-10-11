@@ -1,0 +1,30 @@
+{
+  "condition": "E0",
+  "status": "completed",
+  "started_at": "2026-09-11T15:47:07+08:00",
+  "command_record": "runs/eval_e0_formal.command.txt",
+  "log": "runs/e0_formal.log",
+  "output": "results/e0_formal/eval_info.json",
+  "summary": "results/e0_formal/summary.json",
+  "finished_at": "2026-09-11T20:19:26+08:00",
+  "elapsed_seconds": 16253.667557954788,
+  "protocol_version": "sim-vla-libero-v1",
+  "suite": "libero_goal",
+  "task_ids": [8, 1, 4],
+  "episodes_per_task_total": 30,
+  "development_episodes_per_task": 10,
+  "final_episodes_per_task": 20,
+  "seed": 42,
+  "control_mode": "relative",
+  "eval_batch_size": 1,
+  "max_parallel_tasks": 1,
+  "tasks_completed": 3,
+  "completed_task_ids": [1, 4, 8],
+  "task_results": {
+    "1": {"successes": 26, "trials": 30},
+    "4": {"successes": 27, "trials": 30},
+    "8": {"successes": 27, "trials": 30}
+  },
+  "overall_result": {"successes": 80, "trials": 90, "success_rate": 0.8888888888888889},
+  "note": "Formal statistics were generated only after all three task rollouts completed."
+}

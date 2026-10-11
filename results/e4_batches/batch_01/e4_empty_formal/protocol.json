@@ -1,0 +1,42 @@
+{
+  "checkpoint": "/home/lzx/VLA/embodied-learning/sim_vla/runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+  "condition": "E4_empty",
+  "control_mode": "relative",
+  "customization": "only the shared initialization array is injected; BDDL geometry and target predicate remain native",
+  "episode_length": 300,
+  "episodes_per_task": 5,
+  "initialization_indices": [
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "instructions": {
+    "8": ""
+  },
+  "phase": "formal",
+  "protocol_version": "sim-vla-libero-v1",
+  "seeds": [
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "shared_init_anchor": "goal_bowl_plate",
+  "shared_init_state_count": 50,
+  "shared_init_state_shape": [
+    50,
+    79
+  ],
+  "start_initialization_index": 15,
+  "start_seed": 57,
+  "success_predicate": "official native LIBERO Goal BDDL predicate for each target task",
+  "task_ids": [
+    8
+  ],
+  "task_keys": [
+    "goal_bowl_plate"
+  ]
+}

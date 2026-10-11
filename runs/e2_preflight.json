@@ -1,0 +1,46 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "status": "queued_after_E1",
+  "captured_at": "2026-09-11T23:00:00+08:00",
+  "single_gpu_rule": "Do not start E2 while the E1 official evaluator is using the GPU.",
+  "base_checkpoint": ".cache/models/smolvla_libero/6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+  "seed": 42,
+  "steps": 10000,
+  "batch_size": 1,
+  "num_workers": 0,
+  "eval_episodes_per_task": 30,
+  "evaluation_initializations": "manifests/eval_initializations.json",
+  "budgets": {
+    "020pct": {
+      "manifest": "manifests/train_020pct.json",
+      "train_episode_count": 21,
+      "command": "runs/train_020pct_formal.command.txt",
+      "output_dir": "runs/train_020pct_formal",
+      "eval_command": "runs/eval_e2_020pct_formal.command.txt",
+      "eval_output": "results/e2_020pct_formal",
+      "independent_from_base": true
+    },
+    "050pct": {
+      "manifest": "manifests/train_050pct.json",
+      "train_episode_count": 56,
+      "command": "runs/train_050pct_formal.command.txt",
+      "output_dir": "runs/train_050pct_formal",
+      "eval_command": "runs/eval_e2_050pct_formal.command.txt",
+      "eval_output": "results/e2_050pct_formal",
+      "independent_from_base": true
+    },
+    "100pct": {
+      "manifest": "manifests/train_100pct.json",
+      "train_episode_count": 113,
+      "source_condition": "E1",
+      "source_checkpoint": "runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+      "reuse_allowed_by_protocol": true
+    }
+  },
+  "preflight_checks": {
+    "manifest_command_episode_sets_match": true,
+    "nested_episode_sets": true,
+    "outputs_are_distinct": true,
+    "e1_dependency": "results/e1_formal/eval_info.json must exist before the queue proceeds"
+  }
+}

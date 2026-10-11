@@ -1,0 +1,336 @@
+{
+  "data_root": ".cache/lerobot/libero-selected",
+  "dataset_revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "download": [],
+  "elapsed_seconds": 116.4277412891388,
+  "episode_count": 113,
+  "episode_ids": [
+    379,
+    392,
+    394,
+    398,
+    401,
+    415,
+    424,
+    426,
+    431,
+    433,
+    438,
+    444,
+    446,
+    452,
+    455,
+    456,
+    466,
+    474,
+    481,
+    483,
+    488,
+    493,
+    495,
+    501,
+    507,
+    514,
+    521,
+    522,
+    524,
+    530,
+    537,
+    544,
+    545,
+    549,
+    550,
+    551,
+    557,
+    558,
+    563,
+    565,
+    568,
+    573,
+    582,
+    590,
+    597,
+    598,
+    604,
+    607,
+    608,
+    612,
+    615,
+    616,
+    620,
+    621,
+    626,
+    629,
+    630,
+    634,
+    636,
+    637,
+    638,
+    639,
+    641,
+    642,
+    643,
+    646,
+    649,
+    653,
+    660,
+    662,
+    669,
+    670,
+    674,
+    676,
+    679,
+    681,
+    689,
+    691,
+    692,
+    696,
+    699,
+    704,
+    707,
+    708,
+    712,
+    716,
+    718,
+    721,
+    724,
+    727,
+    731,
+    732,
+    740,
+    745,
+    747,
+    749,
+    750,
+    751,
+    763,
+    764,
+    767,
+    768,
+    770,
+    775,
+    791,
+    793,
+    794,
+    796,
+    801,
+    803,
+    804,
+    805,
+    806
+  ],
+  "episode_source": "manifests/train_100pct.json",
+  "file_manifest": "manifests/libero_data_files.json",
+  "metadata_files": [
+    "meta/info.json",
+    "meta/stats.json",
+    "meta/tasks.parquet",
+    "meta/episodes/chunk-000/file-000.parquet"
+  ],
+  "selected_data_bytes": 5610621794,
+  "selected_file_count": 58,
+  "source_dataset": "HuggingFaceVLA/libero",
+  "split": "train",
+  "status": "passed",
+  "verification": {
+    "features": {
+      "action": {
+        "dtype": "float32",
+        "fps": 10.0,
+        "names": [
+          "actions"
+        ],
+        "shape": [
+          7
+        ]
+      },
+      "episode_index": {
+        "dtype": "int64",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      },
+      "frame_index": {
+        "dtype": "int64",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      },
+      "index": {
+        "dtype": "int64",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      },
+      "observation.images.image": {
+        "dtype": "image",
+        "fps": 10.0,
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          256,
+          256,
+          3
+        ]
+      },
+      "observation.images.image2": {
+        "dtype": "image",
+        "fps": 10.0,
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          256,
+          256,
+          3
+        ]
+      },
+      "observation.state": {
+        "dtype": "float32",
+        "fps": 10.0,
+        "names": [
+          "state"
+        ],
+        "shape": [
+          8
+        ]
+      },
+      "task_index": {
+        "dtype": "int64",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      },
+      "timestamp": {
+        "dtype": "float32",
+        "fps": 10.0,
+        "names": null,
+        "shape": [
+          1
+        ]
+      }
+    },
+    "loaded_episode_max": 806,
+    "loaded_episode_min": 379,
+    "num_frames": 11021,
+    "num_loaded_episodes": 113,
+    "task_samples": {
+      "put the bowl on the plate": {
+        "action_finite": true,
+        "action_shape": [
+          7
+        ],
+        "episode_index": 379,
+        "image_ranges": {
+          "observation.images.image": [
+            0.0,
+            0.929411768913269
+          ],
+          "observation.images.image2": [
+            0.0,
+            0.9058823585510254
+          ]
+        },
+        "image_shapes": {
+          "observation.images.image": [
+            3,
+            256,
+            256
+          ],
+          "observation.images.image2": [
+            3,
+            256,
+            256
+          ]
+        },
+        "state_finite": true,
+        "state_shape": [
+          8
+        ],
+        "task_index": 10
+      },
+      "put the bowl on the stove": {
+        "action_finite": true,
+        "action_shape": [
+          7
+        ],
+        "episode_index": 392,
+        "image_ranges": {
+          "observation.images.image": [
+            0.0,
+            0.9176470637321472
+          ],
+          "observation.images.image2": [
+            0.0,
+            0.9254902005195618
+          ]
+        },
+        "image_shapes": {
+          "observation.images.image": [
+            3,
+            256,
+            256
+          ],
+          "observation.images.image2": [
+            3,
+            256,
+            256
+          ]
+        },
+        "state_finite": true,
+        "state_shape": [
+          8
+        ],
+        "task_index": 17
+      },
+      "put the bowl on top of the cabinet": {
+        "action_finite": true,
+        "action_shape": [
+          7
+        ],
+        "episode_index": 398,
+        "image_ranges": {
+          "observation.images.image": [
+            0.0,
+            0.9137254953384399
+          ],
+          "observation.images.image2": [
+            0.0,
+            0.9098039269447327
+          ]
+        },
+        "image_shapes": {
+          "observation.images.image": [
+            3,
+            256,
+            256
+          ],
+          "observation.images.image2": [
+            3,
+            256,
+            256
+          ]
+        },
+        "state_finite": true,
+        "state_shape": [
+          8
+        ],
+        "task_index": 18
+      }
+    },
+    "video_keys": []
+  }
+}

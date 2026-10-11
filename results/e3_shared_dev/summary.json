@@ -1,0 +1,65 @@
+{
+  "by_condition": {
+    "E3_dev": {
+      "failure_types": {},
+      "invalid_trials": 0,
+      "success_rate": 1.0,
+      "successes": 3,
+      "trials": 3,
+      "wilson_95": [
+        0.4385029682449546,
+        1.0
+      ]
+    }
+  },
+  "by_instruction": {},
+  "by_task": {
+    "goal_bowl_cabinet_top": {
+      "failure_types": {},
+      "invalid_trials": 0,
+      "success_rate": 1.0,
+      "successes": 1,
+      "trials": 1,
+      "wilson_95": [
+        0.20654931437723745,
+        1.0
+      ]
+    },
+    "goal_bowl_plate": {
+      "failure_types": {},
+      "invalid_trials": 0,
+      "success_rate": 1.0,
+      "successes": 1,
+      "trials": 1,
+      "wilson_95": [
+        0.20654931437723745,
+        1.0
+      ]
+    },
+    "goal_bowl_stove": {
+      "failure_types": {},
+      "invalid_trials": 0,
+      "success_rate": 1.0,
+      "successes": 1,
+      "trials": 1,
+      "wilson_95": [
+        0.20654931437723745,
+        1.0
+      ]
+    }
+  },
+  "overall": {
+    "failure_types": {},
+    "invalid_trials": 0,
+    "success_rate": 1.0,
+    "successes": 3,
+    "trials": 3,
+    "wilson_95": [
+      0.4385029682449546,
+      1.0
+    ]
+  },
+  "records": 3,
+  "source": "eval_info.json",
+  "total_records": 3
+}

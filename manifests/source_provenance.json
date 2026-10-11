@@ -1,0 +1,50 @@
+{
+  "captured_date": "2026-09-10",
+  "dataset": {
+    "repo_id": "HuggingFaceVLA/libero",
+    "revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+    "metadata_url": "https://huggingface.co/datasets/HuggingFaceVLA/libero/resolve/86958911c0f959db2bbbdb107eb3e17c5f9c798e/meta/info.json",
+    "episodes": 1693,
+    "frames": 273465,
+    "tasks": 40,
+    "fps": 10,
+    "metadata_estimated_parquet_bytes": 100000000,
+    "metadata_estimated_video_bytes": 500000000,
+    "hub_file_count": 383,
+    "hub_total_bytes": 34926157548,
+    "hub_video_file_count": 0,
+    "selected_episode_count": 143,
+    "selected_data_file_count": 61,
+    "selected_data_bytes": 5898288020,
+    "selected_data_manifest": "manifests/libero_data_files.json"
+  },
+  "policy": {
+    "repo_id": "HuggingFaceVLA/smolvla_libero",
+    "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+    "config_url": "https://huggingface.co/HuggingFaceVLA/smolvla_libero/resolve/6721902bc4d61e50a3bfdb11dfb4cb626f05d102/config.json",
+    "snapshot_path": ".cache/models/smolvla_libero/6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+    "snapshot_bytes": 1218058140
+  },
+  "libero_assets": {
+    "repo_id": "lerobot/libero-assets",
+    "revision": "0b3ea86be5fe169d0fd036ae63d1070ec09e90f6",
+    "snapshot_path": "~/.cache/libero/assets",
+    "snapshot_bytes": 422500917
+  },
+  "runtime": {
+    "lerobot": "0.5.1",
+    "hf_libero": "0.1.4",
+    "mujoco": "3.8.1",
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128",
+    "vlm_model": "HuggingFaceTB/SmolVLM2-500M-Instruct",
+    "vlm_revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+    "vlm_model_bytes": 2029990624
+  },
+  "notes": [
+    "The 100 MB/500 MB values are estimates stored in meta/info.json; HfApi file metadata reports about 34.93 GB of parquet in this fixed revision and no separate videos.",
+    "The selected protocol episodes require 61 actual parquet shards because meta/episodes data/file_index does not match the current Hub re-sharding; the checked-in data file manifest uses Parquet footer episode ranges.",
+    "Policy and assets are intentionally kept outside version control; paths and revisions are recorded for reconstruction.",
+    "The VLM base is loaded by the SmolVLA implementation and is separate from the policy snapshot."
+  ]
+}

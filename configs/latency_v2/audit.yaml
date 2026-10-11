@@ -1,0 +1,16 @@
+# S0 only. Never roll out or tune on the proposed formal indices.
+stage: S0
+run_dir: runs/latency_v2_audit
+checkpoint: runs/train_100pct_formal/checkpoints/010000/pretrained_model
+device: cuda
+tasks: [goal_bowl_plate, goal_bowl_stove, goal_bowl_cabinet_top]
+development_init: 0
+episode_seed: 42
+warmup_calls: 10
+timing_calls: 50
+max_ticks: 300
+episode_budget: 1800
+s0_episode_cap: 24
+require_fresh_formal_states_per_task: 20
+# Attempt 01 failed before any reset; attempt 02 made two unscored dev resets.
+prior_audit_unscored_reset_probes: 2

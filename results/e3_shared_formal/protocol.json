@@ -1,0 +1,78 @@
+{
+  "checkpoint": "/home/lzx/VLA/embodied-learning/sim_vla/runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+  "condition": "E3",
+  "control_mode": "relative",
+  "customization": "only the shared initialization array is injected; BDDL geometry and target predicate remain native",
+  "episode_length": 300,
+  "episodes_per_task": 20,
+  "initialization_indices": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "instructions": {
+    "1": "put the bowl on the stove",
+    "4": "put the bowl on top of the cabinet",
+    "8": "put the bowl on the plate"
+  },
+  "phase": "formal",
+  "protocol_version": "sim-vla-libero-v1",
+  "seeds": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "shared_init_anchor": "goal_bowl_plate",
+  "shared_init_state_count": 50,
+  "shared_init_state_shape": [
+    50,
+    79
+  ],
+  "start_initialization_index": 10,
+  "start_seed": 52,
+  "success_predicate": "official native LIBERO Goal BDDL predicate for each target task",
+  "task_ids": [
+    8,
+    1,
+    4
+  ],
+  "task_keys": [
+    "goal_bowl_plate",
+    "goal_bowl_stove",
+    "goal_bowl_cabinet_top"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "condition": "E2_100pct",
+  "budget": "100pct",
+  "status": "reused_from_E1",
+  "source_condition": "E1",
+  "source_checkpoint": "runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+  "source_summary": "results/e1_formal/summary.json",
+  "finished_at": "2026-09-12T20:02:59+08:00",
+  "protocol_version": "sim-vla-libero-v1",
+  "episodes_per_task_total": 30,
+  "development_episodes_per_task": 10,
+  "final_episodes_per_task": 20,
+  "seed": 42,
+  "overall_result": {
+    "successes": 88,
+    "trials": 90,
+    "success_rate": 0.9777777777777777,
+    "wilson_95": [
+      0.9225547331137463,
+      0.9938845580136748
+    ]
+  }
+}

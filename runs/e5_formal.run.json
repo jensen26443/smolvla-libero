@@ -1,0 +1,36 @@
+{
+  "condition": "E5",
+  "status": "completed",
+  "finished_at": "2026-09-12T23:32:58+08:00",
+  "protocol_version": "sim-vla-libero-v1",
+  "checkpoint": "runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+  "paraphrase_manifest": "manifests/semantic_paraphrases.json",
+  "summary": "results/e5_formal/summary.json",
+  "episodes_per_task_total": 30,
+  "development_episodes_per_task": 10,
+  "final_episodes_per_task": 20,
+  "seed": 42,
+  "task_results": {
+    "goal_bowl_cabinet_top": {
+      "successes": 28,
+      "trials": 30
+    },
+    "goal_bowl_plate": {
+      "successes": 29,
+      "trials": 30
+    },
+    "goal_bowl_stove": {
+      "successes": 27,
+      "trials": 30
+    }
+  },
+  "overall_result": {
+    "successes": 84,
+    "trials": 90,
+    "success_rate": 0.9333333333333333,
+    "wilson_95": [
+      0.8620990522567448,
+      0.9690900722541721
+    ]
+  }
+}

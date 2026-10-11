@@ -1,0 +1,304 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "captured_date": "2026-09-14",
+  "formal_protocol": {
+    "training_steps": 10000,
+    "development_episodes_per_task": 10,
+    "final_episodes_per_task": 20,
+    "total_episodes_per_task": 30,
+    "task_keys": [
+      "goal_bowl_plate",
+      "goal_bowl_stove",
+      "goal_bowl_cabinet_top"
+    ],
+    "status": "E0_E1_E2_E3_E4_custom_complete_E5_completed"
+  },
+  "current_blocker": null,
+  "conditions": {
+    "E0": {
+      "status": "formal_completed",
+      "record": "results/e0_dev/eval_info.json",
+      "task_ids": [
+        8
+      ],
+      "episodes_per_task": 1,
+      "episode_length": 10,
+      "successes": 0,
+      "trials": 1,
+      "formal_command": "runs/eval_e0_formal.command.txt",
+      "formal_output": "results/e0_formal/eval_info.json",
+      "formal_eval_status": "completed",
+      "formal_run_status": "completed",
+      "formal_log": "runs/e0_formal.log",
+      "formal_run_record": "runs/e0_formal.run.json",
+      "formal_summary": "results/e0_formal/summary.json",
+      "formal_successes": 80,
+      "formal_trials": 90,
+      "formal_success_rate": 0.888888888888889,
+      "formal_wilson_95": [
+        0.8074221497873896,
+        0.9385168081070229
+      ],
+      "formal_task_results": {
+        "goal_bowl_stove": {
+          "successes": 26,
+          "trials": 30
+        },
+        "goal_bowl_cabinet_top": {
+          "successes": 27,
+          "trials": 30
+        },
+        "goal_bowl_plate": {
+          "successes": 27,
+          "trials": 30
+        }
+      }
+    },
+    "E1": {
+      "status": "formal_completed",
+      "record": "results/e1_dev/eval_info.json",
+      "development_record": "results/e1_dev/eval_info.json",
+      "development_probe": "results/e1_all_tasks_dev_probe/eval_info.json",
+      "development_probe_summary": "results/e1_all_tasks_dev_probe/summary.json",
+      "development_probe_command": "runs/eval_e1_all_tasks_dev_probe.command.txt",
+      "development_probe_trials": 3,
+      "development_only": true,
+      "task_ids": [
+        8
+      ],
+      "episodes_per_task": 1,
+      "episode_length": 10,
+      "successes": 0,
+      "trials": 1,
+      "checkpoint": "runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+      "formal_training": {
+        "status": "completed",
+        "steps": 10000,
+        "train_episodes": 113,
+        "train_frames": 11021,
+        "seed": 42,
+        "trainable_parameters": 97451872,
+        "total_parameters": 604934176,
+        "checkpoint": "runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+        "training_state": "runs/train_100pct_formal/checkpoints/010000/training_state/training_step.json",
+        "command": "runs/train_100pct_formal.command.txt",
+        "resume_command": "runs/train_100pct_formal.resume.command.txt",
+        "resume_from": "runs/train_100pct_formal/checkpoints/002000/pretrained_model",
+        "save_freq_override": 10000
+      },
+      "formal_eval_status": "completed",
+      "formal_command": "runs/eval_e1_formal.command.txt",
+      "formal_output": "results/e1_formal/eval_info.json",
+      "formal_log": "runs/e1_formal.log",
+      "formal_run_record": "runs/e1_formal.run.json",
+      "final_episodes_per_task": 20,
+      "formal_run_status": "completed",
+      "formal_summary": "results/e1_formal/summary.json",
+      "formal_successes": 88,
+      "formal_trials": 90,
+      "formal_success_rate": 0.9777777777777777,
+      "formal_wilson_95": [
+        0.9225547331137463,
+        0.9938845580136748
+      ],
+      "formal_task_results": {
+        "goal_bowl_cabinet_top": {
+          "successes": 29,
+          "trials": 30
+        },
+        "goal_bowl_plate": {
+          "successes": 29,
+          "trials": 30
+        },
+        "goal_bowl_stove": {
+          "successes": 30,
+          "trials": 30
+        }
+      }
+    },
+    "E2": {
+      "status": "formal_completed",
+      "reason": "E2 050pct formal training and rollout completed (84/90); E2 100pct reused from E1",
+      "queue": "scripts/run_e2_formal_queue.sh",
+      "preflight": "runs/e2_preflight.json",
+      "queue_message": "E2 050pct formal training and rollout completed (84/90); E2 100pct reused from E1",
+      "formal_eval_status": "completed",
+      "formal_successes": 84,
+      "formal_trials": 90,
+      "formal_results": {
+        "020pct": {
+          "successes": 82,
+          "trials": 90,
+          "success_rate": 0.9111111111111111,
+          "wilson_95": [
+            0.8342945337394592,
+            0.9542695074632055
+          ]
+        },
+        "050pct": {
+          "successes": 84,
+          "trials": 90,
+          "success_rate": 0.9333333333333333,
+          "wilson_95": [
+            0.8620990522567448,
+            0.9690900722541721
+          ]
+        },
+        "100pct": {
+          "successes": 88,
+          "trials": 90,
+          "success_rate": 0.9777777777777777,
+          "wilson_95": [
+            0.9225547331137463,
+            0.9938845580136748
+          ]
+        }
+      },
+      "formal_task_results": {
+        "020pct": {
+          "goal_bowl_cabinet_top": {
+            "successes": 26,
+            "trials": 30
+          },
+          "goal_bowl_plate": {
+            "successes": 28,
+            "trials": 30
+          },
+          "goal_bowl_stove": {
+            "successes": 28,
+            "trials": 30
+          }
+        },
+        "050pct": {
+          "goal_bowl_cabinet_top": {
+            "successes": 29,
+            "trials": 30
+          },
+          "goal_bowl_plate": {
+            "successes": 29,
+            "trials": 30
+          },
+          "goal_bowl_stove": {
+            "successes": 26,
+            "trials": 30
+          }
+        },
+        "100pct": {
+          "goal_bowl_cabinet_top": {
+            "successes": 29,
+            "trials": 30
+          },
+          "goal_bowl_plate": {
+            "successes": 29,
+            "trials": 30
+          },
+          "goal_bowl_stove": {
+            "successes": 30,
+            "trials": 30
+          }
+        }
+      },
+      "formal_summary": {
+        "020pct": "results/e2_020pct_formal/summary.json",
+        "050pct": "results/e2_050pct_formal/summary.json",
+        "100pct": "results/e1_formal/summary.json"
+      },
+      "pause_record": "runs/e2_050pct_pause.json",
+      "resume_command": "runs/train_050pct_formal.resume.command.txt",
+      "formal_run_status": "completed",
+      "reuse_note": "100pct reuses the identical E1 training/evaluation result per S4.3."
+    },
+    "E3": {
+      "status": "custom_formal_completed",
+      "quantitative_status": "completed_custom_paired_protocol",
+      "formal_eval_status": "completed",
+      "formal_run_status": "completed",
+      "alignment_audit": "results/language_alignment_audit.json",
+      "custom_protocol": "results/e3_shared_formal/protocol.json",
+      "formal_summary": "results/e3_shared_formal/summary.json",
+      "formal_successes": 53,
+      "formal_trials": 60,
+      "formal_success_rate": 0.8833333333333333,
+      "formal_wilson_95": [
+        0.7782121197582914,
+        0.9423227935994396
+      ],
+      "formal_task_results": {
+        "goal_bowl_plate": {
+          "successes": 19,
+          "trials": 20
+        },
+        "goal_bowl_stove": {
+          "successes": 19,
+          "trials": 20
+        },
+        "goal_bowl_cabinet_top": {
+          "successes": 15,
+          "trials": 20
+        }
+      },
+      "scope": "custom shared-init; not an official native-init benchmark",
+      "reason": "native alignment audit remains failed, so this quantitative result uses the explicitly frozen bowl-to-plate shared initialization evaluator"
+    },
+    "E4": {
+      "status": "custom_formal_completed",
+      "quantitative_status": "completed_custom_paired_protocol",
+      "formal_eval_status": "completed",
+      "formal_run_status": "completed",
+      "alignment_audit": "results/language_alignment_audit.json",
+      "development_summary": "results/e4_empty_dev/summary.json",
+      "formal_required_trials": 20,
+      "custom_protocol": "results/e4_empty_formal/protocol.json",
+      "formal_summary": "results/e4_empty_formal/summary.json",
+      "formal_successes": 0,
+      "formal_trials": 20,
+      "formal_success_rate": 0.0,
+      "formal_wilson_95": [
+        0.0,
+        0.16112515805281938
+      ],
+      "formal_task_results": {
+        "goal_bowl_plate": {
+          "successes": 0,
+          "trials": 20
+        }
+      },
+      "batch_resume_script": "scripts/run_e4_formal_batches.sh",
+      "merge_script": "scripts/merge_e4_batches.py",
+      "scope": "custom shared-init; not an official native-init benchmark",
+      "reason": "formal E4 empty-instruction ablation completed in four validated five-episode batches; native alignment audit remains failed and does not authorize native-init score stitching"
+    },
+    "E5": {
+      "status": "formal_completed",
+      "formal_eval_status": "completed",
+      "reason": "E5 formal rollout and report artifacts completed; paraphrase input was frozen before checkpoint selection",
+      "queue": "scripts/run_e5_formal_queue.sh",
+      "manifest": "manifests/semantic_paraphrases.json",
+      "queue_message": "E5 formal rollout completed (84/90); final report artifacts generated",
+      "formal_run_status": "completed",
+      "formal_summary": "results/e5_formal/summary.json",
+      "formal_successes": 84,
+      "formal_trials": 90,
+      "formal_success_rate": 0.9333333333333333,
+      "formal_wilson_95": [
+        0.8620990522567448,
+        0.9690900722541721
+      ],
+      "formal_task_results": {
+        "goal_bowl_cabinet_top": {
+          "successes": 28,
+          "trials": 30
+        },
+        "goal_bowl_plate": {
+          "successes": 29,
+          "trials": 30
+        },
+        "goal_bowl_stove": {
+          "successes": 27,
+          "trials": 30
+        }
+      }
+    }
+  },
+  "interpretation": "E3 has a 53/60 custom paired shared-init formal result (plate 19/20, stove 19/20, cabinet-top 15/20). E4 development is 0/1 and its formal empty-instruction ablation is 0/20 (Wilson 95% CI 0.00%–16.11%). Native alignment audit remains failed, so custom results are not official native-init benchmark scores."
+}

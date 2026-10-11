@@ -1,0 +1,45 @@
+{
+  "condition": "E1",
+  "status": "completed",
+  "started_at": "2026-09-11T22:52:28+08:00",
+  "command_record": "runs/eval_e1_formal.command.txt",
+  "log": "runs/e1_formal.log",
+  "output": "results/e1_formal/eval_info.json",
+  "summary": "results/e1_formal/summary.json",
+  "protocol_version": "sim-vla-libero-v1",
+  "suite": "libero_goal",
+  "task_ids": [
+    8,
+    1,
+    4
+  ],
+  "episodes_per_task_total": 30,
+  "development_episodes_per_task": 10,
+  "final_episodes_per_task": 20,
+  "seed": 42,
+  "control_mode": "relative",
+  "eval_batch_size": 1,
+  "max_parallel_tasks": 1,
+  "checkpoint": "runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+  "note": "Formal statistics were generated only after all three task rollouts completed.",
+  "finished_at": "2026-09-12T20:02:57+08:00",
+  "overall_result": {
+    "successes": 88,
+    "trials": 90,
+    "success_rate": 0.9777777777777777
+  },
+  "task_results": {
+    "goal_bowl_cabinet_top": {
+      "successes": 29,
+      "trials": 30
+    },
+    "goal_bowl_plate": {
+      "successes": 29,
+      "trials": 30
+    },
+    "goal_bowl_stove": {
+      "successes": 30,
+      "trials": 30
+    }
+  }
+}

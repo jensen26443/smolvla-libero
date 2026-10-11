@@ -1,0 +1,41 @@
+# Selftest matrix: mock-only, verifies matrix mechanics and produces timeline
+# evidence. Latency levels and success rates here are meaningless by design.
+experiment_id: latency_selftest
+checkpoint: .cache/models/smolvla_libero/6721902bc4d61e50a3bfdb11dfb4cb626f05d102
+device: cpu
+tasks: [goal_bowl_stove]
+max_ticks: 40
+methods:
+  - name: r0
+    kind: r0_every_step
+    latency_names: [near_zero]
+  - name: b1_k5
+    kind: b1_fixed_period
+    period_ticks: 5
+    latency_names: [L10]
+  - name: b2_k5_s10
+    kind: b2_fixed_period_conservative
+    period_ticks: 5
+    segment_ticks: 10
+    latency_names: [L10]
+  - name: m
+    kind: m_feedback
+    feedback:
+      diff_threshold_high: 5.0
+      diff_threshold_low: 2.0
+      min_interval_ticks: 1
+      max_interval_ticks: 6
+    latency_names: [L10]
+latency_conditions:
+  - name: near_zero
+    obs_delay_ticks: 0
+    inference_delay_ticks: 0
+  - name: L10
+    obs_delay_ticks: 0
+    inference_delay_ticks: 10
+inits:
+  start_index: 0
+  count: 2
+  start_seed: 42
+video:
+  record: false

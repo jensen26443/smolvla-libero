@@ -1,0 +1,46 @@
+# Dev-set sweep for K / tau selection (PLAN-03 §9). Development initial
+# states only (indices 0-4, seeds 42-46). These runs choose the frozen formal
+# parameters; they are never reported as formal results.
+#
+# Pilot lesson applied: max_interval must exceed the inference delay or the
+# image-diff trigger can never fire (release-time since_last already >= max).
+experiment_id: latency_dev_sweep_v1
+checkpoint: runs/train_100pct_formal/checkpoints/010000/pretrained_model
+device: cuda
+tasks: [goal_bowl_stove]
+max_ticks: 300
+methods:
+  - name: b1_k5
+    kind: b1_fixed_period
+    period_ticks: 5
+  - name: b1_k25
+    kind: b1_fixed_period
+    period_ticks: 25
+  - name: m_tau2
+    kind: m_feedback
+    feedback:
+      diff_threshold_high: 2.0
+      diff_threshold_low: 1.0
+      min_interval_ticks: 2
+      max_interval_ticks: 40
+  - name: m_tau4
+    kind: m_feedback
+    feedback:
+      diff_threshold_high: 4.0
+      diff_threshold_low: 2.0
+      min_interval_ticks: 2
+      max_interval_ticks: 40
+latency_conditions:
+  - name: L10
+    obs_delay_ticks: 0
+    inference_delay_ticks: 10
+  - name: L20
+    obs_delay_ticks: 0
+    inference_delay_ticks: 20
+inits:
+  start_index: 0
+  count: 5
+  start_seed: 42
+video:
+  record: true
+  trials_per_condition: 1

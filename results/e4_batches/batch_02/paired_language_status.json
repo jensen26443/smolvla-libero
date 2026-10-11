@@ -1,0 +1,478 @@
+{
+  "anchor_init_states": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/init_files/libero_goal/put_the_bowl_on_the_plate.pruned_init",
+  "anchor_init_states_shape": [
+    50,
+    79
+  ],
+  "anchor_task": "goal_bowl_plate",
+  "audit_version": "sim-vla-paired-language-v1",
+  "bddl_paths": {
+    "goal_bowl_cabinet_top": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_top_of_the_cabinet.bddl",
+    "goal_bowl_plate": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_plate.bddl",
+    "goal_bowl_stove": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_stove.bddl"
+  },
+  "checkpoint": "/home/lzx/VLA/embodied-learning/sim_vla/runs/train_100pct_formal/checkpoints/010000/pretrained_model",
+  "conditions": {
+    "formal": {
+      "e4_output": "/home/lzx/VLA/embodied-learning/sim_vla/results/e4_batches/batch_02/e4_empty_formal",
+      "e4_summary": {
+        "failure_types": {
+          "unspecified": 5
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.0,
+        "successes": 0,
+        "trials": 5,
+        "wilson_95": [
+          0.0,
+          0.43448246478317476
+        ]
+      },
+      "status": "completed"
+    }
+  },
+  "created_unix": 1789377925.8847268,
+  "elapsed_seconds": 1875.9218010902405,
+  "protocol_version": "sim-vla-libero-v1",
+  "seed": 42,
+  "shared_reset_probes": {
+    "formal": {
+      "episode_index": 20,
+      "exact_observation_and_sim_state_match": true,
+      "records": {
+        "goal_bowl_cabinet_top": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 233.0,
+                "mean": 117.50343322753906,
+                "min": 0.0,
+                "sha256": "9425d34c757c6d2c380aa53e7693b7cfea26d6436bd33be2de92de6d0f60f5e2",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 243.0,
+                "mean": 117.09836832682292,
+                "min": 0.0,
+                "sha256": "24f7188e07509f6d0d1b84dcb4d1f132b15d744afcbdf41da13d8c69e7099ca6",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999996321619583,
+                  "mean": 0.09906903229069419,
+                  "min": -0.9984877192952331,
+                  "sha256": "df74731bf3b5b891adc2bad7c09cec37a39f520209c92d90d7c7b6346a9f00a3",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.1787583722732022,
+                  "mean": 0.3246222302374939,
+                  "min": -0.20060058198892977,
+                  "sha256": "f5aad6b4ea651d9383dfe9f147a9f775bdb0b3d6d4266ad29cf87f7118cec7fb",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9996219963320789,
+                  "mean": 0.2429853005229828,
+                  "min": -0.027489612690959588,
+                  "sha256": "5c59f220402e41705137f8893c41f9872865c91f3e0fa67ec6d39aceb616f043",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.03872471902622894,
+                  "mean": 1.924388680261957e-06,
+                  "min": -0.038720870248868416,
+                  "sha256": "c1a2301d618182c630a668ceed66539315c8a2e047afc4c4eb0647272ee03ea1",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032437205960118634,
+                  "mean": -1.9404737266769546e-05,
+                  "min": -0.0032825300705454025,
+                  "sha256": "96dcd10ab8f83aabcb9844bb77964e463bc9e52cb3b0681cb936a081ffe73f1e",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.2118381767305713,
+                  "mean": 0.059546272719228806,
+                  "min": -2.4143367374851583,
+                  "sha256": "bc34063bc82b832141b6e3e3f924d2bb331f366bc39454696291a512cd477cef",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.011664549916580648,
+                  "mean": -0.0008386906619760445,
+                  "min": -0.00906216633823059,
+                  "sha256": "d82bd3d3881dfcdd440e5b323484c8571cf95837403767a663291768fc992b6d",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.2118292995750086,
+            "mean": 0.11503574368777988,
+            "min": -2.4143366793052343,
+            "sha256": "69e5e1a9331caf0cd8513aac3b4d4376d17859783ac731301551e40575eccdd2",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 4
+        },
+        "goal_bowl_plate": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 233.0,
+                "mean": 117.50343322753906,
+                "min": 0.0,
+                "sha256": "9425d34c757c6d2c380aa53e7693b7cfea26d6436bd33be2de92de6d0f60f5e2",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 243.0,
+                "mean": 117.09836832682292,
+                "min": 0.0,
+                "sha256": "24f7188e07509f6d0d1b84dcb4d1f132b15d744afcbdf41da13d8c69e7099ca6",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999996321619583,
+                  "mean": 0.09906903229069419,
+                  "min": -0.9984877192952331,
+                  "sha256": "df74731bf3b5b891adc2bad7c09cec37a39f520209c92d90d7c7b6346a9f00a3",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.1787583722732022,
+                  "mean": 0.3246222302374939,
+                  "min": -0.20060058198892977,
+                  "sha256": "f5aad6b4ea651d9383dfe9f147a9f775bdb0b3d6d4266ad29cf87f7118cec7fb",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9996219963320789,
+                  "mean": 0.2429853005229828,
+                  "min": -0.027489612690959588,
+                  "sha256": "5c59f220402e41705137f8893c41f9872865c91f3e0fa67ec6d39aceb616f043",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.03872471902622894,
+                  "mean": 1.924388680261957e-06,
+                  "min": -0.038720870248868416,
+                  "sha256": "c1a2301d618182c630a668ceed66539315c8a2e047afc4c4eb0647272ee03ea1",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032437205960118634,
+                  "mean": -1.9404737266769546e-05,
+                  "min": -0.0032825300705454025,
+                  "sha256": "96dcd10ab8f83aabcb9844bb77964e463bc9e52cb3b0681cb936a081ffe73f1e",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.2118381767305713,
+                  "mean": 0.059546272719228806,
+                  "min": -2.4143367374851583,
+                  "sha256": "bc34063bc82b832141b6e3e3f924d2bb331f366bc39454696291a512cd477cef",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.011664549916580648,
+                  "mean": -0.0008386906619760445,
+                  "min": -0.00906216633823059,
+                  "sha256": "d82bd3d3881dfcdd440e5b323484c8571cf95837403767a663291768fc992b6d",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.2118292995750086,
+            "mean": 0.11503574368777988,
+            "min": -2.4143366793052343,
+            "sha256": "69e5e1a9331caf0cd8513aac3b4d4376d17859783ac731301551e40575eccdd2",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 8
+        },
+        "goal_bowl_stove": {
+          "info": {
+            "_is_success": "[ True]",
+            "is_success": "[False]"
+          },
+          "observation": {
+            "pixels": {
+              "image": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 233.0,
+                "mean": 117.50343322753906,
+                "min": 0.0,
+                "sha256": "9425d34c757c6d2c380aa53e7693b7cfea26d6436bd33be2de92de6d0f60f5e2",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              },
+              "image2": {
+                "dtype": "uint8",
+                "finite": true,
+                "max": 243.0,
+                "mean": 117.09836832682292,
+                "min": 0.0,
+                "sha256": "24f7188e07509f6d0d1b84dcb4d1f132b15d744afcbdf41da13d8c69e7099ca6",
+                "shape": [
+                  1,
+                  256,
+                  256,
+                  3
+                ]
+              }
+            },
+            "robot_state": {
+              "eef": {
+                "mat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9999996321619583,
+                  "mean": 0.09906903229069419,
+                  "min": -0.9984877192952331,
+                  "sha256": "df74731bf3b5b891adc2bad7c09cec37a39f520209c92d90d7c7b6346a9f00a3",
+                  "shape": [
+                    1,
+                    3,
+                    3
+                  ]
+                },
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 1.1787583722732022,
+                  "mean": 0.3246222302374939,
+                  "min": -0.20060058198892977,
+                  "sha256": "f5aad6b4ea651d9383dfe9f147a9f775bdb0b3d6d4266ad29cf87f7118cec7fb",
+                  "shape": [
+                    1,
+                    3
+                  ]
+                },
+                "quat": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.9996219963320789,
+                  "mean": 0.2429853005229828,
+                  "min": -0.027489612690959588,
+                  "sha256": "5c59f220402e41705137f8893c41f9872865c91f3e0fa67ec6d39aceb616f043",
+                  "shape": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              "gripper": {
+                "qpos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.03872471902622894,
+                  "mean": 1.924388680261957e-06,
+                  "min": -0.038720870248868416,
+                  "sha256": "c1a2301d618182c630a668ceed66539315c8a2e047afc4c4eb0647272ee03ea1",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                },
+                "qvel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.0032437205960118634,
+                  "mean": -1.9404737266769546e-05,
+                  "min": -0.0032825300705454025,
+                  "sha256": "96dcd10ab8f83aabcb9844bb77964e463bc9e52cb3b0681cb936a081ffe73f1e",
+                  "shape": [
+                    1,
+                    2
+                  ]
+                }
+              },
+              "joints": {
+                "pos": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 2.2118381767305713,
+                  "mean": 0.059546272719228806,
+                  "min": -2.4143367374851583,
+                  "sha256": "bc34063bc82b832141b6e3e3f924d2bb331f366bc39454696291a512cd477cef",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                },
+                "vel": {
+                  "dtype": "float64",
+                  "finite": true,
+                  "max": 0.011664549916580648,
+                  "mean": -0.0008386906619760445,
+                  "min": -0.00906216633823059,
+                  "sha256": "d82bd3d3881dfcdd440e5b323484c8571cf95837403767a663291768fc992b6d",
+                  "shape": [
+                    1,
+                    7
+                  ]
+                }
+              }
+            }
+          },
+          "sim_state": {
+            "dtype": "float64",
+            "finite": true,
+            "max": 2.2118292995750086,
+            "mean": 0.11503574368777988,
+            "min": -2.4143366793052343,
+            "sha256": "69e5e1a9331caf0cd8513aac3b4d4376d17859783ac731301551e40575eccdd2",
+            "shape": [
+              79
+            ]
+          },
+          "task_id": 1
+        }
+      },
+      "seed": 62,
+      "status": "passed"
+    }
+  },
+  "status": "completed"
+}

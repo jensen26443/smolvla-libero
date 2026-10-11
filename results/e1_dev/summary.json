@@ -1,0 +1,114 @@
+{
+  "overall": {
+    "by_condition": {
+      "E1": {
+        "failure_types": {
+          "official_success_predicate_false": 1
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.0,
+        "successes": 0,
+        "trials": 1,
+        "wilson_95": [
+          0.0,
+          0.7934506856227626
+        ]
+      }
+    },
+    "by_instruction": {},
+    "by_task": {
+      "goal_bowl_plate": {
+        "failure_types": {
+          "official_success_predicate_false": 1
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.0,
+        "successes": 0,
+        "trials": 1,
+        "wilson_95": [
+          0.0,
+          0.7934506856227626
+        ]
+      }
+    },
+    "overall": {
+      "failure_types": {
+        "official_success_predicate_false": 1
+      },
+      "invalid_trials": 0,
+      "success_rate": 0.0,
+      "successes": 0,
+      "trials": 1,
+      "wilson_95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "total_records": 1
+  },
+  "records": 1,
+  "slices": {
+    "development": {
+      "by_condition": {
+        "E1": {
+          "failure_types": {
+            "official_success_predicate_false": 1
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.0,
+          "successes": 0,
+          "trials": 1,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      },
+      "by_instruction": {},
+      "by_task": {
+        "goal_bowl_plate": {
+          "failure_types": {
+            "official_success_predicate_false": 1
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.0,
+          "successes": 0,
+          "trials": 1,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      },
+      "overall": {
+        "failure_types": {
+          "official_success_predicate_false": 1
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.0,
+        "successes": 0,
+        "trials": 1,
+        "wilson_95": [
+          0.0,
+          0.7934506856227626
+        ]
+      },
+      "total_records": 1
+    },
+    "final": {
+      "by_condition": {},
+      "by_instruction": {},
+      "by_task": {},
+      "overall": {
+        "failure_types": {},
+        "invalid_trials": 0,
+        "success_rate": null,
+        "successes": 0,
+        "trials": 0,
+        "wilson_95": null
+      },
+      "total_records": 0
+    }
+  },
+  "source": "results/e1_dev/eval_info.json"
+}

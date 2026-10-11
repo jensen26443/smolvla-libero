@@ -1,0 +1,23 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "suite": "libero_goal",
+  "task_ids": {
+    "goal_bowl_plate": 8,
+    "goal_bowl_stove": 1,
+    "goal_bowl_cabinet_top": 4
+  },
+  "seed": 42,
+  "eval_batch_size": 1,
+  "max_parallel_tasks": 1,
+  "reset_stride": 1,
+  "initialization_index_semantics": "LeRobot 0.5.1 LiberoEnv uses episode_index as the init-state index; with batch_size=1 each reset advances it by one.",
+  "development": {
+    "episode_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "seeds": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+  },
+  "final": {
+    "episode_indices": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+    "seeds": [52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]
+  },
+  "execution_rule": "Run the official evaluator for 30 episodes per task with seed=42, retain the first 10 as development and the subsequent 20 as final. Do not inspect the final slice for checkpoint selection, data changes, or tuning."
+}

@@ -1,0 +1,41 @@
+{
+  "count": 3,
+  "records": [
+    {
+      "condition": "E3",
+      "first_success_step": 76,
+      "initialization_index": 0,
+      "instruction": "put the bowl on the plate",
+      "phase": "development",
+      "steps": 76,
+      "success": true,
+      "task": "put_the_bowl_on_the_plate",
+      "task_id": 8,
+      "task_key": "goal_bowl_plate"
+    },
+    {
+      "condition": "E3",
+      "first_success_step": 85,
+      "initialization_index": 0,
+      "instruction": "put the bowl on the stove",
+      "phase": "development",
+      "steps": 85,
+      "success": true,
+      "task": "put_the_bowl_on_the_stove",
+      "task_id": 1,
+      "task_key": "goal_bowl_stove"
+    },
+    {
+      "condition": "E3",
+      "first_success_step": 82,
+      "initialization_index": 0,
+      "instruction": "put the bowl on top of the cabinet",
+      "phase": "development",
+      "steps": 82,
+      "success": true,
+      "task": "put_the_bowl_on_top_of_the_cabinet",
+      "task_id": 4,
+      "task_key": "goal_bowl_cabinet_top"
+    }
+  ]
+}

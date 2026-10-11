@@ -1,0 +1,32 @@
+# Dev-set cliff-location probe: where between 0 and 10 inference-delay ticks
+# does chunk execution break down? Dev inits only; informs the formal latency
+# grid (recorded before freezing; formal uses final inits 10-29).
+experiment_id: latency_dev_cliff_v1
+checkpoint: runs/train_100pct_formal/checkpoints/010000/pretrained_model
+device: cuda
+tasks: [goal_bowl_stove]
+max_ticks: 300
+methods:
+  - name: b1_k5
+    kind: b1_fixed_period
+    period_ticks: 5
+  - name: m_tau2
+    kind: m_feedback
+    feedback:
+      diff_threshold_high: 2.0
+      diff_threshold_low: 1.0
+      min_interval_ticks: 2
+      max_interval_ticks: 40
+latency_conditions:
+  - name: L2
+    obs_delay_ticks: 0
+    inference_delay_ticks: 2
+  - name: L5
+    obs_delay_ticks: 0
+    inference_delay_ticks: 5
+inits:
+  start_index: 0
+  count: 5
+  start_seed: 42
+video:
+  record: false

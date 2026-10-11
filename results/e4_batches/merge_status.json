@@ -1,0 +1,14 @@
+{
+  "batches": [
+    "results/e4_batches/batch_00",
+    "results/e4_batches/batch_01",
+    "results/e4_batches/batch_02",
+    "results/e4_batches/batch_03"
+  ],
+  "episodes": 20,
+  "output": "results/e4_empty_formal",
+  "status": "completed",
+  "success_rate": 0.0,
+  "successes": 0,
+  "trials": 20
+}

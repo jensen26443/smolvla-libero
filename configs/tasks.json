@@ -1,0 +1,38 @@
+{
+  "suite": "libero_goal",
+  "tasks": [
+    {
+      "key": "goal_bowl_plate",
+      "suite_task_id": 8,
+      "dataset_task_index": 10,
+      "task_name": "put_the_bowl_on_the_plate",
+      "instruction": "Put the bowl on the plate",
+      "target_object": "akita_black_bowl_1",
+      "target_region": "plate_1",
+      "scene_group": "libero_goal_common_scene",
+      "language_pair_status": "requires_runtime_alignment_check"
+    },
+    {
+      "key": "goal_bowl_stove",
+      "suite_task_id": 1,
+      "dataset_task_index": 17,
+      "task_name": "put_the_bowl_on_the_stove",
+      "instruction": "Put the bowl on the stove",
+      "target_object": "akita_black_bowl_1",
+      "target_region": "flat_stove_1_cook_region",
+      "scene_group": "libero_goal_common_scene",
+      "language_pair_status": "requires_runtime_alignment_check"
+    },
+    {
+      "key": "goal_bowl_cabinet_top",
+      "suite_task_id": 4,
+      "dataset_task_index": 18,
+      "task_name": "put_the_bowl_on_top_of_the_cabinet",
+      "instruction": "Put the bowl on top of the cabinet",
+      "target_object": "akita_black_bowl_1",
+      "target_region": "wooden_cabinet_1_top_region",
+      "scene_group": "libero_goal_common_scene",
+      "language_pair_status": "requires_runtime_alignment_check"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "per_task": [
+    {
+      "task_group": "libero_goal",
+      "task_id": 8,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "results/e3_shared_dev/videos/libero_goal_8/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 1,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "results/e3_shared_dev/videos/libero_goal_1/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 4,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "results/e3_shared_dev/videos/libero_goal_4/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "libero_goal": {
+      "avg_sum_reward": 1.0,
+      "avg_max_reward": 1.0,
+      "pc_success": 100.0,
+      "n_episodes": 3,
+      "video_paths": [
+        "results/e3_shared_dev/videos/libero_goal_8/eval_episode_0.mp4",
+        "results/e3_shared_dev/videos/libero_goal_1/eval_episode_0.mp4",
+        "results/e3_shared_dev/videos/libero_goal_4/eval_episode_0.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 1.0,
+    "avg_max_reward": 1.0,
+    "pc_success": 100.0,
+    "n_episodes": 3,
+    "eval_s": 327.8703668117523,
+    "eval_ep_s": 109.29012250900269,
+    "video_paths": [
+      "results/e3_shared_dev/videos/libero_goal_8/eval_episode_0.mp4",
+      "results/e3_shared_dev/videos/libero_goal_1/eval_episode_0.mp4",
+      "results/e3_shared_dev/videos/libero_goal_4/eval_episode_0.mp4"
+    ]
+  }
+}

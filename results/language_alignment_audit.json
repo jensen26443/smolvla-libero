@@ -1,0 +1,713 @@
+{
+  "assets_path": "/home/lzx/.cache/libero/assets",
+  "audit_version": "sim-vla-language-alignment-v1",
+  "captured_unix": 1789266114.6607263,
+  "decision": "E3/E4 remain qualitative only; do not report cross-task success rates",
+  "elapsed_seconds": 28.144986629486084,
+  "files": {
+    "goal_bowl_cabinet_top": {
+      "bddl": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_top_of_the_cabinet.bddl",
+      "bddl_sha256": "2ffba859a154f50c3c99ffb3420743fa5aa65c70bf7d4cd26f5bc81d07be5713",
+      "init_states": {
+        "dtype": "float64",
+        "first_state": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 2.223781127498941,
+          "mean": 0.11142530461793382,
+          "min": -2.443236471688351,
+          "sha256": "ed35dbd746e6efe630908bc93ea0659cc4c4cd10cd9c1c1ccc336fb2012cb5dd",
+          "shape": [
+            79
+          ]
+        },
+        "path": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/init_files/libero_goal/put_the_bowl_on_top_of_the_cabinet.pruned_init",
+        "sha256": "c0b7baf82f36f5304488bac91d788800a1c93d0a9fd19a73f448992d5366e145",
+        "shape": [
+          50,
+          79
+        ],
+        "state_count": 50
+      },
+      "official_language": "put the bowl on top of the cabinet",
+      "suite_task_id": 4,
+      "task_name": "put_the_bowl_on_top_of_the_cabinet"
+    },
+    "goal_bowl_plate": {
+      "bddl": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_plate.bddl",
+      "bddl_sha256": "358b7781437e412c67d6a7648c1c28796b6b1bf117a25e61316cb8dfeb940e5b",
+      "init_states": {
+        "dtype": "float64",
+        "first_state": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 2.2187989527548635,
+          "mean": 0.11227479882216373,
+          "min": -2.4347395409986023,
+          "sha256": "66b1883f351c4c374c742516714921b55bd5eca7fd6f0fa8e2e0a86abff19ccd",
+          "shape": [
+            79
+          ]
+        },
+        "path": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/init_files/libero_goal/put_the_bowl_on_the_plate.pruned_init",
+        "sha256": "ef3466ffad734754dc40eba1f6f5712e37aa46b9692c595e0da34f16d3a0c668",
+        "shape": [
+          50,
+          79
+        ],
+        "state_count": 50
+      },
+      "official_language": "put the bowl on the plate",
+      "suite_task_id": 8,
+      "task_name": "put_the_bowl_on_the_plate"
+    },
+    "goal_bowl_stove": {
+      "bddl": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_stove.bddl",
+      "bddl_sha256": "c6812d6c988be830412aa6fc4801af04d60f8c4565d2625763b6a0f2b843a87f",
+      "init_states": {
+        "dtype": "float64",
+        "first_state": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 2.2319346430743137,
+          "mean": 0.11115503563792013,
+          "min": -2.478241775184209,
+          "sha256": "5b071f3bb26bf0ce3b866621d8c9037d793aae5d25f9ae686a1d9048c4e56b88",
+          "shape": [
+            79
+          ]
+        },
+        "path": "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/init_files/libero_goal/put_the_bowl_on_the_stove.pruned_init",
+        "sha256": "7c1819725af8d08988078d6efb98ddb6dbefadb2e6d20df4ed23a2074f4d9ed1",
+        "shape": [
+          50,
+          79
+        ],
+        "state_count": 50
+      },
+      "official_language": "put the bowl on the stove",
+      "suite_task_id": 1,
+      "task_name": "put_the_bowl_on_the_stove"
+    }
+  },
+  "libero_config": "/home/lzx/VLA/embodied-learning/sim_vla/.cache/libero-config/config.yaml",
+  "pairs": [
+    {
+      "bddl_scene_signature_without_goal": {
+        "matching": false,
+        "sha256_without_goal": {
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_plate.bddl": "9545c56984d7708fa674122c269821a9a4c56e5386c1df1a2e6b4e7b72179e3b",
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_stove.bddl": "49d392f76a8d583cb7ec5c2a2f67d2dc67d89a0ad05515b0ec49a12cfe5e3823"
+        }
+      },
+      "blocking_reasons": [
+        "initial_state_assets_differ",
+        "runtime_observations_or_sim_state_differ"
+      ],
+      "eligible_for_quantitative_pair": false,
+      "initial_state_comparison": {
+        "exact_match": false,
+        "left_sha256": "ef3466ffad734754dc40eba1f6f5712e37aa46b9692c595e0da34f16d3a0c668",
+        "max_abs": 0.0884138894165365,
+        "mean_abs": 0.0031425339709334125,
+        "right_sha256": "7c1819725af8d08988078d6efb98ddb6dbefadb2e6d20df4ed23a2074f4d9ed1",
+        "shape_match": true
+      },
+      "left": "goal_bowl_plate",
+      "right": "goal_bowl_stove",
+      "runtime_comparison": {
+        "exact_match": false,
+        "exact_observation_match": false,
+        "exact_sim_state_match": false,
+        "observation_fields_left": [
+          "pixels.image.shape",
+          "pixels.image2.shape",
+          "robot_state.eef.mat.shape",
+          "robot_state.eef.pos.shape",
+          "robot_state.eef.quat.shape",
+          "robot_state.gripper.qpos.shape",
+          "robot_state.gripper.qvel.shape",
+          "robot_state.joints.pos.shape",
+          "robot_state.joints.vel.shape"
+        ],
+        "observation_fields_right": [
+          "pixels.image.shape",
+          "pixels.image2.shape",
+          "robot_state.eef.mat.shape",
+          "robot_state.eef.pos.shape",
+          "robot_state.eef.quat.shape",
+          "robot_state.gripper.qpos.shape",
+          "robot_state.gripper.qvel.shape",
+          "robot_state.joints.pos.shape",
+          "robot_state.joints.vel.shape"
+        ],
+        "sim_state_shape": [
+          79
+        ],
+        "status": "passed"
+      },
+      "visual_scene_signature_without_language_target_goal": {
+        "matching": true,
+        "sha256_visual_scene": {
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_plate.bddl": "78d2c5c5f90daf44e1af3fdbf6c839cd1fad5b9dc4a1343b4fc10ca04ec287c5",
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_stove.bddl": "78d2c5c5f90daf44e1af3fdbf6c839cd1fad5b9dc4a1343b4fc10ca04ec287c5"
+        }
+      }
+    },
+    {
+      "bddl_scene_signature_without_goal": {
+        "matching": false,
+        "sha256_without_goal": {
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_plate.bddl": "9545c56984d7708fa674122c269821a9a4c56e5386c1df1a2e6b4e7b72179e3b",
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_top_of_the_cabinet.bddl": "2eb12f997028af52770dd29f603a8144c97f11b4bf2b8709b4b1a3d2e7a58821"
+        }
+      },
+      "blocking_reasons": [
+        "initial_state_assets_differ",
+        "runtime_observations_or_sim_state_differ"
+      ],
+      "eligible_for_quantitative_pair": false,
+      "initial_state_comparison": {
+        "exact_match": false,
+        "left_sha256": "ef3466ffad734754dc40eba1f6f5712e37aa46b9692c595e0da34f16d3a0c668",
+        "max_abs": 0.0763486811940019,
+        "mean_abs": 0.0029783274532697007,
+        "right_sha256": "c0b7baf82f36f5304488bac91d788800a1c93d0a9fd19a73f448992d5366e145",
+        "shape_match": true
+      },
+      "left": "goal_bowl_plate",
+      "right": "goal_bowl_cabinet_top",
+      "runtime_comparison": {
+        "exact_match": false,
+        "exact_observation_match": false,
+        "exact_sim_state_match": false,
+        "observation_fields_left": [
+          "pixels.image.shape",
+          "pixels.image2.shape",
+          "robot_state.eef.mat.shape",
+          "robot_state.eef.pos.shape",
+          "robot_state.eef.quat.shape",
+          "robot_state.gripper.qpos.shape",
+          "robot_state.gripper.qvel.shape",
+          "robot_state.joints.pos.shape",
+          "robot_state.joints.vel.shape"
+        ],
+        "observation_fields_right": [
+          "pixels.image.shape",
+          "pixels.image2.shape",
+          "robot_state.eef.mat.shape",
+          "robot_state.eef.pos.shape",
+          "robot_state.eef.quat.shape",
+          "robot_state.gripper.qpos.shape",
+          "robot_state.gripper.qvel.shape",
+          "robot_state.joints.pos.shape",
+          "robot_state.joints.vel.shape"
+        ],
+        "sim_state_shape": [
+          79
+        ],
+        "status": "passed"
+      },
+      "visual_scene_signature_without_language_target_goal": {
+        "matching": true,
+        "sha256_visual_scene": {
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_plate.bddl": "78d2c5c5f90daf44e1af3fdbf6c839cd1fad5b9dc4a1343b4fc10ca04ec287c5",
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_top_of_the_cabinet.bddl": "78d2c5c5f90daf44e1af3fdbf6c839cd1fad5b9dc4a1343b4fc10ca04ec287c5"
+        }
+      }
+    },
+    {
+      "bddl_scene_signature_without_goal": {
+        "matching": false,
+        "sha256_without_goal": {
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_stove.bddl": "49d392f76a8d583cb7ec5c2a2f67d2dc67d89a0ad05515b0ec49a12cfe5e3823",
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_top_of_the_cabinet.bddl": "2eb12f997028af52770dd29f603a8144c97f11b4bf2b8709b4b1a3d2e7a58821"
+        }
+      },
+      "blocking_reasons": [
+        "initial_state_assets_differ",
+        "runtime_observations_or_sim_state_differ"
+      ],
+      "eligible_for_quantitative_pair": false,
+      "initial_state_comparison": {
+        "exact_match": false,
+        "left_sha256": "7c1819725af8d08988078d6efb98ddb6dbefadb2e6d20df4ed23a2074f4d9ed1",
+        "max_abs": 0.08669077476278997,
+        "mean_abs": 0.0030788369255458805,
+        "right_sha256": "c0b7baf82f36f5304488bac91d788800a1c93d0a9fd19a73f448992d5366e145",
+        "shape_match": true
+      },
+      "left": "goal_bowl_stove",
+      "right": "goal_bowl_cabinet_top",
+      "runtime_comparison": {
+        "exact_match": false,
+        "exact_observation_match": false,
+        "exact_sim_state_match": false,
+        "observation_fields_left": [
+          "pixels.image.shape",
+          "pixels.image2.shape",
+          "robot_state.eef.mat.shape",
+          "robot_state.eef.pos.shape",
+          "robot_state.eef.quat.shape",
+          "robot_state.gripper.qpos.shape",
+          "robot_state.gripper.qvel.shape",
+          "robot_state.joints.pos.shape",
+          "robot_state.joints.vel.shape"
+        ],
+        "observation_fields_right": [
+          "pixels.image.shape",
+          "pixels.image2.shape",
+          "robot_state.eef.mat.shape",
+          "robot_state.eef.pos.shape",
+          "robot_state.eef.quat.shape",
+          "robot_state.gripper.qpos.shape",
+          "robot_state.gripper.qvel.shape",
+          "robot_state.joints.pos.shape",
+          "robot_state.joints.vel.shape"
+        ],
+        "sim_state_shape": [
+          79
+        ],
+        "status": "passed"
+      },
+      "visual_scene_signature_without_language_target_goal": {
+        "matching": true,
+        "sha256_visual_scene": {
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_the_stove.bddl": "78d2c5c5f90daf44e1af3fdbf6c839cd1fad5b9dc4a1343b4fc10ca04ec287c5",
+          "/home/lzx/VLA/embodied-learning/sim_vla/.venv/lib/python3.12/site-packages/libero/libero/bddl_files/libero_goal/put_the_bowl_on_top_of_the_cabinet.bddl": "78d2c5c5f90daf44e1af3fdbf6c839cd1fad5b9dc4a1343b4fc10ca04ec287c5"
+        }
+      }
+    }
+  ],
+  "protocol_version": "sim-vla-libero-v1",
+  "runtime": {
+    "goal_bowl_cabinet_top": {
+      "info": {
+        "is_success": false
+      },
+      "initial_state_index": 0,
+      "observation": {
+        "pixels": {
+          "image": {
+            "dtype": "uint8",
+            "finite": true,
+            "max": 251.0,
+            "mean": 118.34035746256511,
+            "min": 0.0,
+            "sha256": "b314fbc31d0d058d695e5535e379e5b8341397703620b18b3275a9f7ae03058f",
+            "shape": [
+              256,
+              256,
+              3
+            ]
+          },
+          "image2": {
+            "dtype": "uint8",
+            "finite": true,
+            "max": 249.0,
+            "mean": 115.6281026204427,
+            "min": 0.0,
+            "sha256": "a6cc8c8b46937395bac07bb431d96a32f010066aeb08e17726f35783d6ccfd90",
+            "shape": [
+              256,
+              256,
+              3
+            ]
+          }
+        },
+        "robot_state": {
+          "eef": {
+            "mat": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.999999536640239,
+              "mean": 0.09814818039963219,
+              "min": -0.9983261157526058,
+              "sha256": "1e9f90c091d6dc0ff8606b9dac6de2e12ae2acc8c27a49087cabecc820381fdb",
+              "shape": [
+                3,
+                3
+              ]
+            },
+            "pos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 1.1692507325745698,
+              "mean": 0.3149764793808628,
+              "min": -0.2086836015473625,
+              "sha256": "5ff8b0696300dcf343dae797d0cd95251739629c2cc0c29a803934c96d828176",
+              "shape": [
+                3
+              ]
+            },
+            "quat": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.9995811388826316,
+              "mean": 0.24261590468263958,
+              "min": -0.028936258121053392,
+              "sha256": "f9557c724bd8940cdaf025edba65645fc33f1589ec98eb1af5da4c99165af749",
+              "shape": [
+                4
+              ]
+            }
+          },
+          "gripper": {
+            "qpos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.03872148686420613,
+              "mean": -1.2748518441185741e-06,
+              "min": -0.03872403656789437,
+              "sha256": "7af4c21ff907e995207cc444cb334c10e8cfbc69ec55fcca09385a05ef905ecb",
+              "shape": [
+                2
+              ]
+            },
+            "qvel": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.003277511438586248,
+              "mean": 1.3982943811898484e-05,
+              "min": -0.003249545550962451,
+              "sha256": "cc1aed4c99b9018f8cc744f5c5f1720cfa179c1b3487c430570f75d16880152b",
+              "shape": [
+                2
+              ]
+            }
+          },
+          "joints": {
+            "pos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 2.236563340901767,
+              "mean": 0.05018031350596695,
+              "min": -2.4482726593921975,
+              "sha256": "799e9f9ca15ad45e8ba225729b9ac3c4af265edbb894d0db7e876f4cac966dfa",
+              "shape": [
+                7
+              ]
+            },
+            "vel": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.009280704738043443,
+              "mean": -0.0013834884508587505,
+              "min": -0.009473711782309829,
+              "sha256": "1b7202bff792fcd2b000d71d795c078fa9373de6c78b51fcc50a6769e6bdbee9",
+              "shape": [
+                7
+              ]
+            }
+          }
+        }
+      },
+      "seed": 42,
+      "sim_state": {
+        "dtype": "float64",
+        "finite": true,
+        "max": 2.236581520030806,
+        "mean": 0.11450504802782359,
+        "min": -2.4482844870532925,
+        "sha256": "590d0fde00755c9f6be6fa06004bcc2c388172237ecc5f67c8aee94ec246d13f",
+        "shape": [
+          79
+        ]
+      },
+      "status": "passed",
+      "suite_task_id": 4,
+      "task_key": "goal_bowl_cabinet_top"
+    },
+    "goal_bowl_plate": {
+      "info": {
+        "is_success": false
+      },
+      "initial_state_index": 0,
+      "observation": {
+        "pixels": {
+          "image": {
+            "dtype": "uint8",
+            "finite": true,
+            "max": 242.0,
+            "mean": 118.42808532714844,
+            "min": 0.0,
+            "sha256": "073e96a024c264cbb1ca7034534a009d59e9c3f7958f5d9b2b0085057a395856",
+            "shape": [
+              256,
+              256,
+              3
+            ]
+          },
+          "image2": {
+            "dtype": "uint8",
+            "finite": true,
+            "max": 248.0,
+            "mean": 117.05792236328125,
+            "min": 0.0,
+            "sha256": "cbb59bded431f81aa12e22a12dfde3c72802fed138dfe0047a637e0360944898",
+            "shape": [
+              256,
+              256,
+              3
+            ]
+          }
+        },
+        "robot_state": {
+          "eef": {
+            "mat": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.9999994146913034,
+              "mean": 0.0989077925499242,
+              "min": -0.9984607623240177,
+              "sha256": "2b98ad71210a352e8d44be6448a44ac445a1f3190e5beeb8277981460c059ef0",
+              "shape": [
+                3,
+                3
+              ]
+            },
+            "pos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 1.1786410954640467,
+              "mean": 0.3244639305424288,
+              "min": -0.20711550266373366,
+              "sha256": "09a8f338e5c1273babfba2ca272ed1f811fd376f380c19fbaea070fba3e7f625",
+              "shape": [
+                3
+              ]
+            },
+            "quat": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.9996151150775082,
+              "mean": 0.24278367528286818,
+              "min": -0.0277366859528685,
+              "sha256": "615b8c258c66aee16be0788965da5384100fc15be11c312126dac33a0e8669b9",
+              "shape": [
+                4
+              ]
+            }
+          },
+          "gripper": {
+            "qpos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.038724224844865006,
+              "mean": 1.4311136178717099e-06,
+              "min": -0.03872136261762926,
+              "sha256": "1492f391fd21d7f9aa986783eaa167d5afea9dfaaf5fb83a773e01e2a91687d0",
+              "shape": [
+                2
+              ]
+            },
+            "qvel": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.0032504487022616065,
+              "mean": -1.2687324473093084e-05,
+              "min": -0.0032758233512077926,
+              "sha256": "1183ac6e0538a669a1be1ad743dc39c5980104635d7939893e94a17c667dac5c",
+              "shape": [
+                2
+              ]
+            }
+          },
+          "joints": {
+            "pos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 2.2133124667773596,
+              "mean": 0.058131081521635646,
+              "min": -2.4349748446052275,
+              "sha256": "d0426081c891116e9732ee7c94a7e7c536b43c2abfdc918b29a7df1efb539d66",
+              "shape": [
+                7
+              ]
+            },
+            "vel": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.01401086181520762,
+              "mean": -0.00042301041092707034,
+              "min": -0.012213015411257175,
+              "sha256": "f804682bc830d91e6a239316f2f3d9b74eb44672d3dfcb3d2baf5a4fab84c85a",
+              "shape": [
+                7
+              ]
+            }
+          }
+        }
+      },
+      "seed": 42,
+      "sim_state": {
+        "dtype": "float64",
+        "finite": true,
+        "max": 2.213306385605271,
+        "mean": 0.11531849076997955,
+        "min": -2.434974754046653,
+        "sha256": "6c64a5324fdfe9a887a078d5661511d6da31944fae771352ff933ebf51b1061c",
+        "shape": [
+          79
+        ]
+      },
+      "status": "passed",
+      "suite_task_id": 8,
+      "task_key": "goal_bowl_plate"
+    },
+    "goal_bowl_stove": {
+      "info": {
+        "is_success": false
+      },
+      "initial_state_index": 0,
+      "observation": {
+        "pixels": {
+          "image": {
+            "dtype": "uint8",
+            "finite": true,
+            "max": 250.0,
+            "mean": 118.34513854980469,
+            "min": 0.0,
+            "sha256": "a63e2c53a349c7e1d52f26681755cd0b6679d2f490a413ab5490a21f0680f07e",
+            "shape": [
+              256,
+              256,
+              3
+            ]
+          },
+          "image2": {
+            "dtype": "uint8",
+            "finite": true,
+            "max": 241.0,
+            "mean": 115.59273274739583,
+            "min": 0.0,
+            "sha256": "c7a5255a68bab3cb787567b736e0dc9f8c0e4e633c079b03653b74b7e407a729",
+            "shape": [
+              256,
+              256,
+              3
+            ]
+          }
+        },
+        "robot_state": {
+          "eef": {
+            "mat": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.9999988421769568,
+              "mean": 0.09817847390410804,
+              "min": -0.9982825530049201,
+              "sha256": "e2d3bd1ebfd7002d513f855c873d88d9f03ecf1754b5a50a685f3f38b57d4299",
+              "shape": [
+                3,
+                3
+              ]
+            },
+            "pos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 1.1605809769447142,
+              "mean": 0.3100034851457011,
+              "min": -0.21711399099660036,
+              "sha256": "61650013cb815400662cfa4f351877fe3b4b4c452c69fc45049e32ce15030a63",
+              "shape": [
+                3
+              ]
+            },
+            "quat": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.99956959692527,
+              "mean": 0.24232650908506412,
+              "min": -0.029326202860294612,
+              "sha256": "fd909985858e1239b2017a32fb7584b9c812ab2c0066f6f0dd27a045b05945ec",
+              "shape": [
+                4
+              ]
+            }
+          },
+          "gripper": {
+            "qpos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.038723305556756654,
+              "mean": 5.331245040776644e-07,
+              "min": -0.0387222393077485,
+              "sha256": "78250de9c2045b8625f5e7a93f61754275b9b8c1532f0bfa6590573da2e21cc8",
+              "shape": [
+                2
+              ]
+            },
+            "qvel": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.003261234811567853,
+              "mean": -2.1371646647266613e-06,
+              "min": -0.003265509140897306,
+              "sha256": "9c9d92942df0fa692a893b37a8ca87bacb922e4c5cae3d6022018c8eb45f1957",
+              "shape": [
+                2
+              ]
+            }
+          },
+          "joints": {
+            "pos": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 2.2620382248694533,
+              "mean": 0.04858456634921525,
+              "min": -2.484274449504297,
+              "sha256": "8f79be63666fec48e5cf1bd0deb3c3c86195058086366a6eb1c465c2772fb4a9",
+              "shape": [
+                7
+              ]
+            },
+            "vel": {
+              "dtype": "float64",
+              "finite": true,
+              "max": 0.033782777641582516,
+              "mean": -0.0018955020149492951,
+              "min": -0.02569436917220307,
+              "sha256": "4401bc60dd2848476c531e9120b428a14c3a7e7cae66307f0147955bdaa5e89e",
+              "shape": [
+                7
+              ]
+            }
+          }
+        }
+      },
+      "seed": 42,
+      "sim_state": {
+        "dtype": "float64",
+        "finite": true,
+        "max": 2.2621049943341465,
+        "mean": 0.11427209781257881,
+        "min": -2.484325295237779,
+        "sha256": "d9cf3a27ba38df4295337604e956964aace8c651d1c9ffe3e32619c937affe6a",
+        "shape": [
+          79
+        ]
+      },
+      "status": "passed",
+      "suite_task_id": 1,
+      "task_key": "goal_bowl_stove"
+    }
+  },
+  "runtime_probe_observation_contract": {
+    "control_mode": "relative",
+    "episode_index": 0,
+    "height": 256,
+    "num_steps_wait": 10,
+    "obs_type": "pixels_agent_pos",
+    "width": 256
+  },
+  "runtime_probe_requested": true,
+  "seed": 42,
+  "status": "no_quantitative_pair_frozen",
+  "suite": "libero_goal",
+  "task_keys": [
+    "goal_bowl_plate",
+    "goal_bowl_stove",
+    "goal_bowl_cabinet_top"
+  ]
+}

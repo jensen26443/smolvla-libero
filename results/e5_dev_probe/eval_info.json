@@ -1,0 +1,84 @@
+{
+  "per_task": [
+    {
+      "task_group": "libero_goal",
+      "task_id": 1,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "results/e5_dev_probe/videos/libero_goal_1/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 4,
+      "metrics": {
+        "sum_rewards": [
+          0.0
+        ],
+        "max_rewards": [
+          0.0
+        ],
+        "successes": [
+          false
+        ],
+        "video_paths": [
+          "results/e5_dev_probe/videos/libero_goal_4/eval_episode_0.mp4"
+        ]
+      }
+    },
+    {
+      "task_group": "libero_goal",
+      "task_id": 8,
+      "metrics": {
+        "sum_rewards": [
+          1.0
+        ],
+        "max_rewards": [
+          1.0
+        ],
+        "successes": [
+          true
+        ],
+        "video_paths": [
+          "results/e5_dev_probe/videos/libero_goal_8/eval_episode_0.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "libero_goal": {
+      "avg_sum_reward": 0.6666666666666666,
+      "avg_max_reward": 0.6666666666666666,
+      "pc_success": 66.66666666666666,
+      "n_episodes": 3,
+      "video_paths": [
+        "results/e5_dev_probe/videos/libero_goal_1/eval_episode_0.mp4",
+        "results/e5_dev_probe/videos/libero_goal_4/eval_episode_0.mp4",
+        "results/e5_dev_probe/videos/libero_goal_8/eval_episode_0.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 0.6666666666666666,
+    "avg_max_reward": 0.6666666666666666,
+    "pc_success": 66.66666666666666,
+    "n_episodes": 3,
+    "eval_s": 610.2101726531982,
+    "eval_ep_s": 203.40339159965515,
+    "video_paths": [
+      "results/e5_dev_probe/videos/libero_goal_1/eval_episode_0.mp4",
+      "results/e5_dev_probe/videos/libero_goal_4/eval_episode_0.mp4",
+      "results/e5_dev_probe/videos/libero_goal_8/eval_episode_0.mp4"
+    ]
+  }
+}

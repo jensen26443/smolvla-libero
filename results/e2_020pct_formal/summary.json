@@ -1,0 +1,225 @@
+{
+  "overall": {
+    "by_condition": {
+      "E2_020pct": {
+        "failure_types": {
+          "official_success_predicate_false": 8
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.9111111111111111,
+        "successes": 82,
+        "trials": 90,
+        "wilson_95": [
+          0.8342945337394592,
+          0.9542695074632055
+        ]
+      }
+    },
+    "by_instruction": {},
+    "by_task": {
+      "goal_bowl_cabinet_top": {
+        "failure_types": {
+          "official_success_predicate_false": 4
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.8666666666666667,
+        "successes": 26,
+        "trials": 30,
+        "wilson_95": [
+          0.703186733179637,
+          0.9469034451594526
+        ]
+      },
+      "goal_bowl_plate": {
+        "failure_types": {
+          "official_success_predicate_false": 2
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.9333333333333333,
+        "successes": 28,
+        "trials": 30,
+        "wilson_95": [
+          0.7867654163738308,
+          0.9815229762087295
+        ]
+      },
+      "goal_bowl_stove": {
+        "failure_types": {
+          "official_success_predicate_false": 2
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.9333333333333333,
+        "successes": 28,
+        "trials": 30,
+        "wilson_95": [
+          0.7867654163738308,
+          0.9815229762087295
+        ]
+      }
+    },
+    "overall": {
+      "failure_types": {
+        "official_success_predicate_false": 8
+      },
+      "invalid_trials": 0,
+      "success_rate": 0.9111111111111111,
+      "successes": 82,
+      "trials": 90,
+      "wilson_95": [
+        0.8342945337394592,
+        0.9542695074632055
+      ]
+    },
+    "total_records": 90
+  },
+  "records": 90,
+  "slices": {
+    "development": {
+      "by_condition": {
+        "E2_020pct": {
+          "failure_types": {
+            "official_success_predicate_false": 3
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.9,
+          "successes": 27,
+          "trials": 30,
+          "wilson_95": [
+            0.7437891742081593,
+            0.9654001112526658
+          ]
+        }
+      },
+      "by_instruction": {},
+      "by_task": {
+        "goal_bowl_cabinet_top": {
+          "failure_types": {
+            "official_success_predicate_false": 1
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.9,
+          "successes": 9,
+          "trials": 10,
+          "wilson_95": [
+            0.5958499732047615,
+            0.9821237869049271
+          ]
+        },
+        "goal_bowl_plate": {
+          "failure_types": {
+            "official_success_predicate_false": 1
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.9,
+          "successes": 9,
+          "trials": 10,
+          "wilson_95": [
+            0.5958499732047615,
+            0.9821237869049271
+          ]
+        },
+        "goal_bowl_stove": {
+          "failure_types": {
+            "official_success_predicate_false": 1
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.9,
+          "successes": 9,
+          "trials": 10,
+          "wilson_95": [
+            0.5958499732047615,
+            0.9821237869049271
+          ]
+        }
+      },
+      "overall": {
+        "failure_types": {
+          "official_success_predicate_false": 3
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.9,
+        "successes": 27,
+        "trials": 30,
+        "wilson_95": [
+          0.7437891742081593,
+          0.9654001112526658
+        ]
+      },
+      "total_records": 30
+    },
+    "final": {
+      "by_condition": {
+        "E2_020pct": {
+          "failure_types": {
+            "official_success_predicate_false": 5
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.9166666666666666,
+          "successes": 55,
+          "trials": 60,
+          "wilson_95": [
+            0.8193105798166558,
+            0.9638795433982692
+          ]
+        }
+      },
+      "by_instruction": {},
+      "by_task": {
+        "goal_bowl_cabinet_top": {
+          "failure_types": {
+            "official_success_predicate_false": 3
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.85,
+          "successes": 17,
+          "trials": 20,
+          "wilson_95": [
+            0.6395811352592431,
+            0.9476312541037835
+          ]
+        },
+        "goal_bowl_plate": {
+          "failure_types": {
+            "official_success_predicate_false": 1
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.95,
+          "successes": 19,
+          "trials": 20,
+          "wilson_95": [
+            0.763868806553258,
+            0.9911185511992047
+          ]
+        },
+        "goal_bowl_stove": {
+          "failure_types": {
+            "official_success_predicate_false": 1
+          },
+          "invalid_trials": 0,
+          "success_rate": 0.95,
+          "successes": 19,
+          "trials": 20,
+          "wilson_95": [
+            0.763868806553258,
+            0.9911185511992047
+          ]
+        }
+      },
+      "overall": {
+        "failure_types": {
+          "official_success_predicate_false": 5
+        },
+        "invalid_trials": 0,
+        "success_rate": 0.9166666666666666,
+        "successes": 55,
+        "trials": 60,
+        "wilson_95": [
+          0.8193105798166558,
+          0.9638795433982692
+        ]
+      },
+      "total_records": 60
+    }
+  },
+  "source": "results/e2_020pct_formal/eval_info.json"
+}

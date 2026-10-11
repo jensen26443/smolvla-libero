@@ -1,0 +1,32 @@
+{
+  "protocol_version": "sim-vla-libero-v1",
+  "condition": "E5",
+  "status": "frozen_before_e1_selection",
+  "selection_rule": "One grammatical English paraphrase per selected task; preserve the object and destination while changing surface wording.",
+  "adaptation_seen": false,
+  "pretraining_exposure": "unknown",
+  "success_criterion": "Use the unchanged official LIBERO task predicate because the physical scene and target are unchanged.",
+  "instructions": [
+    {
+      "instruction_id": "e5_goal_bowl_plate_place_onto",
+      "task_key": "goal_bowl_plate",
+      "suite_task_id": 8,
+      "original": "Put the bowl on the plate",
+      "paraphrase": "Place the bowl onto the plate"
+    },
+    {
+      "instruction_id": "e5_goal_bowl_stove_set_down",
+      "task_key": "goal_bowl_stove",
+      "suite_task_id": 1,
+      "original": "Put the bowl on the stove",
+      "paraphrase": "Set the bowl down on the stove"
+    },
+    {
+      "instruction_id": "e5_goal_bowl_cabinet_place_top",
+      "task_key": "goal_bowl_cabinet_top",
+      "suite_task_id": 4,
+      "original": "Put the bowl on top of the cabinet",
+      "paraphrase": "Place the bowl on top of the cabinet"
+    }
+  ]
+}
